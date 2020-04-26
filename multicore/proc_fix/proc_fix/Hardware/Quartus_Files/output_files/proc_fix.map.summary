@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Apr 26 13:43:47 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : proc_fix
+Top-level Entity Name : multicore
+Family : Cyclone IV E
+Total logic elements : 385,823
+    Total combinational functions : 318,143
+    Dedicated logic registers : 87,091
+Total registers : 87091
+Total pins : 5,289
+Total virtual pins : 0
+Total memory bits : 14,343,490
+Embedded Multiplier 9-bit elements : 532
+Total PLLs : 0
