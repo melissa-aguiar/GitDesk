@@ -1,5 +1,5 @@
 #PRNAME proc_fix
-#DIRNAM "C:\Users\melis\Desktop\GitDesk\multicore\proc_fix\proc_fix\Hardware\proc_fix_H"
+#DIRNAM "C:\Users\melis\Desktop\multicore\proc_fix\proc_fix\Hardware\proc_fix_H"
 #DATYPE 0
 #NUBITS 32
 #NDSTAC 16
@@ -2608,12 +2608,11 @@ PSET mainx_45
 LOAD mainaux_46
 PSET mainx_46
 LOAD mainaux_47
-PSET mainx_47
-LOAD 0
+PSET mainx_47 LOAD 0
 SET mainj
-@L2 LOAD 18
+@L50 LOAD 18
 LES mainj
-JZ L2end
+JZ L50end
 LOAD 128
 MLT mainx_0
 PLD maind_0
@@ -4017,8 +4016,7 @@ PSET mainx_45
 LOAD mainaux_46
 PSET mainx_46
 LOAD mainaux_47
-PSET mainx_47
-LOAD 128
+PSET mainx_47 LOAD 128
 DIV mainx_0
 SET mainx_0
 LOAD 128
@@ -4165,8 +4163,8 @@ SET mainx_47
 LOAD 1
 ADD mainj
 SET mainj
-JMP L2
-@L2end LOAD 16384
+JMP L50
+@L50end LOAD 16384
 DIV mainx_0
 SET mainx_0
 LOAD 16384
@@ -4311,6 +4309,50 @@ LOAD 16384
 DIV mainx_47
 SET mainx_47
 LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
 PLD 0
 OUT
 LOAD 0
