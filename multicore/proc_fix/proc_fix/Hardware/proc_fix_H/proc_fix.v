@@ -16,7 +16,7 @@ wire [0:0] addr_out;
 
 proc_fx #(.NUBITS(32),
 .MDATAS(406),
-.MINSTS(4515),
+.MINSTS(4471),
 .SDEPTH(16),
 .NUIOIN(2),
 .NUIOOU(2),
