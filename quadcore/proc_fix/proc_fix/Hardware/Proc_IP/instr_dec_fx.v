@@ -22,7 +22,7 @@ module instr_dec_fx
 	input      [NBDATA-1:0] io_in,
 	output reg              req_in, out_en,
 
-	output reg              srf
+	output reg              srf, neg
 );
 
 always @ (posedge clk or posedge rst) begin
@@ -305,221 +305,277 @@ always @ (*) begin
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			1 : begin                        // PLD
 						mem_wr   <= 1'b1;
 						dsp_push <= 1'b1;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			2 : begin                        // SET
 						mem_wr   <= 1'b1;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			3 : begin                        // SETP
 						mem_wr   <= 1'b1;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			4: begin                         // PUSH
 						mem_wr   <= 1'b1;
 						dsp_push <= 1'b1;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			5: begin                        // JZ
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			6: begin                        // JMP
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			7 : begin                        // CALL
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			8 : begin                        // RETURN
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			9 : begin                        // SRF
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			10: begin                        // IN
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			11: begin                        // OUT
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			14: begin                        // ADD
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			15: begin                        // SADD
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			16: begin                        // MLT
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			17: begin                        // SMLT
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			18: begin                        // DIV
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			19: begin                        // SDIV
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			20: begin                        // MOD
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			21: begin                        // SMOD
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			22: begin                        // AND
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			23: begin                        // SAND
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			24: begin                        // LAND
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			25: begin                        // SLAND
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			26: begin                        // OR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			27: begin                        // SOR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			28: begin                        // LOR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			29: begin                        // SLOR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			30: begin                        // XOR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			31: begin                        // SXOR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			34: begin                        // INV
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			38: begin                        // EQU
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			39: begin                        // SEQU
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			40: begin                        // GRE
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			41: begin                        // SGRE
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			42: begin                        // LES
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			43: begin                        // SLES
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			44: begin                        // SHR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			45: begin                        // SSHR
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			46: begin                        // SHL
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			47: begin                        // SSHL
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
 					end
 			48: begin                        // SRS
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b0;
+						neg      <= 1'b0;
 					end
 			49: begin                        // SSRS
 						mem_wr   <= 1'b0;
 						dsp_push <= 1'b0;
 						dsp_pop  <= 1'b1;
+						neg      <= 1'b0;
+					end
+			50: begin                        // PSET -> carrega memoria com o valor do acumulador e zero se for negativo
+						mem_wr   <= 1'b1;
+						dsp_push <= 1'b0;
+						dsp_pop  <= 1'b0;
+						neg      <= 1'b1;
+					end
+			51: begin                        // PSETP -> PSET  e POP
+						mem_wr   <= 1'b1;
+						dsp_push <= 1'b0;
+						dsp_pop  <= 1'b1;
+						neg      <= 1'b1;
 					end
 		default: begin
 						mem_wr   <= 1'bx;
 						dsp_push <= 1'bx;
 						dsp_pop  <= 1'bx;
+						neg      <= 1'bx;
 					end
 	endcase
 end

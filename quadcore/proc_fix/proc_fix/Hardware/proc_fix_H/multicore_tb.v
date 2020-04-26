@@ -1,6 +1,6 @@
 module multicore_tb();
 
-reg         		 clk;//, rst;
+reg         		 clk, rst;
 wire			[ 1:0] req_in0, req_in1, req_in2, req_in3;
 reg signed  [31:0] in;
 wire signed [31:0] io_out0, io_out1, io_out2, io_out3;
@@ -15,8 +15,8 @@ initial begin
 	my_output = $fopen("myoutput.txt", "w");
 	scan_file = $fscanf(data_file, "%d\n", in);
 	clk = 0;
-	//rst  = 1;
-	//#1 rst = 0;
+	rst  = 1;
+	#1 rst = 0;
 end
 
 always #1 clk = ~clk;
@@ -46,6 +46,6 @@ end
 
 
 
-multicore multicore(clk, in, io_out0, io_out1, io_out2, io_out3, req_in0, req_in1, req_in2, req_in3, out_en0, out_en1, out_en2, out_en3);
+multicore multicore(clk, rst, in, io_out0, io_out1, io_out2, io_out3, req_in0, req_in1, req_in2, req_in3, out_en0, out_en1, out_en2, out_en3);
 
 endmodule

@@ -1,5 +1,5 @@
 module multicore(
-	input clk, //rst,
+	input clk, rst,
 	input signed [31:0] io_in,
 	output signed [31:0] io_out0, io_out1, io_out2, io_out3,
 	output [1:0] req_in0, req_in1, req_in2, req_in3,
@@ -9,8 +9,6 @@ module multicore(
 reg rst0, rst1, rst2, rst3;
 reg signed [31:0] my_io_out;
 reg [1:0] my_out_en;
-reg [32:0] q;
-reg [32:0] cnt;
 
 initial begin   					//(usa quando tem o while 1==1)
 //always @(posedge clk) begin		//(usa quando não tem o while 1==1)
@@ -18,42 +16,11 @@ initial begin   					//(usa quando tem o while 1==1)
 	rst1 = 1;
 	rst2 = 1;
 	rst3 = 1;
-	q = 0;
-	cnt = 0;
-	//#1 rst0 = 0;
-	//#424 rst1 = 0;
-	//#424 rst2 = 0;
-	//#61056 rst3 = 0; #424;	//equivale ao tempo de operação dos outros processadores
+	#424 rst0 = 0;
+	#424 rst1 = 0;
+	#424 rst2 = 0;
+	#61056 rst3 = 0; #424;	//equivale ao tempo de operação dos outros processadores
 end
-
-always @(posedge clk)
-  begin
-    case(q)
-				
-      0  :  begin	rst0 <= 0; if (cnt<=32'd210) cnt=cnt+32'd1; else begin q<=q+32'd1; cnt=0; end	end
-				
-		1  :  begin
-				rst1 <= 0;
-				if (cnt<=32'd210) cnt=cnt+32'd1;
-				else begin q<=q+32'd1; cnt=0; end
-				end
-				
-		2  :  begin
-				rst2 <= 0;
-				if (cnt<=32'd210) cnt=cnt+32'd1;
-				else begin q<=q+32'd1; cnt=0; end
-				end
-				
-		3  :  begin
-				rst3 <= 0;
-				if (cnt<=32'd210) cnt=cnt+32'd1;
-				else begin q<=q+32'd1; cnt=0; end
-				end
-		
-      default : q <=32'd4;
-    endcase
- end
-
 
 always @(*) begin
 	if (out_en0 ==1) begin
