@@ -1,0 +1,74 @@
+module multicore_tb();
+
+reg         		 clk, rst, rst0, rst1, rst2;
+wire			[ 1:0] req_in, req_in0, req_in1, req_in2;
+reg signed  [31:0] in;
+wire signed [31:0] io_out, io_out0, io_out1, io_out2;
+wire 			[ 1:0] out_en, out_en0, out_en1, out_en2;
+integer 				 data_file, scan_file, my_output;
+reg [10:0] q;
+
+initial begin 
+	//data_file = $fopen("signalN_48b7e_30.txt", "r");
+	data_file = $fopen("signalN.txt", "r");
+	my_output = $fopen("myoutput.txt", "w");
+	scan_file = $fscanf(data_file, "%d\n", in);
+	clk = 0;
+	rst = 1;
+	#10 rst = 0;
+	q = 0;
+end
+
+always #1 clk = ~clk;
+
+always @ (posedge clk) begin
+	case (q)
+		0: begin
+			rst0 <= 1'b1;
+			rst1 <= 1'b0;
+			rst2 <= 1'b0;
+			
+			#430 rst0 <= 1'b0;
+			
+			end
+			
+		1: begin
+			rst0 <= 1'b0;
+			rst1 <= 1'b1;
+			rst2 <= 1'b0;
+			
+			#430 rst1 <= 1'b0;
+			
+			end
+			
+		2: begin
+			rst0 <= 1'b0;
+			rst1 <= 1'b0;
+			rst2 <= 1'b1;
+			#430 rst2 <= 1'b0;
+			
+			end
+
+		default: begin
+					rst0 <= 1'b0;
+					rst1 <= 1'b0;
+					rst2 <= 1'b0;
+					end
+	endcase
+	if (q < 10'd3) q = q + 10'd1; else q = 10'd0;
+	
+end
+
+always @(posedge clk) begin
+	if ((req_in || req_in0 || req_in1 || req_in2) == 4'd1)
+		scan_file = $fscanf(data_file, "%d\n", in);
+end
+
+always @ (posedge clk) begin
+	if ((out_en || out_en0 || out_en1 || out_en2) == 4'd1)
+		$fwrite(my_output, "%d\n", io_out);
+end
+
+multicore multicore(clk, rst, rst0, rst1, rst2, in, io_out, io_out0, io_out1, io_out2, req_in, req_in0, req_in1, req_in2, out_en, out_en0, out_en1, out_en2);
+
+endmodule

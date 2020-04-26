@@ -5,7 +5,6 @@ set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Pro
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Proc_IP/proc_fx.v"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Proc_IP/prefetch.v"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Proc_IP/pc.v"]
-set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Proc_IP/positivo_fx.v"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Proc_IP/mem_instr.v"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Proc_IP/mem_data.v"]
 set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "../Proc_IP/instr_dec_fx.v"]

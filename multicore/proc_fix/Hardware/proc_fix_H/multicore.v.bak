@@ -1,0 +1,6 @@
+module multicore(
+	input clk, rst,
+	input signed [31:0] io_in,
+	output signed [31:0] io_out, io_out0, io_out1,
+	output [1:0] req_in, req_in0, req_in1,
+	output [1:0] out_en, out_en0, out_en1);
