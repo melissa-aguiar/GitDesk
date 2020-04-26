@@ -1,0 +1,18 @@
+module teste_tb();
+
+reg         clk;
+reg  [15:0] in;
+wire [32:0] io_out;
+wire [ 3:0] req_in;
+wire [ 3:0] out_en;
+
+initial begin 
+	clk = 0;
+	in  = 1;
+end
+
+always #1 clk = ~clk;
+
+real_v3 real_v3(clk, 1'b0, in, io_out, req_in, out_en);
+
+endmodule

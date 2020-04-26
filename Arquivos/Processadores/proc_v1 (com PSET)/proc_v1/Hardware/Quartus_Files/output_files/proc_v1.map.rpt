@@ -1,0 +1,1474 @@
+Analysis & Synthesis report for proc_v1
+Fri Sep 13 11:18:37 2019
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. Analysis & Synthesis DSP Block Usage Summary
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Registers Packed Into Inferred Megafunctions
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_mll1:auto_generated
+ 15. Source assignments for proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_3771:auto_generated
+ 16. Parameter Settings for User Entity Instance: int2float:i2f
+ 17. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1
+ 18. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core
+ 19. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|pc:pc
+ 20. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|prefetch:pf
+ 21. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|instr_dec_fl:id
+ 22. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp
+ 23. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula
+ 24. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm
+ 25. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mysoma:mysoma
+ 26. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult
+ 27. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_s
+ 28. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_e
+ 29. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_m
+ 30. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm
+ 31. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:mm1
+ 32. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[1].mm
+ 33. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[2].mm
+ 34. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[3].mm
+ 35. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[4].mm
+ 36. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[5].mm
+ 37. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[6].mm
+ 38. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[7].mm
+ 39. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[8].mm
+ 40. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[9].mm
+ 41. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[10].mm
+ 42. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|positivo:positivo
+ 43. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|float2index:f2i
+ 44. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|mem_instr:minstr
+ 45. Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|mem_data:mdata
+ 46. Parameter Settings for User Entity Instance: float2int:f2i
+ 47. Parameter Settings for User Entity Instance: addr_dec:dec_in
+ 48. Parameter Settings for User Entity Instance: addr_dec:dec_out
+ 49. Parameter Settings for Inferred Entity Instance: proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0
+ 50. Parameter Settings for Inferred Entity Instance: proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0
+ 51. Parameter Settings for Inferred Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0
+ 52. altsyncram Parameter Settings by Entity Instance
+ 53. lpm_mult Parameter Settings by Entity Instance
+ 54. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|float2index:f2i"
+ 55. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[10].mm"
+ 56. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[9].mm"
+ 57. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[8].mm"
+ 58. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[7].mm"
+ 59. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[6].mm"
+ 60. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[5].mm"
+ 61. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[4].mm"
+ 62. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[3].mm"
+ 63. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[2].mm"
+ 64. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[1].mm"
+ 65. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:mm1"
+ 66. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|instr_dec_fl:id"
+ 67. Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|prefetch:pf"
+ 68. Post-Synthesis Netlist Statistics for Top Partition
+ 69. Elapsed Time Per Partition
+ 70. Analysis & Synthesis Messages
+ 71. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Sep 13 11:18:37 2019       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; proc_v1                                     ;
+; Top-level Entity Name              ; proc_v1                                     ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 775                                         ;
+;     Total combinational functions  ; 775                                         ;
+;     Dedicated logic registers      ; 50                                          ;
+; Total registers                    ; 50                                          ;
+; Total pins                         ; 43                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 108,446                                     ;
+; Embedded Multiplier 9-bit elements ; 2                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                            ; proc_v1            ; proc_v1            ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                       ;
++--------------------------------------------+-----------------+-------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path           ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                                                                ; Library ;
++--------------------------------------------+-----------------+-------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+---------+
+; ../proc_v1_H/proc_v1.v                     ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1.v                                      ;         ;
+; ../Proc_IP/ula_fl.v                        ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v                                         ;         ;
+; ../Proc_IP/stack_pointer.v                 ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/stack_pointer.v                                  ;         ;
+; ../Proc_IP/proc_fl.v                       ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/proc_fl.v                                        ;         ;
+; ../Proc_IP/prefetch.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/prefetch.v                                       ;         ;
+; ../Proc_IP/pc.v                            ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/pc.v                                             ;         ;
+; ../Proc_IP/mem_instr.v                     ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/mem_instr.v                                      ;         ;
+; ../Proc_IP/mem_data.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/mem_data.v                                       ;         ;
+; ../Proc_IP/int2float.v                     ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/int2float.v                                      ;         ;
+; ../Proc_IP/instr_dec_fl.v                  ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/instr_dec_fl.v                                   ;         ;
+; ../Proc_IP/float2int.v                     ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/float2int.v                                      ;         ;
+; ../Proc_IP/float2index.v                   ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/float2index.v                                    ;         ;
+; ../Proc_IP/core_fl.v                       ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v                                        ;         ;
+; ../Proc_IP/addr_dec.v                      ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/addr_dec.v                                       ;         ;
+; positivo.v                                 ; yes             ; Auto-Found Verilog HDL File                           ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/positivo.v                                 ;         ;
+; altsyncram.tdf                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                                       ;         ;
+; stratix_ram_block.inc                      ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                ;         ;
+; lpm_mux.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                                          ;         ;
+; lpm_decode.inc                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                                       ;         ;
+; aglobal181.inc                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                                                       ;         ;
+; a_rdenreg.inc                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                        ;         ;
+; altrom.inc                                 ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                                                           ;         ;
+; altram.inc                                 ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                                                           ;         ;
+; altdpram.inc                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                                                         ;         ;
+; db/altsyncram_mll1.tdf                     ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/altsyncram_mll1.tdf                     ;         ;
+; db/proc_v1.ram0_mem_data_d36068e9.hdl.mif  ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/proc_v1.ram0_mem_data_d36068e9.hdl.mif  ;         ;
+; db/altsyncram_3771.tdf                     ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/altsyncram_3771.tdf                     ;         ;
+; db/proc_v1.ram0_mem_instr_2242b49f.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/proc_v1.ram0_mem_instr_2242b49f.hdl.mif ;         ;
+; lpm_mult.tdf                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mult.tdf                                                         ;         ;
+; lpm_add_sub.inc                            ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                      ;         ;
+; multcore.inc                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/multcore.inc                                                         ;         ;
+; bypassff.inc                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/bypassff.inc                                                         ;         ;
+; altshift.inc                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altshift.inc                                                         ;         ;
+; db/mult_vct.tdf                            ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/mult_vct.tdf                            ;         ;
++--------------------------------------------+-----------------+-------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 775       ;
+;                                             ;           ;
+; Total combinational functions               ; 775       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 431       ;
+;     -- 3 input functions                    ; 212       ;
+;     -- <=2 input functions                  ; 132       ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 614       ;
+;     -- arithmetic mode                      ; 161       ;
+;                                             ;           ;
+; Total registers                             ; 50        ;
+;     -- Dedicated logic registers            ; 50        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 43        ;
+; Total memory bits                           ; 108446    ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 2         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 90        ;
+; Total fan-out                               ; 3610      ;
+; Average fan-out                             ; 3.79      ;
++---------------------------------------------+-----------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                ;
++----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                     ; Entity Name     ; Library Name ;
++----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------+-----------------+--------------+
+; |proc_v1                                     ; 775 (0)             ; 50 (0)                    ; 108446      ; 2            ; 0       ; 1         ; 43   ; 0            ; |proc_v1                                                                                                ; proc_v1         ; work         ;
+;    |addr_dec:dec_in|                         ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|addr_dec:dec_in                                                                                ; addr_dec        ; work         ;
+;    |addr_dec:dec_out|                        ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|addr_dec:dec_out                                                                               ; addr_dec        ; work         ;
+;    |float2int:f2i|                           ; 188 (188)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|float2int:f2i                                                                                  ; float2int       ; work         ;
+;    |int2float:i2f|                           ; 34 (34)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|int2float:i2f                                                                                  ; int2float       ; work         ;
+;    |proc_fl:p_proc_v1|                       ; 544 (0)             ; 50 (0)                    ; 108446      ; 2            ; 0       ; 1         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1                                                                              ; proc_fl         ; work         ;
+;       |core_fl:core|                         ; 544 (20)            ; 50 (21)                   ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core                                                                 ; core_fl         ; work         ;
+;          |float2index:f2i|                   ; 34 (34)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|float2index:f2i                                                 ; float2index     ; work         ;
+;          |instr_dec_fl:id|                   ; 36 (36)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|instr_dec_fl:id                                                 ; instr_dec_fl    ; work         ;
+;          |pc:pc|                             ; 26 (26)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|pc:pc                                                           ; pc              ; work         ;
+;          |positivo:positivo|                 ; 58 (58)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|positivo:positivo                                               ; positivo        ; work         ;
+;          |prefetch:pf|                       ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|prefetch:pf                                                     ; prefetch        ; work         ;
+;          |stack_pointer:sp|                  ; 18 (18)             ; 10 (10)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp                                                ; stack_pointer   ; work         ;
+;          |ula_fl:ula|                        ; 336 (15)            ; 0 (0)                     ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula                                                      ; ula_fl          ; work         ;
+;             |denorm:denorm|                  ; 165 (165)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm                                        ; denorm          ; work         ;
+;             |mymult:mymult|                  ; 17 (17)             ; 0 (0)                     ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult                                        ; mymult          ; work         ;
+;                |lpm_mult:Mult0|              ; 0 (0)               ; 0 (0)                     ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0                         ; lpm_mult        ; work         ;
+;                   |mult_vct:auto_generated|  ; 0 (0)               ; 0 (0)                     ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_vct:auto_generated ; mult_vct        ; work         ;
+;             |mysoma:mysoma|                  ; 34 (34)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mysoma:mysoma                                        ; mysoma          ; work         ;
+;             |norm:norm|                      ; 41 (27)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm                                            ; norm            ; work         ;
+;                |mymux:norm[10].mm|           ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[10].mm                          ; mymux           ; work         ;
+;                |mymux:norm[5].mm|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[5].mm                           ; mymux           ; work         ;
+;                |mymux:norm[7].mm|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[7].mm                           ; mymux           ; work         ;
+;                |mymux:norm[9].mm|            ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[9].mm                           ; mymux           ; work         ;
+;             |outmux:omux_e|                  ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_e                                        ; outmux          ; work         ;
+;             |outmux:omux_m|                  ; 45 (45)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_m                                        ; outmux          ; work         ;
+;             |outmux:omux_s|                  ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_s                                        ; outmux          ; work         ;
+;       |mem_data:mdata|                       ; 0 (0)               ; 0 (0)                     ; 14700       ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|mem_data:mdata                                                               ; mem_data        ; work         ;
+;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 14700       ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0                                          ; altsyncram      ; work         ;
+;             |altsyncram_mll1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 14700       ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_mll1:auto_generated           ; altsyncram_mll1 ; work         ;
+;       |mem_instr:minstr|                     ; 0 (0)               ; 0 (0)                     ; 93746       ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|mem_instr:minstr                                                             ; mem_instr       ; work         ;
+;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 93746       ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0                                        ; altsyncram      ; work         ;
+;             |altsyncram_3771:auto_generated| ; 0 (0)               ; 0 (0)                     ; 93746       ; 0            ; 0       ; 0         ; 0    ; 0            ; |proc_v1|proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_3771:auto_generated         ; altsyncram_3771 ; work         ;
++----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------+-----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                                             ;
++---------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------+
+; Name                                                                                              ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                                        ;
++---------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------+
+; proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_mll1:auto_generated|ALTSYNCRAM   ; AUTO ; Simple Dual Port ; 700          ; 21           ; 700          ; 21           ; 14700 ; db/proc_v1.ram0_mem_data_d36068e9.hdl.mif  ;
+; proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_3771:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4934         ; 19           ; --           ; --           ; 93746 ; db/proc_v1.ram0_mem_instr_2242b49f.hdl.mif ;
++---------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+--------------------------------------------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 1           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 2           ;
+; Signed Embedded Multipliers           ; 0           ;
+; Unsigned Embedded Multipliers         ; 1           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 50    ;
+; Number of registers using Synchronous Clear  ; 1     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 50    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 10    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------+
+; Inverted Register Statistics                                     ;
++--------------------------------------------------------+---------+
+; Inverted Register                                      ; Fan out ;
++--------------------------------------------------------+---------+
+; proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp|cnt[0] ; 2       ;
+; proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp|cnt[1] ; 2       ;
+; proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp|cnt[3] ; 2       ;
+; proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp|cnt[4] ; 2       ;
+; proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp|cnt[5] ; 2       ;
+; proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp|cnt[7] ; 2       ;
+; proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp|cnt[9] ; 2       ;
+; Total number of inverted registers = 7                 ;         ;
++--------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------+
+; Registers Packed Into Inferred Megafunctions                                                           ;
++--------------------------------------------------+----------------------------------------------+------+
+; Register Name                                    ; Megafunction                                 ; Type ;
++--------------------------------------------------+----------------------------------------------+------+
+; proc_fl:p_proc_v1|mem_data:mdata|data_out[0..20] ; proc_fl:p_proc_v1|mem_data:mdata|mem_rtl_0   ; RAM  ;
+; proc_fl:p_proc_v1|mem_instr:minstr|data[0..18]   ; proc_fl:p_proc_v1|mem_instr:minstr|mem_rtl_0 ; RAM  ;
++--------------------------------------------------+----------------------------------------------+------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
+; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|instr_dec_fl:id|ula_data[1]          ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight1 ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight0 ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|positivo:positivo|out[1]             ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|positivo:positivo|out[17]            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_e|Mux6        ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight1 ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight0 ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|positivo:positivo|out[6]             ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight1 ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight0 ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|positivo:positivo|out[8]             ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |proc_v1|float2int:f2i|out[20]                                               ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight1 ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm|ShiftRight0 ;
+; 6:1                ; 12 bits   ; 48 LEs        ; 36 LEs               ; 12 LEs                 ; No         ; |proc_v1|proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_m|Mux4        ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; No         ; |proc_v1|float2int:f2i|out[14]                                               ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; No         ; |proc_v1|float2int:f2i|out[16]                                               ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 12 LEs               ; 8 LEs                  ; No         ; |proc_v1|float2int:f2i|out[11]                                               ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |proc_v1|float2int:f2i|out[2]                                                ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 6 LEs                ; 12 LEs                 ; No         ; |proc_v1|float2int:f2i|out[5]                                                ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; No         ; |proc_v1|float2int:f2i|out[1]                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Source assignments for proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_mll1:auto_generated ;
++---------------------------------+--------------------+------+-----------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                            ;
++---------------------------------+--------------------+------+-----------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                             ;
++---------------------------------+--------------------+------+-----------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Source assignments for proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_3771:auto_generated ;
++---------------------------------+--------------------+------+-------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                              ;
++---------------------------------+--------------------+------+-------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                               ;
++---------------------------------+--------------------+------+-------------------------------------------------+
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: int2float:i2f ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; MAN            ; 12    ; Signed Integer                    ;
+; EXP            ; 8     ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1                                                                  ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+; Parameter Name ; Value                                                                                         ; Type           ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+; NBMANT         ; 12                                                                                            ; Signed Integer ;
+; NBEXPO         ; 8                                                                                             ; Signed Integer ;
+; MDATAS         ; 700                                                                                           ; Signed Integer ;
+; MINSTS         ; 4934                                                                                          ; Signed Integer ;
+; SDEPTH         ; 12                                                                                            ; Signed Integer ;
+; NUIOIN         ; 4                                                                                             ; Signed Integer ;
+; NUIOOU         ; 4                                                                                             ; Signed Integer ;
+; DFILE          ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1_data.mif ; String         ;
+; IFILE          ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1_inst.mif ; String         ;
+; LOR            ; 0                                                                                             ; Signed Integer ;
+; GRE            ; 0                                                                                             ; Signed Integer ;
+; DIV            ; 0                                                                                             ; Signed Integer ;
+; ADD            ; 1                                                                                             ; Signed Integer ;
+; MLT            ; 1                                                                                             ; Signed Integer ;
+; CAL            ; 0                                                                                             ; Signed Integer ;
+; SRF            ; 0                                                                                             ; Signed Integer ;
+; LES            ; 1                                                                                             ; Signed Integer ;
+; EQU            ; 1                                                                                             ; Signed Integer ;
+; NEG            ; 1                                                                                             ; Signed Integer ;
+; LAN            ; 0                                                                                             ; Signed Integer ;
+; LIN            ; 0                                                                                             ; Signed Integer ;
+; XOR            ; 0                                                                                             ; Signed Integer ;
+; NBOPCO         ; 6                                                                                             ; Signed Integer ;
+; MDATAW         ; 10                                                                                            ; Signed Integer ;
+; MINSTW         ; 13                                                                                            ; Signed Integer ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; NBMANT         ; 12    ; Signed Integer                                     ;
+; NBEXPO         ; 8     ; Signed Integer                                     ;
+; NBOPCO         ; 6     ; Signed Integer                                     ;
+; MDATAW         ; 10    ; Signed Integer                                     ;
+; MINSTW         ; 13    ; Signed Integer                                     ;
+; SDEPTH         ; 12    ; Signed Integer                                     ;
+; NBOPER         ; 13    ; Signed Integer                                     ;
+; NBINST         ; 19    ; Signed Integer                                     ;
+; MDATAS         ; 700   ; Signed Integer                                     ;
+; NUIOIN         ; 4     ; Signed Integer                                     ;
+; NUIOOU         ; 4     ; Signed Integer                                     ;
+; DIV            ; 0     ; Signed Integer                                     ;
+; CAL            ; 0     ; Signed Integer                                     ;
+; SRF            ; 0     ; Signed Integer                                     ;
+; MLT            ; 1     ; Signed Integer                                     ;
+; ADD            ; 1     ; Signed Integer                                     ;
+; LES            ; 1     ; Signed Integer                                     ;
+; EQU            ; 1     ; Signed Integer                                     ;
+; LIN            ; 0     ; Signed Integer                                     ;
+; LAN            ; 0     ; Signed Integer                                     ;
+; GRE            ; 0     ; Signed Integer                                     ;
+; LOR            ; 0     ; Signed Integer                                     ;
+; XOR            ; 0     ; Signed Integer                                     ;
+; NEG            ; 1     ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|pc:pc ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; NBITS          ; 13    ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|prefetch:pf ;
++----------------+-------+----------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                           ;
++----------------+-------+----------------------------------------------------------------+
+; MINSTW         ; 13    ; Signed Integer                                                 ;
+; NBOPCO         ; 6     ; Signed Integer                                                 ;
+; NBOPER         ; 13    ; Signed Integer                                                 ;
++----------------+-------+----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|instr_dec_fl:id ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; NBDATA         ; 21    ; Signed Integer                                                     ;
+; NBOPCO         ; 6     ; Signed Integer                                                     ;
+; NBOPER         ; 13    ; Signed Integer                                                     ;
+; MDATAW         ; 10    ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp ;
++----------------+-------+---------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                ;
++----------------+-------+---------------------------------------------------------------------+
+; NDATAW         ; 10    ; Signed Integer                                                      ;
+; NDATAS         ; 700   ; Signed Integer                                                      ;
++----------------+-------+---------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula ;
++----------------+-------+---------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                          ;
++----------------+-------+---------------------------------------------------------------+
+; EXP            ; 8     ; Signed Integer                                                ;
+; MAN            ; 12    ; Signed Integer                                                ;
+; DIV            ; 0     ; Signed Integer                                                ;
+; MLT            ; 1     ; Signed Integer                                                ;
+; ADD            ; 1     ; Signed Integer                                                ;
+; LES            ; 1     ; Signed Integer                                                ;
+; EQU            ; 1     ; Signed Integer                                                ;
+; LIN            ; 0     ; Signed Integer                                                ;
+; LAN            ; 0     ; Signed Integer                                                ;
+; GRE            ; 0     ; Signed Integer                                                ;
+; LOR            ; 0     ; Signed Integer                                                ;
+; NEG            ; 1     ; Signed Integer                                                ;
++----------------+-------+---------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm ;
++----------------+----------+--------------------------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                                     ;
++----------------+----------+--------------------------------------------------------------------------+
+; EXP            ; 8        ; Signed Integer                                                           ;
+; MAN            ; 00001100 ; Unsigned Binary                                                          ;
++----------------+----------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mysoma:mysoma ;
++----------------+----------+--------------------------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                                     ;
++----------------+----------+--------------------------------------------------------------------------+
+; EXP            ; 8        ; Signed Integer                                                           ;
+; MAN            ; 00001100 ; Unsigned Binary                                                          ;
++----------------+----------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult ;
++----------------+----------+--------------------------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                                     ;
++----------------+----------+--------------------------------------------------------------------------+
+; EXP            ; 8        ; Signed Integer                                                           ;
+; MAN            ; 00001100 ; Unsigned Binary                                                          ;
++----------------+----------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_s ;
++----------------+-------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------+
+; NBITS          ; 1     ; Unsigned Binary                                                             ;
++----------------+-------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_e ;
++----------------+-------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------+
+; NBITS          ; 8     ; Signed Integer                                                              ;
++----------------+-------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_m ;
++----------------+----------+--------------------------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                                     ;
++----------------+----------+--------------------------------------------------------------------------+
+; NBITS          ; 00001100 ; Unsigned Binary                                                          ;
++----------------+----------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm ;
++----------------+----------+----------------------------------------------------------------------+
+; Parameter Name ; Value    ; Type                                                                 ;
++----------------+----------+----------------------------------------------------------------------+
+; EXP            ; 8        ; Signed Integer                                                       ;
+; MAN            ; 00001100 ; Unsigned Binary                                                      ;
++----------------+----------+----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:mm1 ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; NCOMP          ; 1     ; Signed Integer                                                                    ;
+; NBITS          ; 8     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[1].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 2     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[2].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 3     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[3].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 4     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[4].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 5     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[5].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 6     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[6].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 7     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[7].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 8     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[8].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 9     ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[9].mm ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------+
+; NCOMP          ; 10    ; Signed Integer                                                                           ;
+; NBITS          ; 8     ; Signed Integer                                                                           ;
++----------------+-------+------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[10].mm ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; NCOMP          ; 11    ; Signed Integer                                                                            ;
+; NBITS          ; 8     ; Signed Integer                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|positivo:positivo ;
++----------------+-------+----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                 ;
++----------------+-------+----------------------------------------------------------------------+
+; NBMANT         ; 12    ; Signed Integer                                                       ;
+; NBEXPO         ; 8     ; Signed Integer                                                       ;
++----------------+-------+----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|core_fl:core|float2index:f2i ;
++----------------+-------+--------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                               ;
++----------------+-------+--------------------------------------------------------------------+
+; EXP            ; 8     ; Signed Integer                                                     ;
+; MAN            ; 12    ; Signed Integer                                                     ;
++----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|mem_instr:minstr                                                 ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+; Parameter Name ; Value                                                                                         ; Type           ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+; NADDRE         ; 4934                                                                                          ; Signed Integer ;
+; NBDATA         ; 19                                                                                            ; Signed Integer ;
+; FNAME          ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1_inst.mif ; String         ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: proc_fl:p_proc_v1|mem_data:mdata                                                   ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+; Parameter Name ; Value                                                                                         ; Type           ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+; NADDRE         ; 700                                                                                           ; Signed Integer ;
+; NBDATA         ; 21                                                                                            ; Signed Integer ;
+; FNAME          ; C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1_data.mif ; String         ;
++----------------+-----------------------------------------------------------------------------------------------+----------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: float2int:f2i ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; EXP            ; 8     ; Signed Integer                    ;
+; MAN            ; 12    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: addr_dec:dec_in ;
++----------------+-------+-------------------------------------+
+; Parameter Name ; Value ; Type                                ;
++----------------+-------+-------------------------------------+
+; NPORT          ; 4     ; Signed Integer                      ;
++----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: addr_dec:dec_out ;
++----------------+-------+--------------------------------------+
+; Parameter Name ; Value ; Type                                 ;
++----------------+-------+--------------------------------------+
+; NPORT          ; 4     ; Signed Integer                       ;
++----------------+-------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0 ;
++------------------------------------+-------------------------------------------+-----------------------+
+; Parameter Name                     ; Value                                     ; Type                  ;
++------------------------------------+-------------------------------------------+-----------------------+
+; BYTE_SIZE_BLOCK                    ; 8                                         ; Untyped               ;
+; AUTO_CARRY_CHAINS                  ; ON                                        ; AUTO_CARRY            ;
+; IGNORE_CARRY_BUFFERS               ; OFF                                       ; IGNORE_CARRY          ;
+; AUTO_CASCADE_CHAINS                ; ON                                        ; AUTO_CASCADE          ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                                       ; IGNORE_CASCADE        ;
+; WIDTH_BYTEENA                      ; 1                                         ; Untyped               ;
+; OPERATION_MODE                     ; DUAL_PORT                                 ; Untyped               ;
+; WIDTH_A                            ; 21                                        ; Untyped               ;
+; WIDTHAD_A                          ; 10                                        ; Untyped               ;
+; NUMWORDS_A                         ; 700                                       ; Untyped               ;
+; OUTDATA_REG_A                      ; UNREGISTERED                              ; Untyped               ;
+; ADDRESS_ACLR_A                     ; NONE                                      ; Untyped               ;
+; OUTDATA_ACLR_A                     ; NONE                                      ; Untyped               ;
+; WRCONTROL_ACLR_A                   ; NONE                                      ; Untyped               ;
+; INDATA_ACLR_A                      ; NONE                                      ; Untyped               ;
+; BYTEENA_ACLR_A                     ; NONE                                      ; Untyped               ;
+; WIDTH_B                            ; 21                                        ; Untyped               ;
+; WIDTHAD_B                          ; 10                                        ; Untyped               ;
+; NUMWORDS_B                         ; 700                                       ; Untyped               ;
+; INDATA_REG_B                       ; CLOCK1                                    ; Untyped               ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                                    ; Untyped               ;
+; RDCONTROL_REG_B                    ; CLOCK1                                    ; Untyped               ;
+; ADDRESS_REG_B                      ; CLOCK0                                    ; Untyped               ;
+; OUTDATA_REG_B                      ; UNREGISTERED                              ; Untyped               ;
+; BYTEENA_REG_B                      ; CLOCK1                                    ; Untyped               ;
+; INDATA_ACLR_B                      ; NONE                                      ; Untyped               ;
+; WRCONTROL_ACLR_B                   ; NONE                                      ; Untyped               ;
+; ADDRESS_ACLR_B                     ; NONE                                      ; Untyped               ;
+; OUTDATA_ACLR_B                     ; NONE                                      ; Untyped               ;
+; RDCONTROL_ACLR_B                   ; NONE                                      ; Untyped               ;
+; BYTEENA_ACLR_B                     ; NONE                                      ; Untyped               ;
+; WIDTH_BYTEENA_A                    ; 1                                         ; Untyped               ;
+; WIDTH_BYTEENA_B                    ; 1                                         ; Untyped               ;
+; RAM_BLOCK_TYPE                     ; AUTO                                      ; Untyped               ;
+; BYTE_SIZE                          ; 8                                         ; Untyped               ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA                                  ; Untyped               ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                      ; Untyped               ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                      ; Untyped               ;
+; INIT_FILE                          ; db/proc_v1.ram0_mem_data_d36068e9.hdl.mif ; Untyped               ;
+; INIT_FILE_LAYOUT                   ; PORT_A                                    ; Untyped               ;
+; MAXIMUM_DEPTH                      ; 0                                         ; Untyped               ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL                                    ; Untyped               ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                                    ; Untyped               ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL                                    ; Untyped               ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                                    ; Untyped               ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                           ; Untyped               ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                           ; Untyped               ;
+; ENABLE_ECC                         ; FALSE                                     ; Untyped               ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                     ; Untyped               ;
+; WIDTH_ECCSTATUS                    ; 3                                         ; Untyped               ;
+; DEVICE_FAMILY                      ; Cyclone IV E                              ; Untyped               ;
+; CBXI_PARAMETER                     ; altsyncram_mll1                           ; Untyped               ;
++------------------------------------+-------------------------------------------+-----------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0 ;
++------------------------------------+--------------------------------------------+------------------------+
+; Parameter Name                     ; Value                                      ; Type                   ;
++------------------------------------+--------------------------------------------+------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                                          ; Untyped                ;
+; AUTO_CARRY_CHAINS                  ; ON                                         ; AUTO_CARRY             ;
+; IGNORE_CARRY_BUFFERS               ; OFF                                        ; IGNORE_CARRY           ;
+; AUTO_CASCADE_CHAINS                ; ON                                         ; AUTO_CASCADE           ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                                        ; IGNORE_CASCADE         ;
+; WIDTH_BYTEENA                      ; 1                                          ; Untyped                ;
+; OPERATION_MODE                     ; ROM                                        ; Untyped                ;
+; WIDTH_A                            ; 19                                         ; Untyped                ;
+; WIDTHAD_A                          ; 13                                         ; Untyped                ;
+; NUMWORDS_A                         ; 4934                                       ; Untyped                ;
+; OUTDATA_REG_A                      ; UNREGISTERED                               ; Untyped                ;
+; ADDRESS_ACLR_A                     ; NONE                                       ; Untyped                ;
+; OUTDATA_ACLR_A                     ; NONE                                       ; Untyped                ;
+; WRCONTROL_ACLR_A                   ; NONE                                       ; Untyped                ;
+; INDATA_ACLR_A                      ; NONE                                       ; Untyped                ;
+; BYTEENA_ACLR_A                     ; NONE                                       ; Untyped                ;
+; WIDTH_B                            ; 1                                          ; Untyped                ;
+; WIDTHAD_B                          ; 1                                          ; Untyped                ;
+; NUMWORDS_B                         ; 1                                          ; Untyped                ;
+; INDATA_REG_B                       ; CLOCK1                                     ; Untyped                ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                                     ; Untyped                ;
+; RDCONTROL_REG_B                    ; CLOCK1                                     ; Untyped                ;
+; ADDRESS_REG_B                      ; CLOCK1                                     ; Untyped                ;
+; OUTDATA_REG_B                      ; UNREGISTERED                               ; Untyped                ;
+; BYTEENA_REG_B                      ; CLOCK1                                     ; Untyped                ;
+; INDATA_ACLR_B                      ; NONE                                       ; Untyped                ;
+; WRCONTROL_ACLR_B                   ; NONE                                       ; Untyped                ;
+; ADDRESS_ACLR_B                     ; NONE                                       ; Untyped                ;
+; OUTDATA_ACLR_B                     ; NONE                                       ; Untyped                ;
+; RDCONTROL_ACLR_B                   ; NONE                                       ; Untyped                ;
+; BYTEENA_ACLR_B                     ; NONE                                       ; Untyped                ;
+; WIDTH_BYTEENA_A                    ; 1                                          ; Untyped                ;
+; WIDTH_BYTEENA_B                    ; 1                                          ; Untyped                ;
+; RAM_BLOCK_TYPE                     ; AUTO                                       ; Untyped                ;
+; BYTE_SIZE                          ; 8                                          ; Untyped                ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                  ; Untyped                ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                       ; Untyped                ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                       ; Untyped                ;
+; INIT_FILE                          ; db/proc_v1.ram0_mem_instr_2242b49f.hdl.mif ; Untyped                ;
+; INIT_FILE_LAYOUT                   ; PORT_A                                     ; Untyped                ;
+; MAXIMUM_DEPTH                      ; 0                                          ; Untyped                ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL                                     ; Untyped                ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                                     ; Untyped                ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL                                     ; Untyped                ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                                     ; Untyped                ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN                            ; Untyped                ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN                            ; Untyped                ;
+; ENABLE_ECC                         ; FALSE                                      ; Untyped                ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                      ; Untyped                ;
+; WIDTH_ECCSTATUS                    ; 3                                          ; Untyped                ;
+; DEVICE_FAMILY                      ; Cyclone IV E                               ; Untyped                ;
+; CBXI_PARAMETER                     ; altsyncram_3771                            ; Untyped                ;
++------------------------------------+--------------------------------------------+------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0 ;
++------------------------------------------------+--------------+---------------------------------------------------------+
+; Parameter Name                                 ; Value        ; Type                                                    ;
++------------------------------------------------+--------------+---------------------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY                                              ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY                                            ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE                                            ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE                                          ;
+; LPM_WIDTHA                                     ; 12           ; Untyped                                                 ;
+; LPM_WIDTHB                                     ; 12           ; Untyped                                                 ;
+; LPM_WIDTHP                                     ; 24           ; Untyped                                                 ;
+; LPM_WIDTHR                                     ; 24           ; Untyped                                                 ;
+; LPM_WIDTHS                                     ; 1            ; Untyped                                                 ;
+; LPM_REPRESENTATION                             ; UNSIGNED     ; Untyped                                                 ;
+; LPM_PIPELINE                                   ; 0            ; Untyped                                                 ;
+; LATENCY                                        ; 0            ; Untyped                                                 ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped                                                 ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped                                                 ;
+; USE_EAB                                        ; OFF          ; Untyped                                                 ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped                                                 ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped                                                 ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped                                                 ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K                                     ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped                                                 ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped                                                 ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped                                                 ;
+; CBXI_PARAMETER                                 ; mult_vct     ; Untyped                                                 ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped                                                 ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped                                                 ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped                                                 ;
++------------------------------------------------+--------------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                    ;
++-------------------------------------------+---------------------------------------------------------+
+; Name                                      ; Value                                                   ;
++-------------------------------------------+---------------------------------------------------------+
+; Number of entity instances                ; 2                                                       ;
+; Entity Instance                           ; proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0   ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                               ;
+;     -- WIDTH_A                            ; 21                                                      ;
+;     -- NUMWORDS_A                         ; 700                                                     ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                            ;
+;     -- WIDTH_B                            ; 21                                                      ;
+;     -- NUMWORDS_B                         ; 700                                                     ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                  ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                            ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                    ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA                                                ;
+; Entity Instance                           ; proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0 ;
+;     -- OPERATION_MODE                     ; ROM                                                     ;
+;     -- WIDTH_A                            ; 19                                                      ;
+;     -- NUMWORDS_A                         ; 4934                                                    ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                            ;
+;     -- WIDTH_B                            ; 1                                                       ;
+;     -- NUMWORDS_B                         ; 1                                                       ;
+;     -- ADDRESS_REG_B                      ; CLOCK1                                                  ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                            ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                    ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                               ;
++-------------------------------------------+---------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                                                                 ;
++---------------------------------------+------------------------------------------------------------------------+
+; Name                                  ; Value                                                                  ;
++---------------------------------------+------------------------------------------------------------------------+
+; Number of entity instances            ; 1                                                                      ;
+; Entity Instance                       ; proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 12                                                                     ;
+;     -- LPM_WIDTHB                     ; 12                                                                     ;
+;     -- LPM_WIDTHP                     ; 24                                                                     ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                                                               ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                                     ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                                     ;
+;     -- USE_EAB                        ; OFF                                                                    ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                                                   ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                     ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                     ;
++---------------------------------------+------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|float2index:f2i"                                           ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; out[11..2] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[10].mm" ;
++-----------+-------+----------+--------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                            ;
++-----------+-------+----------+--------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                       ;
+; in1[1..0] ; Input ; Info     ; Stuck at VCC                                                       ;
+; in1[7..4] ; Input ; Info     ; Stuck at GND                                                       ;
+; in1[3]    ; Input ; Info     ; Stuck at VCC                                                       ;
+; in1[2]    ; Input ; Info     ; Stuck at GND                                                       ;
++-----------+-------+----------+--------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[9].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[7..4] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[3]    ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[2]    ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[1]    ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[0]    ; Input ; Info     ; Stuck at GND                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[8].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[7..4] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[2..1] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[3]    ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[0]    ; Input ; Info     ; Stuck at VCC                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[7].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[7..4] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[2..0] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[3]    ; Input ; Info     ; Stuck at VCC                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[6].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[2..0] ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[7..3] ; Input ; Info     ; Stuck at GND                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[5].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[2..1] ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[7..3] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[0]    ; Input ; Info     ; Stuck at GND                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[4].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[7..3] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[2]    ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[1]    ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[0]    ; Input ; Info     ; Stuck at VCC                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[3].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[7..3] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[1..0] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[2]    ; Input ; Info     ; Stuck at VCC                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[2].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[1..0] ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[7..2] ; Input ; Info     ; Stuck at GND                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[1].mm" ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                           ;
++-----------+-------+----------+-------------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[7..2] ; Input ; Info     ; Stuck at GND                                                      ;
+; in1[1]    ; Input ; Info     ; Stuck at VCC                                                      ;
+; in1[0]    ; Input ; Info     ; Stuck at GND                                                      ;
++-----------+-------+----------+-------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:mm1" ;
++-----------+-------+----------+------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                    ;
++-----------+-------+----------+------------------------------------------------------------+
+; B         ; Input ; Info     ; Stuck at GND                                               ;
+; in1[7..1] ; Input ; Info     ; Stuck at GND                                               ;
+; in1[0]    ; Input ; Info     ; Stuck at VCC                                               ;
+; in2       ; Input ; Info     ; Stuck at GND                                               ;
++-----------+-------+----------+------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|instr_dec_fl:id"                                     ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; srf  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "proc_fl:p_proc_v1|core_fl:core|prefetch:pf"                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; isp_push ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; isp_pop  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 43                          ;
+; cycloneiii_ff         ; 50                          ;
+;     CLR               ; 39                          ;
+;     CLR SCLR          ; 1                           ;
+;     ENA CLR           ; 10                          ;
+; cycloneiii_lcell_comb ; 775                         ;
+;     arith             ; 161                         ;
+;         2 data inputs ; 63                          ;
+;         3 data inputs ; 98                          ;
+;     normal            ; 614                         ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 19                          ;
+;         2 data inputs ; 49                          ;
+;         3 data inputs ; 114                         ;
+;         4 data inputs ; 431                         ;
+; cycloneiii_mac_mult   ; 1                           ;
+; cycloneiii_mac_out    ; 1                           ;
+; cycloneiii_ram_block  ; 40                          ;
+;                       ;                             ;
+; Max LUT depth         ; 31.50                       ;
+; Average LUT depth     ; 23.65                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:05     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Fri Sep 13 11:18:17 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proc_v1 -c proc_v1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_v1_h/proc_v1.v
+    Info (12023): Found entity 1: proc_v1 File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1.v Line: 1
+Info (12021): Found 8 design units, including 8 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/ula_fl.v
+    Info (12023): Found entity 1: mymux File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 7
+    Info (12023): Found entity 2: norm File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 24
+    Info (12023): Found entity 3: denorm File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 59
+    Info (12023): Found entity 4: outmux File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 89
+    Info (12023): Found entity 5: mysoma File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 122
+    Info (12023): Found entity 6: mymult File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 146
+    Info (12023): Found entity 7: mydiv File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 172
+    Info (12023): Found entity 8: ula_fl File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 199
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/stack_pointer.v
+    Info (12023): Found entity 1: stack_pointer File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/stack_pointer.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/stack.v
+    Info (12023): Found entity 1: stack File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/stack.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/reg_file.v
+    Info (12023): Found entity 1: reg_file File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/reg_file.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/proc_fl.v
+    Info (12023): Found entity 1: proc_fl File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/proc_fl.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/prefetch.v
+    Info (12023): Found entity 1: prefetch File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/prefetch.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/pc.v
+    Info (12023): Found entity 1: pc File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/pc.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/mem_instr.v
+    Info (12023): Found entity 1: mem_instr File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/mem_instr.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/mem_data.v
+    Info (12023): Found entity 1: mem_data File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/mem_data.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/int2float.v
+    Info (12023): Found entity 1: int2float File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/int2float.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/instr_dec_fl.v
+    Info (12023): Found entity 1: instr_dec_fl File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/instr_dec_fl.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/float2int.v
+    Info (12023): Found entity 1: float2int File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/float2int.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/float2index.v
+    Info (12023): Found entity 1: float2index File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/float2index.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/core_fl.v
+    Info (12023): Found entity 1: core_fl File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/melis/desktop/arquivos tcc/sapho/proc_v1/proc_v1/hardware/proc_ip/addr_dec.v
+    Info (12023): Found entity 1: addr_dec File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/addr_dec.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file proc_v1_tb.v
+    Info (12023): Found entity 1: proc_v1_tb File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/proc_v1_tb.v Line: 1
+Info (12127): Elaborating entity "proc_v1" for the top level hierarchy
+Info (12128): Elaborating entity "int2float" for hierarchy "int2float:i2f" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1.v Line: 11
+Info (12128): Elaborating entity "proc_fl" for hierarchy "proc_fl:p_proc_v1" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1.v Line: 31
+Info (12128): Elaborating entity "core_fl" for hierarchy "proc_fl:p_proc_v1|core_fl:core" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/proc_fl.v Line: 122
+Info (12128): Elaborating entity "pc" for hierarchy "proc_fl:p_proc_v1|core_fl:core|pc:pc" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 52
+Info (12128): Elaborating entity "prefetch" for hierarchy "proc_fl:p_proc_v1|core_fl:core|prefetch:pf" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 69
+Info (12128): Elaborating entity "instr_dec_fl" for hierarchy "proc_fl:p_proc_v1|core_fl:core|instr_dec_fl:id" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 93
+Info (12128): Elaborating entity "stack_pointer" for hierarchy "proc_fl:p_proc_v1|core_fl:core|stack_pointer:sp" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 101
+Info (12128): Elaborating entity "ula_fl" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 119
+Info (12128): Elaborating entity "denorm" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|denorm:denorm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 235
+Info (12128): Elaborating entity "mysoma" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mysoma:mysoma" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 244
+Info (12128): Elaborating entity "mymult" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 288
+Info (12128): Elaborating entity "outmux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_s" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 326
+Info (12128): Elaborating entity "outmux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_e" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 327
+Info (12128): Elaborating entity "outmux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|outmux:omux_m" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 328
+Info (12128): Elaborating entity "norm" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 334
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:mm1" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 43
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[1].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[2].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[3].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[4].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[5].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[6].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[7].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[8].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[9].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Info (12128): Elaborating entity "mymux" for hierarchy "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|norm:norm|mymux:norm[10].mm" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 49
+Warning (12125): Using design file positivo.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: positivo File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/positivo.v Line: 1
+Info (12128): Elaborating entity "positivo" for hierarchy "proc_fl:p_proc_v1|core_fl:core|positivo:positivo" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 129
+Info (12128): Elaborating entity "float2index" for hierarchy "proc_fl:p_proc_v1|core_fl:core|float2index:f2i" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/core_fl.v Line: 164
+Info (12128): Elaborating entity "mem_instr" for hierarchy "proc_fl:p_proc_v1|mem_instr:minstr" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/proc_fl.v Line: 126
+Info (12128): Elaborating entity "mem_data" for hierarchy "proc_fl:p_proc_v1|mem_data:mdata" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/proc_fl.v Line: 136
+Info (12128): Elaborating entity "float2int" for hierarchy "float2int:f2i" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1.v Line: 33
+Info (12128): Elaborating entity "addr_dec" for hierarchy "addr_dec:dec_in" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/proc_v1_H/proc_v1.v Line: 35
+Info (13014): Ignored 21 buffer(s)
+    Info (13019): Ignored 21 SOFT buffer(s)
+Info (19000): Inferred 2 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "proc_fl:p_proc_v1|mem_data:mdata|mem_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 21
+        Info (286033): Parameter WIDTHAD_A set to 10
+        Info (286033): Parameter NUMWORDS_A set to 700
+        Info (286033): Parameter WIDTH_B set to 21
+        Info (286033): Parameter WIDTHAD_B set to 10
+        Info (286033): Parameter NUMWORDS_B set to 700
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter INIT_FILE set to db/proc_v1.ram0_mem_data_d36068e9.hdl.mif
+        Info (286033): Parameter READ_DURING_WRITE_MODE_MIXED_PORTS set to OLD_DATA
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "proc_fl:p_proc_v1|mem_instr:minstr|mem_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to ROM
+        Info (286033): Parameter WIDTH_A set to 19
+        Info (286033): Parameter WIDTHAD_A set to 13
+        Info (286033): Parameter NUMWORDS_A set to 4934
+        Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_A set to NONE
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+        Info (286033): Parameter INIT_FILE set to db/proc_v1.ram0_mem_instr_2242b49f.hdl.mif
+Info (278001): Inferred 1 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|Mult0" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 160
+Info (12130): Elaborated megafunction instantiation "proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0"
+Info (12133): Instantiated megafunction "proc_fl:p_proc_v1|mem_data:mdata|altsyncram:mem_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "21"
+    Info (12134): Parameter "WIDTHAD_A" = "10"
+    Info (12134): Parameter "NUMWORDS_A" = "700"
+    Info (12134): Parameter "WIDTH_B" = "21"
+    Info (12134): Parameter "WIDTHAD_B" = "10"
+    Info (12134): Parameter "NUMWORDS_B" = "700"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "INIT_FILE" = "db/proc_v1.ram0_mem_data_d36068e9.hdl.mif"
+    Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "OLD_DATA"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_mll1.tdf
+    Info (12023): Found entity 1: altsyncram_mll1 File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/altsyncram_mll1.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0"
+Info (12133): Instantiated megafunction "proc_fl:p_proc_v1|mem_instr:minstr|altsyncram:mem_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "ROM"
+    Info (12134): Parameter "WIDTH_A" = "19"
+    Info (12134): Parameter "WIDTHAD_A" = "13"
+    Info (12134): Parameter "NUMWORDS_A" = "4934"
+    Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+    Info (12134): Parameter "INIT_FILE" = "db/proc_v1.ram0_mem_instr_2242b49f.hdl.mif"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_3771.tdf
+    Info (12023): Found entity 1: altsyncram_3771 File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/altsyncram_3771.tdf Line: 27
+Info (12130): Elaborated megafunction instantiation "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0" File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 160
+Info (12133): Instantiated megafunction "proc_fl:p_proc_v1|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0" with the following parameter: File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/ula_fl.v Line: 160
+    Info (12134): Parameter "LPM_WIDTHA" = "12"
+    Info (12134): Parameter "LPM_WIDTHB" = "12"
+    Info (12134): Parameter "LPM_WIDTHP" = "24"
+    Info (12134): Parameter "LPM_WIDTHR" = "24"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_vct.tdf
+    Info (12023): Found entity 1: mult_vct File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/db/mult_vct.tdf Line: 28
+Info (13000): Registers with preset signals will power-up high File: C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Proc_IP/stack_pointer.v Line: 18
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/output_files/proc_v1.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 884 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 14 input pins
+    Info (21059): Implemented 29 output pins
+    Info (21061): Implemented 799 logic cells
+    Info (21064): Implemented 40 RAM segments
+    Info (21062): Implemented 2 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4785 megabytes
+    Info: Processing ended: Fri Sep 13 11:18:37 2019
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:29
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/melis/Desktop/Arquivos TCC/Sapho/proc_v1/proc_v1/Hardware/Quartus_Files/output_files/proc_v1.map.smsg.
+
+

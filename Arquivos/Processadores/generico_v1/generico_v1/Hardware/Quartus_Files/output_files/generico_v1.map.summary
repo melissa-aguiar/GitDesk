@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 12 15:28:23 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : generico_v1
+Top-level Entity Name : generico_v1
+Family : Cyclone IV E
+Total logic elements : 1,405
+    Total combinational functions : 1,389
+    Dedicated logic registers : 108
+Total registers : 108
+Total pins : 59
+Total virtual pins : 0
+Total memory bits : 936,864
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 0

@@ -1,0 +1,20 @@
+module positivo
+(
+	input  [NBMANT+NBEXPO:0:0] acc,
+	input 		     ctrl,
+	output [NBMANT+NBEXPO:0:0] out
+);
+
+reg  [NUM-1:0] x;
+
+always @(*) begin
+
+	if ((acc[NUM-1] == 1) && (ctrl ==1))
+		x <= 0;
+	else
+		x <= acc;
+end
+
+assign out = x;
+
+endmodule

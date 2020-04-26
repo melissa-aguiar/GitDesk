@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 12 17:07:12 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : proc_v1
+Top-level Entity Name : proc_v1
+Family : Cyclone IV E
+Total logic elements : 766
+    Total combinational functions : 766
+    Dedicated logic registers : 50
+Total registers : 50
+Total pins : 43
+Total virtual pins : 0
+Total memory bits : 108,446
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 0

@@ -1,0 +1,26 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do sapho_final_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Error: Acesso negado.
+# 
+# 
+#        Unable to replace existing ini file (modelsim.ini).  File can not be renamed.
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/OneDrive/-\ TCC/Processadores/sapho_final/sapho_final/Hardware/sapho_final_H {C:/Users/melis/OneDrive/- TCC/Processadores/sapho_final/sapho_final/Hardware/sapho_final_H/sapho_final.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vlog-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./sapho_final_run_msim_rtl_verilog.do line 8
+# C:/altera/13.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/melis/OneDrive/-\ TCC/Processadores/sapho_final/sapho_final/Hardware/sapho_final_H {C:/Users/melis/OneD..."

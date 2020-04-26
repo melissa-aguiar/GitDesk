@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="generico_v2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|generico_v2|proc_fl:p_generico_v2|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0" CBX_FILE_NAME="mult_7dt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|generico_v2|proc_fl:p_generico_v2|mem_data:mdata|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_lam1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|generico_v2|proc_fl:p_generico_v2|mem_instr:minstr|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_tm71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
