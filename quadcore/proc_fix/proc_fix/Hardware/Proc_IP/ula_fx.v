@@ -45,7 +45,7 @@ wire signed [NUBITS-1:0] cor;
 wire signed [NUBITS-1:0] shl;
 wire signed [NUBITS-1:0] srs;
 
-generate if (DIV == 1) assign div = in1  / in2; else assign div = {NUBITS{1'bx}}; endgenerate
+generate if (DIV == 1) assign div = in1  / 128; else assign div = {NUBITS{1'bx}}; endgenerate
 generate if (OR  == 1) assign orr = in1  | in2; else assign orr = {NUBITS{1'bx}}; endgenerate
 generate if (MOD == 1) assign mod = in1  % in2; else assign mod = {NUBITS{1'bx}}; endgenerate
 generate if (ADD == 1) assign add = in1  + in2; else assign add = {NUBITS{1'bx}}; endgenerate
