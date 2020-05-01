@@ -1,0 +1,13 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix1|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix2|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out6,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix1|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix1|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out6,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix2|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix2|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out6,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out6,
