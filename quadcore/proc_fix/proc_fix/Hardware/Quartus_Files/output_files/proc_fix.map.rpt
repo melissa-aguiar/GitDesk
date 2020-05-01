@@ -1,5 +1,5 @@
 Analysis & Synthesis report for proc_fix
-Sun Apr 26 14:19:34 2020
+Thu Apr 30 22:21:02 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -20,17 +20,17 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
  12. Registers Packed Into Inferred Megafunctions
  13. Multiplexer Restructuring Statistics (Restructuring Performed)
  14. Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated
- 15. Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated
+ 15. Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated
  16. Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated
- 17. Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated
+ 17. Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated
  18. Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated
- 19. Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated
+ 19. Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated
  20. Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated
- 21. Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated
- 22. Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated
- 23. Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated
- 24. Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated
- 25. Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated
+ 21. Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated
+ 22. Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated
+ 23. Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated
+ 24. Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated
+ 25. Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated
  26. Parameter Settings for User Entity Instance: proc_fix:proc_fix0|proc_fx:p_proc_fix
  27. Parameter Settings for User Entity Instance: proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core
  28. Parameter Settings for User Entity Instance: proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|pc:pc
@@ -95,10 +95,10 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
  87. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix2|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_divide:Div0
  88. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0
  89. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_divide:Div0
- 90. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0
- 91. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0
- 92. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0
- 93. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0
+ 90. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0
+ 91. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0
+ 92. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0
+ 93. Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0
  94. altsyncram Parameter Settings by Entity Instance
  95. lpm_mult Parameter Settings by Entity Instance
  96. Port Connectivity Checks: "proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|instr_dec_fx:id"
@@ -133,7 +133,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Apr 26 14:19:33 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 30 22:21:01 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; proc_fix                                    ;
 ; Top-level Entity Name              ; multicore                                   ;
@@ -144,7 +144,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total registers                    ; 252                                         ;
 ; Total pins                         ; 178                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 391,460                                     ;
+; Total memory bits                  ; 394,804                                     ;
 ; Embedded Multiplier 9-bit elements ; 24                                          ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
@@ -250,7 +250,7 @@ https://fpgasoftware.intel.com/eula.
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.2%      ;
 ;     Processor 3            ;   0.2%      ;
-;     Processor 4            ;   0.2%      ;
+;     Processor 4            ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -283,8 +283,8 @@ https://fpgasoftware.intel.com/eula.
 ; altdpram.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altdpram.inc                                                          ;         ;
 ; db/altsyncram_lml1.tdf                      ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_lml1.tdf                      ;         ;
 ; db/proc_fix.ram0_mem_data_2557d106.hdl.mif  ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/proc_fix.ram0_mem_data_2557d106.hdl.mif  ;         ;
-; db/altsyncram_7f71.tdf                      ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf                      ;         ;
-; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ;         ;
+; db/altsyncram_ib71.tdf                      ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf                      ;         ;
+; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ;         ;
 ; lpm_mult.tdf                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mult.tdf                                                          ;         ;
 ; lpm_add_sub.inc                             ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                       ;         ;
 ; multcore.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/multcore.inc                                                          ;         ;
@@ -300,7 +300,7 @@ https://fpgasoftware.intel.com/eula.
 ; db/add_sub_7pc.tdf                          ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/add_sub_7pc.tdf                          ;         ;
 ; db/add_sub_8pc.tdf                          ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/add_sub_8pc.tdf                          ;         ;
 ; db/lpm_abs_i0a.tdf                          ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/lpm_abs_i0a.tdf                          ;         ;
-; db/altsyncram_2ga3.tdf                      ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_2ga3.tdf                      ;         ;
+; db/altsyncram_dca3.tdf                      ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_dca3.tdf                      ;         ;
 ; db/decode_h8a.tdf                           ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/decode_h8a.tdf                           ;         ;
 ; db/mux_qob.tdf                              ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/mux_qob.tdf                              ;         ;
 +---------------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+---------+
@@ -328,7 +328,7 @@ https://fpgasoftware.intel.com/eula.
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 178       ;
-; Total memory bits                           ; 391460    ;
+; Total memory bits                           ; 394804    ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 24        ;
 ;                                             ;           ;
@@ -344,11 +344,11 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                            ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                 ; Entity Name     ; Library Name ;
 +-------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |multicore                                            ; 6497 (0)            ; 252 (0)                   ; 391460      ; 24           ; 0       ; 12        ; 178  ; 0            ; |multicore                                                                                                                                                                                          ; multicore       ; work         ;
-;    |proc_fix:proc_fix0|                               ; 1624 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0                                                                                                                                                                       ; proc_fix        ; work         ;
+; |multicore                                            ; 6497 (0)            ; 252 (0)                   ; 394804      ; 24           ; 0       ; 12        ; 178  ; 0            ; |multicore                                                                                                                                                                                          ; multicore       ; work         ;
+;    |proc_fix:proc_fix0|                               ; 1624 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0                                                                                                                                                                       ; proc_fix        ; work         ;
 ;       |addr_dec:dec_in|                               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|addr_dec:dec_in                                                                                                                                                       ; addr_dec        ; work         ;
 ;       |addr_dec:dec_out|                              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|addr_dec:dec_out                                                                                                                                                      ; addr_dec        ; work         ;
-;       |proc_fx:p_proc_fix|                            ; 1620 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
+;       |proc_fx:p_proc_fix|                            ; 1620 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
 ;          |core_fx:core|                               ; 1566 (18)           ; 60 (32)                   ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core                                                                                                                                       ; core_fx         ; work         ;
 ;             |instr_dec_fx:id|                         ; 56 (56)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|instr_dec_fx:id                                                                                                                       ; instr_dec_fx    ; work         ;
 ;             |pc:pc|                                   ; 13 (13)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|pc:pc                                                                                                                                 ; pc              ; work         ;
@@ -369,17 +369,17 @@ https://fpgasoftware.intel.com/eula.
 ;          |mem_data:mdata|                             ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_data:mdata                                                                                                                                     ; mem_data        ; work         ;
 ;             |altsyncram:mem_rtl_0|                    ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0                                                                                                                ; altsyncram      ; work         ;
 ;                |altsyncram_lml1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated                                                                                 ; altsyncram_lml1 ; work         ;
-;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
-;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
-;                |altsyncram_7f71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated                                                                               ; altsyncram_7f71 ; work         ;
-;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
-;                      |altsyncram_2ga3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated                        ; altsyncram_2ga3 ; work         ;
-;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
-;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
-;    |proc_fix:proc_fix1|                               ; 1625 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1                                                                                                                                                                       ; proc_fix        ; work         ;
+;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
+;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
+;                |altsyncram_ib71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated                                                                               ; altsyncram_ib71 ; work         ;
+;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
+;                      |altsyncram_dca3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated                        ; altsyncram_dca3 ; work         ;
+;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
+;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
+;    |proc_fix:proc_fix1|                               ; 1625 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1                                                                                                                                                                       ; proc_fix        ; work         ;
 ;       |addr_dec:dec_in|                               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|addr_dec:dec_in                                                                                                                                                       ; addr_dec        ; work         ;
 ;       |addr_dec:dec_out|                              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|addr_dec:dec_out                                                                                                                                                      ; addr_dec        ; work         ;
-;       |proc_fx:p_proc_fix|                            ; 1621 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
+;       |proc_fx:p_proc_fix|                            ; 1621 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
 ;          |core_fx:core|                               ; 1567 (18)           ; 60 (32)                   ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|core_fx:core                                                                                                                                       ; core_fx         ; work         ;
 ;             |instr_dec_fx:id|                         ; 56 (56)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|core_fx:core|instr_dec_fx:id                                                                                                                       ; instr_dec_fx    ; work         ;
 ;             |pc:pc|                                   ; 13 (13)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|core_fx:core|pc:pc                                                                                                                                 ; pc              ; work         ;
@@ -400,17 +400,17 @@ https://fpgasoftware.intel.com/eula.
 ;          |mem_data:mdata|                             ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_data:mdata                                                                                                                                     ; mem_data        ; work         ;
 ;             |altsyncram:mem_rtl_0|                    ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0                                                                                                                ; altsyncram      ; work         ;
 ;                |altsyncram_lml1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated                                                                                 ; altsyncram_lml1 ; work         ;
-;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
-;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
-;                |altsyncram_7f71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated                                                                               ; altsyncram_7f71 ; work         ;
-;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
-;                      |altsyncram_2ga3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated                        ; altsyncram_2ga3 ; work         ;
-;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
-;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
-;    |proc_fix:proc_fix2|                               ; 1624 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2                                                                                                                                                                       ; proc_fix        ; work         ;
+;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
+;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
+;                |altsyncram_ib71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated                                                                               ; altsyncram_ib71 ; work         ;
+;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
+;                      |altsyncram_dca3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated                        ; altsyncram_dca3 ; work         ;
+;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
+;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
+;    |proc_fix:proc_fix2|                               ; 1624 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2                                                                                                                                                                       ; proc_fix        ; work         ;
 ;       |addr_dec:dec_in|                               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|addr_dec:dec_in                                                                                                                                                       ; addr_dec        ; work         ;
 ;       |addr_dec:dec_out|                              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|addr_dec:dec_out                                                                                                                                                      ; addr_dec        ; work         ;
-;       |proc_fx:p_proc_fix|                            ; 1620 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
+;       |proc_fx:p_proc_fix|                            ; 1620 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
 ;          |core_fx:core|                               ; 1566 (18)           ; 60 (32)                   ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|core_fx:core                                                                                                                                       ; core_fx         ; work         ;
 ;             |instr_dec_fx:id|                         ; 56 (56)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|core_fx:core|instr_dec_fx:id                                                                                                                       ; instr_dec_fx    ; work         ;
 ;             |pc:pc|                                   ; 13 (13)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|core_fx:core|pc:pc                                                                                                                                 ; pc              ; work         ;
@@ -431,17 +431,17 @@ https://fpgasoftware.intel.com/eula.
 ;          |mem_data:mdata|                             ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_data:mdata                                                                                                                                     ; mem_data        ; work         ;
 ;             |altsyncram:mem_rtl_0|                    ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0                                                                                                                ; altsyncram      ; work         ;
 ;                |altsyncram_lml1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated                                                                                 ; altsyncram_lml1 ; work         ;
-;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
-;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
-;                |altsyncram_7f71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated                                                                               ; altsyncram_7f71 ; work         ;
-;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
-;                      |altsyncram_2ga3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated                        ; altsyncram_2ga3 ; work         ;
-;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
-;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
-;    |proc_fix:proc_fix3|                               ; 1624 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3                                                                                                                                                                       ; proc_fix        ; work         ;
+;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
+;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
+;                |altsyncram_ib71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated                                                                               ; altsyncram_ib71 ; work         ;
+;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
+;                      |altsyncram_dca3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated                        ; altsyncram_dca3 ; work         ;
+;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
+;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
+;    |proc_fix:proc_fix3|                               ; 1624 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3                                                                                                                                                                       ; proc_fix        ; work         ;
 ;       |addr_dec:dec_in|                               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|addr_dec:dec_in                                                                                                                                                       ; addr_dec        ; work         ;
 ;       |addr_dec:dec_out|                              ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|addr_dec:dec_out                                                                                                                                                      ; addr_dec        ; work         ;
-;       |proc_fx:p_proc_fix|                            ; 1620 (0)            ; 63 (0)                    ; 97865       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
+;       |proc_fx:p_proc_fix|                            ; 1620 (0)            ; 63 (0)                    ; 98701       ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix                                                                                                                                                    ; proc_fx         ; work         ;
 ;          |core_fx:core|                               ; 1566 (18)           ; 60 (32)                   ; 0           ; 6            ; 0       ; 3         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core                                                                                                                                       ; core_fx         ; work         ;
 ;             |instr_dec_fx:id|                         ; 56 (56)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core|instr_dec_fx:id                                                                                                                       ; instr_dec_fx    ; work         ;
 ;             |pc:pc|                                   ; 13 (13)             ; 13 (13)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|core_fx:core|pc:pc                                                                                                                                 ; pc              ; work         ;
@@ -462,13 +462,13 @@ https://fpgasoftware.intel.com/eula.
 ;          |mem_data:mdata|                             ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_data:mdata                                                                                                                                     ; mem_data        ; work         ;
 ;             |altsyncram:mem_rtl_0|                    ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0                                                                                                                ; altsyncram      ; work         ;
 ;                |altsyncram_lml1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 12992       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated                                                                                 ; altsyncram_lml1 ; work         ;
-;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
-;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
-;                |altsyncram_7f71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated                                                                               ; altsyncram_7f71 ; work         ;
-;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
-;                      |altsyncram_2ga3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 84873       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated                        ; altsyncram_2ga3 ; work         ;
-;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
-;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
+;          |mem_instr:minstr|                           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr                                                                                                                                   ; mem_instr       ; work         ;
+;             |altsyncram:mem_rtl_0|                    ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                                                                              ; altsyncram      ; work         ;
+;                |altsyncram_ib71:auto_generated|       ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated                                                                               ; altsyncram_ib71 ; work         ;
+;                   |altsyncram:ram_block1a0|           ; 54 (0)              ; 3 (0)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0                                                       ; altsyncram      ; work         ;
+;                      |altsyncram_dca3:auto_generated| ; 54 (0)              ; 3 (3)                     ; 85709       ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated                        ; altsyncram_dca3 ; work         ;
+;                         |decode_h8a:rden_decode|      ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|decode_h8a:rden_decode ; decode_h8a      ; work         ;
+;                         |mux_qob:mux2|                ; 49 (49)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multicore|proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|mux_qob:mux2           ; mux_qob         ; work         ;
 +-------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -479,13 +479,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                                                                                                                                                         ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                                         ;
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+---------------------------------------------+
 ; proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated|ALTSYNCRAM                                                          ; AUTO ; Simple Dual Port ; 406          ; 32           ; 406          ; 32           ; 12992 ; db/proc_fix.ram0_mem_data_2557d106.hdl.mif  ;
-; proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4467         ; 19           ; --           ; --           ; 84873 ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ;
+; proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4511         ; 19           ; --           ; --           ; 85709 ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ;
 ; proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated|ALTSYNCRAM                                                          ; AUTO ; Simple Dual Port ; 406          ; 32           ; 406          ; 32           ; 12992 ; db/proc_fix.ram0_mem_data_2557d106.hdl.mif  ;
-; proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4467         ; 19           ; --           ; --           ; 84873 ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ;
+; proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4511         ; 19           ; --           ; --           ; 85709 ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ;
 ; proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated|ALTSYNCRAM                                                          ; AUTO ; Simple Dual Port ; 406          ; 32           ; 406          ; 32           ; 12992 ; db/proc_fix.ram0_mem_data_2557d106.hdl.mif  ;
-; proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4467         ; 19           ; --           ; --           ; 84873 ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ;
+; proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4511         ; 19           ; --           ; --           ; 85709 ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ;
 ; proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_data:mdata|altsyncram:mem_rtl_0|altsyncram_lml1:auto_generated|ALTSYNCRAM                                                          ; AUTO ; Simple Dual Port ; 406          ; 32           ; 406          ; 32           ; 12992 ; db/proc_fix.ram0_mem_data_2557d106.hdl.mif  ;
-; proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4467         ; 19           ; --           ; --           ; 84873 ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ;
+; proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated|ALTSYNCRAM ; AUTO ; ROM              ; 4511         ; 19           ; --           ; --           ; 85709 ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ;
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+---------------------------------------------+
 
 
@@ -589,7 +589,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated ;
+; Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                  ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
@@ -607,7 +607,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated ;
+; Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                  ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
@@ -625,7 +625,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated ;
+; Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                  ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
@@ -643,7 +643,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated ;
+; Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                  ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------------+
@@ -652,7 +652,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated ;
+; Source assignments for proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                                                                         ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
@@ -661,7 +661,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated ;
+; Source assignments for proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                                                                         ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
@@ -670,7 +670,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated ;
+; Source assignments for proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                                                                         ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
@@ -679,7 +679,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0|altsyncram_2ga3:auto_generated ;
+; Source assignments for proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0|altsyncram_dca3:auto_generated ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                                                                                         ;
 +---------------------------------+--------------------+------+----------------------------------------------------------------------------------------------------------------------------+
@@ -694,7 +694,7 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; NUBITS         ; 32                                                                                              ; Signed Integer ;
 ; MDATAS         ; 406                                                                                             ; Signed Integer ;
-; MINSTS         ; 4467                                                                                            ; Signed Integer ;
+; MINSTS         ; 4511                                                                                            ; Signed Integer ;
 ; SDEPTH         ; 16                                                                                              ; Signed Integer ;
 ; NUIOIN         ; 2                                                                                               ; Signed Integer ;
 ; NUIOOU         ; 2                                                                                               ; Signed Integer ;
@@ -852,7 +852,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; Parameter Name ; Value                                                                                           ; Type           ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
-; NADDRE         ; 4467                                                                                            ; Signed Integer ;
+; NADDRE         ; 4511                                                                                            ; Signed Integer ;
 ; NBDATA         ; 19                                                                                              ; Signed Integer ;
 ; FNAME          ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_inst.mif ; String         ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
@@ -898,7 +898,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; NUBITS         ; 32                                                                                              ; Signed Integer ;
 ; MDATAS         ; 406                                                                                             ; Signed Integer ;
-; MINSTS         ; 4467                                                                                            ; Signed Integer ;
+; MINSTS         ; 4511                                                                                            ; Signed Integer ;
 ; SDEPTH         ; 16                                                                                              ; Signed Integer ;
 ; NUIOIN         ; 2                                                                                               ; Signed Integer ;
 ; NUIOOU         ; 2                                                                                               ; Signed Integer ;
@@ -1056,7 +1056,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; Parameter Name ; Value                                                                                           ; Type           ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
-; NADDRE         ; 4467                                                                                            ; Signed Integer ;
+; NADDRE         ; 4511                                                                                            ; Signed Integer ;
 ; NBDATA         ; 19                                                                                              ; Signed Integer ;
 ; FNAME          ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_inst.mif ; String         ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
@@ -1102,7 +1102,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; NUBITS         ; 32                                                                                              ; Signed Integer ;
 ; MDATAS         ; 406                                                                                             ; Signed Integer ;
-; MINSTS         ; 4467                                                                                            ; Signed Integer ;
+; MINSTS         ; 4511                                                                                            ; Signed Integer ;
 ; SDEPTH         ; 16                                                                                              ; Signed Integer ;
 ; NUIOIN         ; 2                                                                                               ; Signed Integer ;
 ; NUIOOU         ; 2                                                                                               ; Signed Integer ;
@@ -1260,7 +1260,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; Parameter Name ; Value                                                                                           ; Type           ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
-; NADDRE         ; 4467                                                                                            ; Signed Integer ;
+; NADDRE         ; 4511                                                                                            ; Signed Integer ;
 ; NBDATA         ; 19                                                                                              ; Signed Integer ;
 ; FNAME          ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_inst.mif ; String         ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
@@ -1306,7 +1306,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; NUBITS         ; 32                                                                                              ; Signed Integer ;
 ; MDATAS         ; 406                                                                                             ; Signed Integer ;
-; MINSTS         ; 4467                                                                                            ; Signed Integer ;
+; MINSTS         ; 4511                                                                                            ; Signed Integer ;
 ; SDEPTH         ; 16                                                                                              ; Signed Integer ;
 ; NUIOIN         ; 2                                                                                               ; Signed Integer ;
 ; NUIOOU         ; 2                                                                                               ; Signed Integer ;
@@ -1464,7 +1464,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
 ; Parameter Name ; Value                                                                                           ; Type           ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
-; NADDRE         ; 4467                                                                                            ; Signed Integer ;
+; NADDRE         ; 4511                                                                                            ; Signed Integer ;
 ; NBDATA         ; 19                                                                                              ; Signed Integer ;
 ; FNAME          ; C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_inst.mif ; String         ;
 +----------------+-------------------------------------------------------------------------------------------------+----------------+
@@ -1578,7 +1578,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                   ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                   ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                   ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                   ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                   ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                   ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                   ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                   ;
@@ -1607,7 +1607,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                   ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                   ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                   ;
 ; MAXIMUM_DEPTH                      ; 0                                           ; Untyped                                   ;
 ; CLOCK_ENABLE_INPUT_A               ; NORMAL                                      ; Untyped                                   ;
@@ -1620,7 +1620,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                   ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                   ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                   ;
-; CBXI_PARAMETER                     ; altsyncram_7f71                             ; Untyped                                   ;
+; CBXI_PARAMETER                     ; altsyncram_ib71                             ; Untyped                                   ;
 +------------------------------------+---------------------------------------------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1700,7 +1700,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                   ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                   ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                   ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                   ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                   ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                   ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                   ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                   ;
@@ -1729,7 +1729,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                   ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                   ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                   ;
 ; MAXIMUM_DEPTH                      ; 0                                           ; Untyped                                   ;
 ; CLOCK_ENABLE_INPUT_A               ; NORMAL                                      ; Untyped                                   ;
@@ -1742,7 +1742,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                   ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                   ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                   ;
-; CBXI_PARAMETER                     ; altsyncram_7f71                             ; Untyped                                   ;
+; CBXI_PARAMETER                     ; altsyncram_ib71                             ; Untyped                                   ;
 +------------------------------------+---------------------------------------------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1822,7 +1822,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                   ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                   ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                   ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                   ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                   ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                   ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                   ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                   ;
@@ -1851,7 +1851,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                   ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                   ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                   ;
 ; MAXIMUM_DEPTH                      ; 0                                           ; Untyped                                   ;
 ; CLOCK_ENABLE_INPUT_A               ; NORMAL                                      ; Untyped                                   ;
@@ -1864,7 +1864,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                   ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                   ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                   ;
-; CBXI_PARAMETER                     ; altsyncram_7f71                             ; Untyped                                   ;
+; CBXI_PARAMETER                     ; altsyncram_ib71                             ; Untyped                                   ;
 +------------------------------------+---------------------------------------------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1944,7 +1944,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                   ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                   ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                   ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                   ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                   ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                   ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                   ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                   ;
@@ -1973,7 +1973,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                        ; Untyped                                   ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                   ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                   ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                   ;
 ; MAXIMUM_DEPTH                      ; 0                                           ; Untyped                                   ;
 ; CLOCK_ENABLE_INPUT_A               ; NORMAL                                      ; Untyped                                   ;
@@ -1986,7 +1986,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                   ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                   ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                   ;
-; CBXI_PARAMETER                     ; altsyncram_7f71                             ; Untyped                                   ;
+; CBXI_PARAMETER                     ; altsyncram_ib71                             ; Untyped                                   ;
 +------------------------------------+---------------------------------------------+-------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2224,7 +2224,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 ; Parameter Name                     ; Value                                       ; Type                                                                                             ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -2237,7 +2237,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                                                                          ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                                                                          ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                                                                          ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                                                                          ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                                                                          ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                                                                          ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
@@ -2266,7 +2266,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                                                                          ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                                                                          ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                                                                          ;
 ; MAXIMUM_DEPTH                      ; 1024                                        ; Untyped                                                                                          ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS                                      ; Untyped                                                                                          ;
@@ -2279,13 +2279,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                                                                          ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                                                                          ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                                                                          ;
-; CBXI_PARAMETER                     ; altsyncram_2ga3                             ; Untyped                                                                                          ;
+; CBXI_PARAMETER                     ; altsyncram_dca3                             ; Untyped                                                                                          ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 ; Parameter Name                     ; Value                                       ; Type                                                                                             ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -2298,7 +2298,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                                                                          ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                                                                          ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                                                                          ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                                                                          ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                                                                          ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                                                                          ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
@@ -2327,7 +2327,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                                                                          ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                                                                          ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                                                                          ;
 ; MAXIMUM_DEPTH                      ; 1024                                        ; Untyped                                                                                          ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS                                      ; Untyped                                                                                          ;
@@ -2340,13 +2340,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                                                                          ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                                                                          ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                                                                          ;
-; CBXI_PARAMETER                     ; altsyncram_2ga3                             ; Untyped                                                                                          ;
+; CBXI_PARAMETER                     ; altsyncram_dca3                             ; Untyped                                                                                          ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 ; Parameter Name                     ; Value                                       ; Type                                                                                             ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -2359,7 +2359,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                                                                          ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                                                                          ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                                                                          ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                                                                          ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                                                                          ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                                                                          ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
@@ -2388,7 +2388,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                                                                          ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                                                                          ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                                                                          ;
 ; MAXIMUM_DEPTH                      ; 1024                                        ; Untyped                                                                                          ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS                                      ; Untyped                                                                                          ;
@@ -2401,13 +2401,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                                                                          ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                                                                          ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                                                                          ;
-; CBXI_PARAMETER                     ; altsyncram_2ga3                             ; Untyped                                                                                          ;
+; CBXI_PARAMETER                     ; altsyncram_dca3                             ; Untyped                                                                                          ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Parameter Settings for Inferred Entity Instance: proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 ; Parameter Name                     ; Value                                       ; Type                                                                                             ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -2420,7 +2420,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; OPERATION_MODE                     ; ROM                                         ; Untyped                                                                                          ;
 ; WIDTH_A                            ; 19                                          ; Untyped                                                                                          ;
 ; WIDTHAD_A                          ; 13                                          ; Untyped                                                                                          ;
-; NUMWORDS_A                         ; 4467                                        ; Untyped                                                                                          ;
+; NUMWORDS_A                         ; 4511                                        ; Untyped                                                                                          ;
 ; OUTDATA_REG_A                      ; UNREGISTERED                                ; Untyped                                                                                          ;
 ; ADDRESS_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
 ; OUTDATA_ACLR_A                     ; NONE                                        ; Untyped                                                                                          ;
@@ -2449,7 +2449,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_WITH_NBE_READ                      ; Untyped                                                                                          ;
-; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif ; Untyped                                                                                          ;
+; INIT_FILE                          ; db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif ; Untyped                                                                                          ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped                                                                                          ;
 ; MAXIMUM_DEPTH                      ; 1024                                        ; Untyped                                                                                          ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS                                      ; Untyped                                                                                          ;
@@ -2462,7 +2462,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped                                                                                          ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped                                                                                          ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped                                                                                          ;
-; CBXI_PARAMETER                     ; altsyncram_2ga3                             ; Untyped                                                                                          ;
+; CBXI_PARAMETER                     ; altsyncram_dca3                             ; Untyped                                                                                          ;
 +------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -2487,7 +2487,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Entity Instance                           ; proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                        ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2509,7 +2509,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Entity Instance                           ; proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                        ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2531,7 +2531,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Entity Instance                           ; proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                        ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2553,7 +2553,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Entity Instance                           ; proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0                                                        ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2561,10 +2561,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                                                       ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                                               ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                                                          ;
-; Entity Instance                           ; proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Entity Instance                           ; proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2572,10 +2572,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                                                       ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                                               ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                                                          ;
-; Entity Instance                           ; proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Entity Instance                           ; proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2583,10 +2583,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                                                       ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                                               ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                                                          ;
-; Entity Instance                           ; proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Entity Instance                           ; proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2594,10 +2594,10 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                                                                                       ;
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                                                               ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                                                          ;
-; Entity Instance                           ; proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0 ;
+; Entity Instance                           ; proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0 ;
 ;     -- OPERATION_MODE                     ; ROM                                                                                                                                ;
 ;     -- WIDTH_A                            ; 19                                                                                                                                 ;
-;     -- NUMWORDS_A                         ; 4467                                                                                                                               ;
+;     -- NUMWORDS_A                         ; 4511                                                                                                                               ;
 ;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                                       ;
 ;     -- WIDTH_B                            ; 1                                                                                                                                  ;
 ;     -- NUMWORDS_B                         ; 1                                                                                                                                  ;
@@ -2713,7 +2713,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:11     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -2723,7 +2723,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sun Apr 26 14:19:07 2020
+    Info: Processing started: Thu Apr 30 22:20:41 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proc_fix -c proc_fix
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -2798,13 +2798,13 @@ Info (19000): Inferred 8 megafunctions from design logic
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 19
         Info (286033): Parameter WIDTHAD_A set to 13
-        Info (286033): Parameter NUMWORDS_A set to 4467
+        Info (286033): Parameter NUMWORDS_A set to 4511
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter ADDRESS_ACLR_A set to NONE
         Info (286033): Parameter OUTDATA_ACLR_A set to NONE
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif
+        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif
     Info (276029): Inferred altsyncram megafunction from the following design logic: "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_data:mdata|mem_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
         Info (286033): Parameter WIDTH_A set to 32
@@ -2826,13 +2826,13 @@ Info (19000): Inferred 8 megafunctions from design logic
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 19
         Info (286033): Parameter WIDTHAD_A set to 13
-        Info (286033): Parameter NUMWORDS_A set to 4467
+        Info (286033): Parameter NUMWORDS_A set to 4511
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter ADDRESS_ACLR_A set to NONE
         Info (286033): Parameter OUTDATA_ACLR_A set to NONE
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif
+        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif
     Info (276029): Inferred altsyncram megafunction from the following design logic: "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_data:mdata|mem_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
         Info (286033): Parameter WIDTH_A set to 32
@@ -2854,13 +2854,13 @@ Info (19000): Inferred 8 megafunctions from design logic
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 19
         Info (286033): Parameter WIDTHAD_A set to 13
-        Info (286033): Parameter NUMWORDS_A set to 4467
+        Info (286033): Parameter NUMWORDS_A set to 4511
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter ADDRESS_ACLR_A set to NONE
         Info (286033): Parameter OUTDATA_ACLR_A set to NONE
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif
+        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif
     Info (276029): Inferred altsyncram megafunction from the following design logic: "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_data:mdata|mem_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
         Info (286033): Parameter WIDTH_A set to 32
@@ -2882,13 +2882,13 @@ Info (19000): Inferred 8 megafunctions from design logic
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 19
         Info (286033): Parameter WIDTHAD_A set to 13
-        Info (286033): Parameter NUMWORDS_A set to 4467
+        Info (286033): Parameter NUMWORDS_A set to 4511
         Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
         Info (286033): Parameter ADDRESS_ACLR_A set to NONE
         Info (286033): Parameter OUTDATA_ACLR_A set to NONE
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif
+        Info (286033): Parameter INIT_FILE set to db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif
 Info (278001): Inferred 8 megafunctions from design logic
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|Mult0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Proc_IP/ula_fx.v Line: 52
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|Div0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Proc_IP/ula_fx.v Line: 48
@@ -2923,15 +2923,15 @@ Info (12133): Instantiated megafunction "proc_fix:proc_fix0|proc_fx:p_proc_fix|m
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "19"
     Info (12134): Parameter "WIDTHAD_A" = "13"
-    Info (12134): Parameter "NUMWORDS_A" = "4467"
+    Info (12134): Parameter "NUMWORDS_A" = "4511"
     Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
     Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
     Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
     Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
     Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
-    Info (12134): Parameter "INIT_FILE" = "db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_7f71.tdf
-    Info (12023): Found entity 1: altsyncram_7f71 File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 28
+    Info (12134): Parameter "INIT_FILE" = "db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ib71.tdf
+    Info (12023): Found entity 1: altsyncram_ib71 File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 28
 Info (12130): Elaborated megafunction instantiation "proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Proc_IP/ula_fx.v Line: 52
 Info (12133): Instantiated megafunction "proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0" with the following parameter: File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Proc_IP/ula_fx.v Line: 52
     Info (12134): Parameter "LPM_WIDTHA" = "32"
@@ -2975,93 +2975,93 @@ Warning (14284): Synthesized away the following node(s):
         Warning (14320): Synthesized away node "proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_mult7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/mult_46t.tdf Line: 67
         Warning (14320): Synthesized away node "proc_fix:proc_fix0|proc_fx:p_proc_fix|core_fx:core|ula_fx:ula|lpm_mult:Mult0|mult_46t:auto_generated|mac_out8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/mult_46t.tdf Line: 91
 Info (270021): Converted the following 4 logical RAM block slices to smaller depth
-    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 329
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 350
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 371
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 392
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 413
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 308
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 35
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 56
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 77
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 98
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 119
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 140
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 161
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 182
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 203
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 224
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 245
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 266
-        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 287
-    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 329
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 350
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 371
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 392
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 413
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 308
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 35
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 56
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 77
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 98
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 119
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 140
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 161
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 182
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 203
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 224
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 245
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 266
-        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 287
-    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 329
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 350
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 371
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 392
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 413
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 308
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 35
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 56
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 77
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 98
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 119
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 140
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 161
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 182
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 203
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 224
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 245
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 266
-        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 287
-    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 329
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 350
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 371
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 392
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 413
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 308
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 35
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 56
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 77
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 98
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 119
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 140
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 161
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 182
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 203
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 224
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 245
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 266
-        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 287
-Info (12130): Elaborated megafunction instantiation "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 35
-Info (12133): Instantiated megafunction "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_7f71:auto_generated|altsyncram:ram_block1a0" with the following parameter: File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_7f71.tdf Line: 35
+    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 329
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 350
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 371
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 392
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 413
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 308
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 35
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 56
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 77
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 98
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 119
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 140
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 161
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 182
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 203
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 224
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 245
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 266
+        Info (270019): RAM block slice "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 287
+    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 329
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 350
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 371
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 392
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 413
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 308
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 35
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 56
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 77
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 98
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 119
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 140
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 161
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 182
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 203
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 224
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 245
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 266
+        Info (270019): RAM block slice "proc_fix:proc_fix2|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 287
+    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 329
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 350
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 371
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 392
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 413
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 308
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 35
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 56
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 77
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 98
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 119
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 140
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 161
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 182
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 203
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 224
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 245
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 266
+        Info (270019): RAM block slice "proc_fix:proc_fix1|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 287
+    Info (270020): Converted the following logical RAM block "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ALTSYNCRAM" slices to smaller maximum block depth of 1024
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a14" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 329
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a15" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 350
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a16" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 371
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a17" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 392
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a18" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 413
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a13" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 308
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 35
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a1" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 56
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a2" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 77
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a3" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 98
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a4" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 119
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a5" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 140
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a6" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 161
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a7" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 182
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a8" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 203
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a9" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 224
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a10" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 245
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a11" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 266
+        Info (270019): RAM block slice "proc_fix:proc_fix0|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|ram_block1a12" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 287
+Info (12130): Elaborated megafunction instantiation "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0" File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 35
+Info (12133): Instantiated megafunction "proc_fix:proc_fix3|proc_fx:p_proc_fix|mem_instr:minstr|altsyncram:mem_rtl_0|altsyncram_ib71:auto_generated|altsyncram:ram_block1a0" with the following parameter: File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_ib71.tdf Line: 35
     Info (12134): Parameter "LPM_TYPE" = "altsyncram"
     Info (12134): Parameter "OPERATION_MODE" = "ROM"
     Info (12134): Parameter "WIDTH_A" = "19"
     Info (12134): Parameter "WIDTHAD_A" = "13"
-    Info (12134): Parameter "NUMWORDS_A" = "4467"
+    Info (12134): Parameter "NUMWORDS_A" = "4511"
     Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
     Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
     Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
@@ -3092,7 +3092,7 @@ Info (12133): Instantiated megafunction "proc_fix:proc_fix3|proc_fx:p_proc_fix|m
     Info (12134): Parameter "RAM_BLOCK_TYPE" = "AUTO"
     Info (12134): Parameter "BYTE_SIZE" = "8"
     Info (12134): Parameter "READ_DURING_WRITE_MODE_MIXED_PORTS" = "DONT_CARE"
-    Info (12134): Parameter "INIT_FILE" = "db/proc_fix.ram0_mem_instr_eef19d50.hdl.mif"
+    Info (12134): Parameter "INIT_FILE" = "db/proc_fix.ram0_mem_instr_a54a1246.hdl.mif"
     Info (12134): Parameter "INIT_FILE_LAYOUT" = "PORT_A"
     Info (12134): Parameter "MAXIMUM_DEPTH" = "1024"
     Info (12134): Parameter "ENABLE_RUNTIME_MOD" = "NO"
@@ -3104,8 +3104,8 @@ Info (12133): Instantiated megafunction "proc_fix:proc_fix3|proc_fx:p_proc_fix|m
     Info (12134): Parameter "READ_DURING_WRITE_MODE_PORT_A" = "NEW_DATA_WITH_NBE_READ"
     Info (12134): Parameter "READ_DURING_WRITE_MODE_PORT_B" = "NEW_DATA_WITH_NBE_READ"
     Info (12134): Parameter "CLOCK_ENABLE_ECC_STATUS" = "NORMAL"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_2ga3.tdf
-    Info (12023): Found entity 1: altsyncram_2ga3 File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_2ga3.tdf Line: 32
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_dca3.tdf
+    Info (12023): Found entity 1: altsyncram_dca3 File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/altsyncram_dca3.tdf Line: 32
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_h8a.tdf
     Info (12023): Found entity 1: decode_h8a File: C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/Quartus_Files/db/decode_h8a.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_qob.tdf
@@ -3125,10 +3125,10 @@ Info (21057): Implemented 7363 device resources after synthesis - the final reso
     Info (21064): Implemented 508 RAM segments
     Info (21062): Implemented 24 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 15 warnings
-    Info: Peak virtual memory: 4841 megabytes
-    Info: Processing ended: Sun Apr 26 14:19:34 2020
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:47
+    Info: Peak virtual memory: 4848 megabytes
+    Info: Processing ended: Thu Apr 30 22:21:02 2020
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:33
 
 
 +------------------------------------------+
