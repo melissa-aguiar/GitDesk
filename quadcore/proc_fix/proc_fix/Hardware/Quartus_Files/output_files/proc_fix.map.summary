@@ -1,4 +1,4 @@
-Analysis & Synthesis Status : Successful - Sun Apr 26 14:19:33 2020
+Analysis & Synthesis Status : Successful - Thu Apr 30 22:21:01 2020
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : proc_fix
 Top-level Entity Name : multicore
@@ -9,6 +9,6 @@ Total logic elements : 6,497
 Total registers : 252
 Total pins : 178
 Total virtual pins : 0
-Total memory bits : 391,460
+Total memory bits : 394,804
 Embedded Multiplier 9-bit elements : 24
 Total PLLs : 0
