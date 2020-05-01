@@ -15,8 +15,8 @@ wire [0:0] addr_in;
 wire [0:0] addr_out;
 
 proc_fx #(.NUBITS(32),
-.MDATAS(406),
-.MINSTS(4727),
+.MDATAS(498),
+.MINSTS(7311),
 .SDEPTH(16),
 .NUIOIN(2),
 .NUIOOU(2),
@@ -25,8 +25,8 @@ proc_fx #(.NUBITS(32),
 .ADD(1),
 .LES(1),
 .DIV(1),
-.DFILE("C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_data.mif"),
-.IFILE("C:/Users/melis/Desktop/GitDesk/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_inst.mif")
+.DFILE("C:/Users/melis/Desktop/GitDesk/ganho6/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_data.mif"),
+.IFILE("C:/Users/melis/Desktop/GitDesk/ganho6/quadcore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_inst.mif")
 ) p_proc_fix (clk, rst, in_float, out_float, addr_in, addr_out, proc_req_in, proc_out_en);
 
 assign io_out = out_float;
