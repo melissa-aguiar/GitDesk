@@ -19,7 +19,7 @@ initial begin
 	//#1 rst = 0;
 end
 
-always #1 clk = ~clk;
+always #1087 clk = ~clk;
 
 
 
