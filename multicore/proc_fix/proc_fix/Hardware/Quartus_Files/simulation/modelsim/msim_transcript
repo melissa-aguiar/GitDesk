@@ -12,149 +12,149 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/positivo_fx.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:39 on May 07,2020
+# Start time: 22:17:46 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/positivo_fx.v 
 # -- Compiling module positivo_fx
 # 
 # Top level modules:
 # 	positivo_fx
-# End time: 00:09:40 on May 07,2020, Elapsed time: 0:00:01
+# End time: 22:17:46 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on May 07,2020
+# Start time: 22:17:46 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix.v 
 # -- Compiling module proc_fix
 # 
 # Top level modules:
 # 	proc_fix
-# End time: 00:09:40 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:46 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/ula_fx.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on May 07,2020
+# Start time: 22:17:46 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/ula_fx.v 
 # -- Compiling module ula_fx
 # 
 # Top level modules:
 # 	ula_fx
-# End time: 00:09:40 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:46 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/stack_pointer.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on May 07,2020
+# Start time: 22:17:46 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/stack_pointer.v 
 # -- Compiling module stack_pointer
 # 
 # Top level modules:
 # 	stack_pointer
-# End time: 00:09:40 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:46 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/proc_fx.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on May 07,2020
+# Start time: 22:17:46 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/proc_fx.v 
 # -- Compiling module proc_fx
 # 
 # Top level modules:
 # 	proc_fx
-# End time: 00:09:40 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:46 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/prefetch.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on May 07,2020
+# Start time: 22:17:46 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/prefetch.v 
 # -- Compiling module prefetch
 # 
 # Top level modules:
 # 	prefetch
-# End time: 00:09:40 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/pc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/pc.v 
 # -- Compiling module pc
 # 
 # Top level modules:
 # 	pc
-# End time: 00:09:40 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/mem_instr.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:40 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/mem_instr.v 
 # -- Compiling module mem_instr
 # 
 # Top level modules:
 # 	mem_instr
-# End time: 00:09:41 on May 07,2020, Elapsed time: 0:00:01
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/mem_data.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/mem_data.v 
 # -- Compiling module mem_data
 # 
 # Top level modules:
 # 	mem_data
-# End time: 00:09:41 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/instr_dec_fx.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/instr_dec_fx.v 
 # -- Compiling module instr_dec_fx
 # 
 # Top level modules:
 # 	instr_dec_fx
-# End time: 00:09:41 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/core_fx.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/core_fx.v 
 # -- Compiling module core_fx
 # 
 # Top level modules:
 # 	core_fx
-# End time: 00:09:41 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/addr_dec.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/addr_dec.v 
 # -- Compiling module addr_dec
 # 
 # Top level modules:
 # 	addr_dec
-# End time: 00:09:41 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/multicore.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/multicore.v 
 # -- Compiling module multicore
 # 
 # Top level modules:
 # 	multicore
-# End time: 00:09:41 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:47 on May 07,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H {C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H/multicore_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:09:41 on May 07,2020
+# Start time: 22:17:47 on May 07,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H" C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H/multicore_tb.v 
 # -- Compiling module multicore_tb
 # 
 # Top level modules:
 # 	multicore_tb
-# End time: 00:09:41 on May 07,2020, Elapsed time: 0:00:00
+# End time: 22:17:48 on May 07,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  multicore_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" multicore_tb 
-# Start time: 00:09:41 on May 07,2020
+# Start time: 22:17:49 on May 07,2020
 # Loading work.multicore_tb
 # Loading work.multicore
 # Loading work.proc_fix
@@ -176,6 +176,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1 ps
-run 100us
-# End time: 00:15:23 on May 07,2020, Elapsed time: 0:05:42
+run 400us
+# End time: 22:20:55 on May 07,2020, Elapsed time: 0:03:06
 # Errors: 0, Warnings: 0

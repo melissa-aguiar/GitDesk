@@ -10,1246 +10,222 @@
 EQU 1
 JZ L1end
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_0
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_1
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_2
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_3
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_4
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_5
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_6
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_7
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_8
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_9
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_10
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_11
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_12
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_13
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_14
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_15
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_16
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_17
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_18
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_19
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_20
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_21
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_22
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_23
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_24
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_25
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_26
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_27
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_28
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_29
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_30
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_31
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_32
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_33
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_34
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_35
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_36
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_37
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_38
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_39
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_40
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_41
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_42
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_43
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_44
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_45
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_46
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_47
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_48
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_49
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_50
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_51
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET maind_52
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
+SET maind_53
+LOAD maind_53
 SET maind_53
 LOAD maind_3
 SET mainx_0
@@ -5048,441 +4024,441 @@ LOAD mainaux_46
 PSET mainx_46
 LOAD mainaux_47
 PSET mainx_47
-LOAD 128
-DIV mainx_0
+LOAD mainx_0
+NORM
 SET mainx_0
-LOAD 128
-DIV mainx_1
+LOAD mainx_1
+NORM
 SET mainx_1
-LOAD 128
-DIV mainx_2
+LOAD mainx_2
+NORM
 SET mainx_2
-LOAD 128
-DIV mainx_3
+LOAD mainx_3
+NORM
 SET mainx_3
-LOAD 128
-DIV mainx_4
+LOAD mainx_4
+NORM
 SET mainx_4
-LOAD 128
-DIV mainx_5
+LOAD mainx_5
+NORM
 SET mainx_5
-LOAD 128
-DIV mainx_6
+LOAD mainx_6
+NORM
 SET mainx_6
-LOAD 128
-DIV mainx_7
+LOAD mainx_7
+NORM
 SET mainx_7
-LOAD 128
-DIV mainx_8
+LOAD mainx_8
+NORM
 SET mainx_8
-LOAD 128
-DIV mainx_9
+LOAD mainx_9
+NORM
 SET mainx_9
-LOAD 128
-DIV mainx_10
+LOAD mainx_10
+NORM
 SET mainx_10
-LOAD 128
-DIV mainx_11
+LOAD mainx_11
+NORM
 SET mainx_11
-LOAD 128
-DIV mainx_12
+LOAD mainx_12
+NORM
 SET mainx_12
-LOAD 128
-DIV mainx_13
+LOAD mainx_13
+NORM
 SET mainx_13
-LOAD 128
-DIV mainx_14
+LOAD mainx_14
+NORM
 SET mainx_14
-LOAD 128
-DIV mainx_15
+LOAD mainx_15
+NORM
 SET mainx_15
-LOAD 128
-DIV mainx_16
+LOAD mainx_16
+NORM
 SET mainx_16
-LOAD 128
-DIV mainx_17
+LOAD mainx_17
+NORM
 SET mainx_17
-LOAD 128
-DIV mainx_18
+LOAD mainx_18
+NORM
 SET mainx_18
-LOAD 128
-DIV mainx_19
+LOAD mainx_19
+NORM
 SET mainx_19
-LOAD 128
-DIV mainx_20
+LOAD mainx_20
+NORM
 SET mainx_20
-LOAD 128
-DIV mainx_21
+LOAD mainx_21
+NORM
 SET mainx_21
-LOAD 128
-DIV mainx_22
+LOAD mainx_22
+NORM
 SET mainx_22
-LOAD 128
-DIV mainx_23
+LOAD mainx_23
+NORM
 SET mainx_23
-LOAD 128
-DIV mainx_24
+LOAD mainx_24
+NORM
 SET mainx_24
-LOAD 128
-DIV mainx_25
+LOAD mainx_25
+NORM
 SET mainx_25
-LOAD 128
-DIV mainx_26
+LOAD mainx_26
+NORM
 SET mainx_26
-LOAD 128
-DIV mainx_27
+LOAD mainx_27
+NORM
 SET mainx_27
-LOAD 128
-DIV mainx_28
+LOAD mainx_28
+NORM
 SET mainx_28
-LOAD 128
-DIV mainx_29
+LOAD mainx_29
+NORM
 SET mainx_29
-LOAD 128
-DIV mainx_30
+LOAD mainx_30
+NORM
 SET mainx_30
-LOAD 128
-DIV mainx_31
+LOAD mainx_31
+NORM
 SET mainx_31
-LOAD 128
-DIV mainx_32
+LOAD mainx_32
+NORM
 SET mainx_32
-LOAD 128
-DIV mainx_33
+LOAD mainx_33
+NORM
 SET mainx_33
-LOAD 128
-DIV mainx_34
+LOAD mainx_34
+NORM
 SET mainx_34
-LOAD 128
-DIV mainx_35
+LOAD mainx_35
+NORM
 SET mainx_35
-LOAD 128
-DIV mainx_36
+LOAD mainx_36
+NORM
 SET mainx_36
-LOAD 128
-DIV mainx_37
+LOAD mainx_37
+NORM
 SET mainx_37
-LOAD 128
-DIV mainx_38
+LOAD mainx_38
+NORM
 SET mainx_38
-LOAD 128
-DIV mainx_39
+LOAD mainx_39
+NORM
 SET mainx_39
-LOAD 128
-DIV mainx_40
+LOAD mainx_40
+NORM
 SET mainx_40
-LOAD 128
-DIV mainx_41
+LOAD mainx_41
+NORM
 SET mainx_41
-LOAD 128
-DIV mainx_42
+LOAD mainx_42
+NORM
 SET mainx_42
-LOAD 128
-DIV mainx_43
+LOAD mainx_43
+NORM
 SET mainx_43
-LOAD 128
-DIV mainx_44
+LOAD mainx_44
+NORM
 SET mainx_44
-LOAD 128
-DIV mainx_45
+LOAD mainx_45
+NORM
 SET mainx_45
-LOAD 128
-DIV mainx_46
+LOAD mainx_46
+NORM
 SET mainx_46
-LOAD 128
-DIV mainx_47
+LOAD mainx_47
+NORM
 SET mainx_47
 LOAD 1
 ADD mainj
 SET mainj
 JMP L2
-@L2end LOAD 128
-DIV mainx_0
+@L2end LOAD mainx_0
+NORM
 SET mainx_0
-LOAD 128
-DIV mainx_1
+LOAD mainx_1
+NORM
 SET mainx_1
-LOAD 128
-DIV mainx_2
+LOAD mainx_2
+NORM
 SET mainx_2
-LOAD 128
-DIV mainx_3
+LOAD mainx_3
+NORM
 SET mainx_3
-LOAD 128
-DIV mainx_4
+LOAD mainx_4
+NORM
 SET mainx_4
-LOAD 128
-DIV mainx_5
+LOAD mainx_5
+NORM
 SET mainx_5
-LOAD 128
-DIV mainx_6
+LOAD mainx_6
+NORM
 SET mainx_6
-LOAD 128
-DIV mainx_7
+LOAD mainx_7
+NORM
 SET mainx_7
-LOAD 128
-DIV mainx_8
+LOAD mainx_8
+NORM
 SET mainx_8
-LOAD 128
-DIV mainx_9
+LOAD mainx_9
+NORM
 SET mainx_9
-LOAD 128
-DIV mainx_10
+LOAD mainx_10
+NORM
 SET mainx_10
-LOAD 128
-DIV mainx_11
+LOAD mainx_11
+NORM
 SET mainx_11
-LOAD 128
-DIV mainx_12
+LOAD mainx_12
+NORM
 SET mainx_12
-LOAD 128
-DIV mainx_13
+LOAD mainx_13
+NORM
 SET mainx_13
-LOAD 128
-DIV mainx_14
+LOAD mainx_14
+NORM
 SET mainx_14
-LOAD 128
-DIV mainx_15
+LOAD mainx_15
+NORM
 SET mainx_15
-LOAD 128
-DIV mainx_16
+LOAD mainx_16
+NORM
 SET mainx_16
-LOAD 128
-DIV mainx_17
+LOAD mainx_17
+NORM
 SET mainx_17
-LOAD 128
-DIV mainx_18
+LOAD mainx_18
+NORM
 SET mainx_18
-LOAD 128
-DIV mainx_19
+LOAD mainx_19
+NORM
 SET mainx_19
-LOAD 128
-DIV mainx_20
+LOAD mainx_20
+NORM
 SET mainx_20
-LOAD 128
-DIV mainx_21
+LOAD mainx_21
+NORM
 SET mainx_21
-LOAD 128
-DIV mainx_22
+LOAD mainx_22
+NORM
 SET mainx_22
-LOAD 128
-DIV mainx_23
+LOAD mainx_23
+NORM
 SET mainx_23
-LOAD 128
-DIV mainx_24
+LOAD mainx_24
+NORM
 SET mainx_24
-LOAD 128
-DIV mainx_25
+LOAD mainx_25
+NORM
 SET mainx_25
-LOAD 128
-DIV mainx_26
+LOAD mainx_26
+NORM
 SET mainx_26
-LOAD 128
-DIV mainx_27
+LOAD mainx_27
+NORM
 SET mainx_27
-LOAD 128
-DIV mainx_28
+LOAD mainx_28
+NORM
 SET mainx_28
-LOAD 128
-DIV mainx_29
+LOAD mainx_29
+NORM
 SET mainx_29
-LOAD 128
-DIV mainx_30
+LOAD mainx_30
+NORM
 SET mainx_30
-LOAD 128
-DIV mainx_31
+LOAD mainx_31
+NORM
 SET mainx_31
-LOAD 128
-DIV mainx_32
+LOAD mainx_32
+NORM
 SET mainx_32
-LOAD 128
-DIV mainx_33
+LOAD mainx_33
+NORM
 SET mainx_33
-LOAD 128
-DIV mainx_34
+LOAD mainx_34
+NORM
 SET mainx_34
-LOAD 128
-DIV mainx_35
+LOAD mainx_35
+NORM
 SET mainx_35
-LOAD 128
-DIV mainx_36
+LOAD mainx_36
+NORM
 SET mainx_36
-LOAD 128
-DIV mainx_37
+LOAD mainx_37
+NORM
 SET mainx_37
-LOAD 128
-DIV mainx_38
+LOAD mainx_38
+NORM
 SET mainx_38
-LOAD 128
-DIV mainx_39
+LOAD mainx_39
+NORM
 SET mainx_39
-LOAD 128
-DIV mainx_40
+LOAD mainx_40
+NORM
 SET mainx_40
-LOAD 128
-DIV mainx_41
+LOAD mainx_41
+NORM
 SET mainx_41
-LOAD 128
-DIV mainx_42
+LOAD mainx_42
+NORM
 SET mainx_42
-LOAD 128
-DIV mainx_43
+LOAD mainx_43
+NORM
 SET mainx_43
-LOAD 128
-DIV mainx_44
+LOAD mainx_44
+NORM
 SET mainx_44
-LOAD 128
-DIV mainx_45
+LOAD mainx_45
+NORM
 SET mainx_45
-LOAD 128
-DIV mainx_46
+LOAD mainx_46
+NORM
 SET mainx_46
-LOAD 128
-DIV mainx_47
+LOAD mainx_47
+NORM
 SET mainx_47
-LOAD 128
-DIV mainx_0
+LOAD mainx_0
+NORM
 SET mainx_0
-LOAD 128
-DIV mainx_1
+LOAD mainx_1
+NORM
 SET mainx_1
-LOAD 128
-DIV mainx_2
+LOAD mainx_2
+NORM
 SET mainx_2
-LOAD 128
-DIV mainx_3
+LOAD mainx_3
+NORM
 SET mainx_3
-LOAD 128
-DIV mainx_4
+LOAD mainx_4
+NORM
 SET mainx_4
-LOAD 128
-DIV mainx_5
+LOAD mainx_5
+NORM
 SET mainx_5
-LOAD 128
-DIV mainx_6
+LOAD mainx_6
+NORM
 SET mainx_6
-LOAD 128
-DIV mainx_7
+LOAD mainx_7
+NORM
 SET mainx_7
-LOAD 128
-DIV mainx_8
+LOAD mainx_8
+NORM
 SET mainx_8
-LOAD 128
-DIV mainx_9
+LOAD mainx_9
+NORM
 SET mainx_9
-LOAD 128
-DIV mainx_10
+LOAD mainx_10
+NORM
 SET mainx_10
-LOAD 128
-DIV mainx_11
+LOAD mainx_11
+NORM
 SET mainx_11
-LOAD 128
-DIV mainx_12
+LOAD mainx_12
+NORM
 SET mainx_12
-LOAD 128
-DIV mainx_13
+LOAD mainx_13
+NORM
 SET mainx_13
-LOAD 128
-DIV mainx_14
+LOAD mainx_14
+NORM
 SET mainx_14
-LOAD 128
-DIV mainx_15
+LOAD mainx_15
+NORM
 SET mainx_15
-LOAD 128
-DIV mainx_16
+LOAD mainx_16
+NORM
 SET mainx_16
-LOAD 128
-DIV mainx_17
+LOAD mainx_17
+NORM
 SET mainx_17
-LOAD 128
-DIV mainx_18
+LOAD mainx_18
+NORM
 SET mainx_18
-LOAD 128
-DIV mainx_19
+LOAD mainx_19
+NORM
 SET mainx_19
-LOAD 128
-DIV mainx_20
+LOAD mainx_20
+NORM
 SET mainx_20
-LOAD 128
-DIV mainx_21
+LOAD mainx_21
+NORM
 SET mainx_21
-LOAD 128
-DIV mainx_22
+LOAD mainx_22
+NORM
 SET mainx_22
-LOAD 128
-DIV mainx_23
+LOAD mainx_23
+NORM
 SET mainx_23
-LOAD 128
-DIV mainx_24
+LOAD mainx_24
+NORM
 SET mainx_24
-LOAD 128
-DIV mainx_25
+LOAD mainx_25
+NORM
 SET mainx_25
-LOAD 128
-DIV mainx_26
+LOAD mainx_26
+NORM
 SET mainx_26
-LOAD 128
-DIV mainx_27
+LOAD mainx_27
+NORM
 SET mainx_27
-LOAD 128
-DIV mainx_28
+LOAD mainx_28
+NORM
 SET mainx_28
-LOAD 128
-DIV mainx_29
+LOAD mainx_29
+NORM
 SET mainx_29
-LOAD 128
-DIV mainx_30
+LOAD mainx_30
+NORM
 SET mainx_30
-LOAD 128
-DIV mainx_31
+LOAD mainx_31
+NORM
 SET mainx_31
-LOAD 128
-DIV mainx_32
+LOAD mainx_32
+NORM
 SET mainx_32
-LOAD 128
-DIV mainx_33
+LOAD mainx_33
+NORM
 SET mainx_33
-LOAD 128
-DIV mainx_34
+LOAD mainx_34
+NORM
 SET mainx_34
-LOAD 128
-DIV mainx_35
+LOAD mainx_35
+NORM
 SET mainx_35
-LOAD 128
-DIV mainx_36
+LOAD mainx_36
+NORM
 SET mainx_36
-LOAD 128
-DIV mainx_37
+LOAD mainx_37
+NORM
 SET mainx_37
-LOAD 128
-DIV mainx_38
+LOAD mainx_38
+NORM
 SET mainx_38
-LOAD 128
-DIV mainx_39
+LOAD mainx_39
+NORM
 SET mainx_39
-LOAD 128
-DIV mainx_40
+LOAD mainx_40
+NORM
 SET mainx_40
-LOAD 128
-DIV mainx_41
+LOAD mainx_41
+NORM
 SET mainx_41
-LOAD 128
-DIV mainx_42
+LOAD mainx_42
+NORM
 SET mainx_42
-LOAD 128
-DIV mainx_43
+LOAD mainx_43
+NORM
 SET mainx_43
-LOAD 128
-DIV mainx_44
+LOAD mainx_44
+NORM
 SET mainx_44
-LOAD 128
-DIV mainx_45
+LOAD mainx_45
+NORM
 SET mainx_45
-LOAD 128
-DIV mainx_46
+LOAD mainx_46
+NORM
 SET mainx_46
-LOAD 128
-DIV mainx_47
+LOAD mainx_47
+NORM
 SET mainx_47
 LOAD 0
 PLD 0

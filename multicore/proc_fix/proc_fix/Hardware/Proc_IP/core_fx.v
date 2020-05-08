@@ -29,7 +29,8 @@ module core_fx
 	parameter SHR   =  0,
 	parameter XOR   =  0,
 	parameter SHL   =  0,
-	parameter SRS   =  0
+	parameter SRS   =  0,
+	parameter NRM   =  0
 )
 (
 	input                       clk, rst,
@@ -81,7 +82,7 @@ wire [NBOPER-1:0] id_operand = pf_operand;
 wire              id_dsp_push;
 wire              id_dsp_pop;
 
-wire [       3:0] id_ula_op;
+wire [       4:0] id_ula_op;
 wire [NUBITS-1:0] id_ula_data;
 
 wire [MDATAW-1:0] id_mem_addr;
@@ -127,7 +128,8 @@ ula_fx #(.NUBITS(NUBITS),
          .SHR   (SHR   ),
          .XOR   (XOR   ),
          .SHL   (SHL   ),
-         .SRS   (SRS   )) ula(id_ula_op, id_ula_data, ula_acc, ula_out);
+         .SRS   (SRS   ),
+			.NRM   (NRM   )) ula(id_ula_op, id_ula_data, ula_acc, ula_out);
 
 // Acumulador -----------------------------------------------------------------
 
@@ -144,7 +146,7 @@ always @ (posedge clk or posedge rst) begin
 		racc <= 0;
 	else
 		racc <= out;  //racc <= ula_out;
-		
+
 end
 
 assign ula_acc = racc;
@@ -191,4 +193,4 @@ endgenerate
 assign addr_in    = mem_data_in[$clog2(NUIOIN)-1:0];
 assign addr_out   = mem_data_in[$clog2(NUIOOU)-1:0];
 
-endmodule 
+endmodule
