@@ -30,6 +30,7 @@ module proc_fx
 	parameter XOR   =  0,
 	parameter SHL   =  0,
 	parameter SRS   =  0,
+	parameter NRM   =  0,
 
 	// parametros configurados internamente ------------------------------------
 
@@ -89,7 +90,8 @@ core_fx #(.NUBITS(NUBITS),
           .SHR   (SHR)   ,
           .XOR   (XOR)   ,
           .SHL   (SHL)   ,
-          .SRS   (SRS)  ) core(clk, rst,
+          .SRS   (SRS)   ,
+			 .NRM   (NRM)  ) core(clk, rst,
                                instr, instr_addr,
                                mem_wr, mem_addr_w, mem_addr_r, mem_data_in, mem_data_out,
                                io_in, addr_in, addr_out, req_in, out_en);
@@ -129,7 +131,8 @@ core_fx #(.NUBITS(NUBITS),
           .SHR   (SHR)   ,
           .XOR   (XOR)   ,
           .SHL   (SHL)   ,
-          .SRS   (SRS)  ) core(clk, rst,
+          .SRS   (SRS)   ,
+			 .NRM   (NRM)  ) core(clk, rst,
                                instr, instr_addr,
                                mem_wr, mem_addr_w, mem_addr_r, mem_data_in, mem_data_out,
                                io_in, addr_in, addr_out, req_in, out_en);
@@ -148,4 +151,4 @@ mem_data # (.NADDRE(MDATAS),
             .NBDATA(NUBITS),
             .FNAME (DFILE)) mdata(clk, mem_wr, mem_addr_w, mem_addr_r, mem_data_out, mem_data_in);
 
-endmodule 
+endmodule
