@@ -26,7 +26,7 @@ proc_fx #(.NUBITS(32),
 .ADD(1),
 .PSET(1),
 .LES(1),
-.DIV(1),
+.NRM(1),
 .DFILE("C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_data.mif"),
 .IFILE("C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix_inst.mif")
 ) p_proc_fix (clk, rst, in_float, out_float, addr_in, addr_out, proc_req_in, proc_out_en);
