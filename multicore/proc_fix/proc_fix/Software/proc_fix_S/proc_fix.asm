@@ -6,6 +6,7 @@
 #SDEPTH 16
 #NUIOIN 2
 #NUIOOU 2
+#NUGAIN 128
 @main @L1 LOAD 1
 EQU 1
 JZ L1end
@@ -4025,441 +4026,297 @@ PSET mainx_46
 LOAD mainaux_47
 PSET mainx_47
 LOAD mainx_0
-NORM
-SET mainx_0
+NORMS mainx_0
 LOAD mainx_1
-NORM
-SET mainx_1
+NORMS mainx_1
 LOAD mainx_2
-NORM
-SET mainx_2
+NORMS mainx_2
 LOAD mainx_3
-NORM
-SET mainx_3
+NORMS mainx_3
 LOAD mainx_4
-NORM
-SET mainx_4
+NORMS mainx_4
 LOAD mainx_5
-NORM
-SET mainx_5
+NORMS mainx_5
 LOAD mainx_6
-NORM
-SET mainx_6
+NORMS mainx_6
 LOAD mainx_7
-NORM
-SET mainx_7
+NORMS mainx_7
 LOAD mainx_8
-NORM
-SET mainx_8
+NORMS mainx_8
 LOAD mainx_9
-NORM
-SET mainx_9
+NORMS mainx_9
 LOAD mainx_10
-NORM
-SET mainx_10
+NORMS mainx_10
 LOAD mainx_11
-NORM
-SET mainx_11
+NORMS mainx_11
 LOAD mainx_12
-NORM
-SET mainx_12
+NORMS mainx_12
 LOAD mainx_13
-NORM
-SET mainx_13
+NORMS mainx_13
 LOAD mainx_14
-NORM
-SET mainx_14
+NORMS mainx_14
 LOAD mainx_15
-NORM
-SET mainx_15
+NORMS mainx_15
 LOAD mainx_16
-NORM
-SET mainx_16
+NORMS mainx_16
 LOAD mainx_17
-NORM
-SET mainx_17
+NORMS mainx_17
 LOAD mainx_18
-NORM
-SET mainx_18
+NORMS mainx_18
 LOAD mainx_19
-NORM
-SET mainx_19
+NORMS mainx_19
 LOAD mainx_20
-NORM
-SET mainx_20
+NORMS mainx_20
 LOAD mainx_21
-NORM
-SET mainx_21
+NORMS mainx_21
 LOAD mainx_22
-NORM
-SET mainx_22
+NORMS mainx_22
 LOAD mainx_23
-NORM
-SET mainx_23
+NORMS mainx_23
 LOAD mainx_24
-NORM
-SET mainx_24
+NORMS mainx_24
 LOAD mainx_25
-NORM
-SET mainx_25
+NORMS mainx_25
 LOAD mainx_26
-NORM
-SET mainx_26
+NORMS mainx_26
 LOAD mainx_27
-NORM
-SET mainx_27
+NORMS mainx_27
 LOAD mainx_28
-NORM
-SET mainx_28
+NORMS mainx_28
 LOAD mainx_29
-NORM
-SET mainx_29
+NORMS mainx_29
 LOAD mainx_30
-NORM
-SET mainx_30
+NORMS mainx_30
 LOAD mainx_31
-NORM
-SET mainx_31
+NORMS mainx_31
 LOAD mainx_32
-NORM
-SET mainx_32
+NORMS mainx_32
 LOAD mainx_33
-NORM
-SET mainx_33
+NORMS mainx_33
 LOAD mainx_34
-NORM
-SET mainx_34
+NORMS mainx_34
 LOAD mainx_35
-NORM
-SET mainx_35
+NORMS mainx_35
 LOAD mainx_36
-NORM
-SET mainx_36
+NORMS mainx_36
 LOAD mainx_37
-NORM
-SET mainx_37
+NORMS mainx_37
 LOAD mainx_38
-NORM
-SET mainx_38
+NORMS mainx_38
 LOAD mainx_39
-NORM
-SET mainx_39
+NORMS mainx_39
 LOAD mainx_40
-NORM
-SET mainx_40
+NORMS mainx_40
 LOAD mainx_41
-NORM
-SET mainx_41
+NORMS mainx_41
 LOAD mainx_42
-NORM
-SET mainx_42
+NORMS mainx_42
 LOAD mainx_43
-NORM
-SET mainx_43
+NORMS mainx_43
 LOAD mainx_44
-NORM
-SET mainx_44
+NORMS mainx_44
 LOAD mainx_45
-NORM
-SET mainx_45
+NORMS mainx_45
 LOAD mainx_46
-NORM
-SET mainx_46
+NORMS mainx_46
 LOAD mainx_47
-NORM
-SET mainx_47
+NORMS mainx_47
 LOAD 1
 ADD mainj
 SET mainj
 JMP L2
 @L2end LOAD mainx_0
-NORM
-SET mainx_0
+NORMS mainx_0
 LOAD mainx_1
-NORM
-SET mainx_1
+NORMS mainx_1
 LOAD mainx_2
-NORM
-SET mainx_2
+NORMS mainx_2
 LOAD mainx_3
-NORM
-SET mainx_3
+NORMS mainx_3
 LOAD mainx_4
-NORM
-SET mainx_4
+NORMS mainx_4
 LOAD mainx_5
-NORM
-SET mainx_5
+NORMS mainx_5
 LOAD mainx_6
-NORM
-SET mainx_6
+NORMS mainx_6
 LOAD mainx_7
-NORM
-SET mainx_7
+NORMS mainx_7
 LOAD mainx_8
-NORM
-SET mainx_8
+NORMS mainx_8
 LOAD mainx_9
-NORM
-SET mainx_9
+NORMS mainx_9
 LOAD mainx_10
-NORM
-SET mainx_10
+NORMS mainx_10
 LOAD mainx_11
-NORM
-SET mainx_11
+NORMS mainx_11
 LOAD mainx_12
-NORM
-SET mainx_12
+NORMS mainx_12
 LOAD mainx_13
-NORM
-SET mainx_13
+NORMS mainx_13
 LOAD mainx_14
-NORM
-SET mainx_14
+NORMS mainx_14
 LOAD mainx_15
-NORM
-SET mainx_15
+NORMS mainx_15
 LOAD mainx_16
-NORM
-SET mainx_16
+NORMS mainx_16
 LOAD mainx_17
-NORM
-SET mainx_17
+NORMS mainx_17
 LOAD mainx_18
-NORM
-SET mainx_18
+NORMS mainx_18
 LOAD mainx_19
-NORM
-SET mainx_19
+NORMS mainx_19
 LOAD mainx_20
-NORM
-SET mainx_20
+NORMS mainx_20
 LOAD mainx_21
-NORM
-SET mainx_21
+NORMS mainx_21
 LOAD mainx_22
-NORM
-SET mainx_22
+NORMS mainx_22
 LOAD mainx_23
-NORM
-SET mainx_23
+NORMS mainx_23
 LOAD mainx_24
-NORM
-SET mainx_24
+NORMS mainx_24
 LOAD mainx_25
-NORM
-SET mainx_25
+NORMS mainx_25
 LOAD mainx_26
-NORM
-SET mainx_26
+NORMS mainx_26
 LOAD mainx_27
-NORM
-SET mainx_27
+NORMS mainx_27
 LOAD mainx_28
-NORM
-SET mainx_28
+NORMS mainx_28
 LOAD mainx_29
-NORM
-SET mainx_29
+NORMS mainx_29
 LOAD mainx_30
-NORM
-SET mainx_30
+NORMS mainx_30
 LOAD mainx_31
-NORM
-SET mainx_31
+NORMS mainx_31
 LOAD mainx_32
-NORM
-SET mainx_32
+NORMS mainx_32
 LOAD mainx_33
-NORM
-SET mainx_33
+NORMS mainx_33
 LOAD mainx_34
-NORM
-SET mainx_34
+NORMS mainx_34
 LOAD mainx_35
-NORM
-SET mainx_35
+NORMS mainx_35
 LOAD mainx_36
-NORM
-SET mainx_36
+NORMS mainx_36
 LOAD mainx_37
-NORM
-SET mainx_37
+NORMS mainx_37
 LOAD mainx_38
-NORM
-SET mainx_38
+NORMS mainx_38
 LOAD mainx_39
-NORM
-SET mainx_39
+NORMS mainx_39
 LOAD mainx_40
-NORM
-SET mainx_40
+NORMS mainx_40
 LOAD mainx_41
-NORM
-SET mainx_41
+NORMS mainx_41
 LOAD mainx_42
-NORM
-SET mainx_42
+NORMS mainx_42
 LOAD mainx_43
-NORM
-SET mainx_43
+NORMS mainx_43
 LOAD mainx_44
-NORM
-SET mainx_44
+NORMS mainx_44
 LOAD mainx_45
-NORM
-SET mainx_45
+NORMS mainx_45
 LOAD mainx_46
-NORM
-SET mainx_46
+NORMS mainx_46
 LOAD mainx_47
-NORM
-SET mainx_47
+NORMS mainx_47
 LOAD mainx_0
-NORM
-SET mainx_0
+NORMS mainx_0
 LOAD mainx_1
-NORM
-SET mainx_1
+NORMS mainx_1
 LOAD mainx_2
-NORM
-SET mainx_2
+NORMS mainx_2
 LOAD mainx_3
-NORM
-SET mainx_3
+NORMS mainx_3
 LOAD mainx_4
-NORM
-SET mainx_4
+NORMS mainx_4
 LOAD mainx_5
-NORM
-SET mainx_5
+NORMS mainx_5
 LOAD mainx_6
-NORM
-SET mainx_6
+NORMS mainx_6
 LOAD mainx_7
-NORM
-SET mainx_7
+NORMS mainx_7
 LOAD mainx_8
-NORM
-SET mainx_8
+NORMS mainx_8
 LOAD mainx_9
-NORM
-SET mainx_9
+NORMS mainx_9
 LOAD mainx_10
-NORM
-SET mainx_10
+NORMS mainx_10
 LOAD mainx_11
-NORM
-SET mainx_11
+NORMS mainx_11
 LOAD mainx_12
-NORM
-SET mainx_12
+NORMS mainx_12
 LOAD mainx_13
-NORM
-SET mainx_13
+NORMS mainx_13
 LOAD mainx_14
-NORM
-SET mainx_14
+NORMS mainx_14
 LOAD mainx_15
-NORM
-SET mainx_15
+NORMS mainx_15
 LOAD mainx_16
-NORM
-SET mainx_16
+NORMS mainx_16
 LOAD mainx_17
-NORM
-SET mainx_17
+NORMS mainx_17
 LOAD mainx_18
-NORM
-SET mainx_18
+NORMS mainx_18
 LOAD mainx_19
-NORM
-SET mainx_19
+NORMS mainx_19
 LOAD mainx_20
-NORM
-SET mainx_20
+NORMS mainx_20
 LOAD mainx_21
-NORM
-SET mainx_21
+NORMS mainx_21
 LOAD mainx_22
-NORM
-SET mainx_22
+NORMS mainx_22
 LOAD mainx_23
-NORM
-SET mainx_23
+NORMS mainx_23
 LOAD mainx_24
-NORM
-SET mainx_24
+NORMS mainx_24
 LOAD mainx_25
-NORM
-SET mainx_25
+NORMS mainx_25
 LOAD mainx_26
-NORM
-SET mainx_26
+NORMS mainx_26
 LOAD mainx_27
-NORM
-SET mainx_27
+NORMS mainx_27
 LOAD mainx_28
-NORM
-SET mainx_28
+NORMS mainx_28
 LOAD mainx_29
-NORM
-SET mainx_29
+NORMS mainx_29
 LOAD mainx_30
-NORM
-SET mainx_30
+NORMS mainx_30
 LOAD mainx_31
-NORM
-SET mainx_31
+NORMS mainx_31
 LOAD mainx_32
-NORM
-SET mainx_32
+NORMS mainx_32
 LOAD mainx_33
-NORM
-SET mainx_33
+NORMS mainx_33
 LOAD mainx_34
-NORM
-SET mainx_34
+NORMS mainx_34
 LOAD mainx_35
-NORM
-SET mainx_35
+NORMS mainx_35
 LOAD mainx_36
-NORM
-SET mainx_36
+NORMS mainx_36
 LOAD mainx_37
-NORM
-SET mainx_37
+NORMS mainx_37
 LOAD mainx_38
-NORM
-SET mainx_38
+NORMS mainx_38
 LOAD mainx_39
-NORM
-SET mainx_39
+NORMS mainx_39
 LOAD mainx_40
-NORM
-SET mainx_40
+NORMS mainx_40
 LOAD mainx_41
-NORM
-SET mainx_41
+NORMS mainx_41
 LOAD mainx_42
-NORM
-SET mainx_42
+NORMS mainx_42
 LOAD mainx_43
-NORM
-SET mainx_43
+NORMS mainx_43
 LOAD mainx_44
-NORM
-SET mainx_44
+NORMS mainx_44
 LOAD mainx_45
-NORM
-SET mainx_45
+NORMS mainx_45
 LOAD mainx_46
-NORM
-SET mainx_46
+NORMS mainx_46
 LOAD mainx_47
-NORM
-SET mainx_47
+NORMS mainx_47
 LOAD 0
 PLD 0
 OUT

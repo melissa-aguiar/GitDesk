@@ -8,6 +8,7 @@ module proc_fx
 	parameter SDEPTH = 5,               // Numero de bits de endereco da pilha de subrotinas
 	parameter NUIOIN = 8,               // Numero de enderecos de IO - entrada
 	parameter NUIOOU = 8,               // Numero de ebderecos de IO - saida
+	parameter NUGAIN = 64,              // Valor de deslocamento dos bits (divisao)
 	parameter DFILE = "data.mif",       // Inicializacao da memoria de dados
 	parameter IFILE = "inst.mif",       // Inicializacao da memoria de programa
 
@@ -72,6 +73,7 @@ core_fx #(.NUBITS(NUBITS),
           .MDATAS(MDATAS),
           .NUIOIN(NUIOIN),
           .NUIOOU(NUIOOU),
+			 .NUGAIN(NUGAIN),
           .DIV   (DIV)   ,
           .OR    (OR )   ,
           .LOR   (LOR)   ,
@@ -113,6 +115,7 @@ core_fx #(.NUBITS(NUBITS),
           .MDATAS(MDATAS),
           .NUIOIN(NUIOIN),
           .NUIOOU(NUIOOU),
+			 .NUGAIN(NUGAIN),
           .DIV   (DIV)   ,
           .OR    (OR )   ,
           .LOR   (LOR)   ,

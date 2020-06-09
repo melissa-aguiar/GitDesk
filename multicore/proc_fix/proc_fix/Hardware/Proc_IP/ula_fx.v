@@ -1,7 +1,7 @@
 module ula_fx
 #(
 	parameter NUBITS = 32,
-
+	parameter[NUBITS-1:0] NUGAIN = 64,
 	parameter DIV   =  0,
 	parameter OR    =  0,
 	parameter LOR   =  0,
@@ -58,7 +58,7 @@ generate if (SHR == 1) assign shr = in1  >> us; else assign shr = {NUBITS{1'bx}}
 generate if (XOR == 1) assign cor = in1  ^ in2; else assign cor = {NUBITS{1'bx}}; endgenerate
 generate if (SHL == 1) assign shl = in1  << us; else assign shl = {NUBITS{1'bx}}; endgenerate
 generate if (SRS == 1) assign srs = in1 >>> us; else assign srs = {NUBITS{1'bx}}; endgenerate
-generate if (NRM == 1) assign nrm = in2  / 128; else assign  nrm = {NUBITS{1'bx}}; endgenerate
+generate if (NRM == 1) assign nrm = in2  / NUGAIN; else assign  nrm = {NUBITS{1'bx}}; endgenerate
 
 reg  signed [NUBITS-1:0] ari_out;
 

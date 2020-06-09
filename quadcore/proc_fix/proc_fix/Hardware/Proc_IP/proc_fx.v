@@ -8,6 +8,7 @@ module proc_fx
 	parameter SDEPTH = 5,               // Numero de bits de endereco da pilha de subrotinas
 	parameter NUIOIN = 8,               // Numero de enderecos de IO - entrada
 	parameter NUIOOU = 8,               // Numero de ebderecos de IO - saida
+	parameter NUGAIN = 64,              // Valor de deslocamento dos bits (divisao)
 	parameter DFILE = "data.mif",       // Inicializacao da memoria de dados
 	parameter IFILE = "inst.mif",       // Inicializacao da memoria de programa
 
@@ -30,6 +31,7 @@ module proc_fx
 	parameter XOR   =  0,
 	parameter SHL   =  0,
 	parameter SRS   =  0,
+	parameter NRM   =  0,
 
 	// parametros configurados internamente ------------------------------------
 
@@ -71,6 +73,7 @@ core_fx #(.NUBITS(NUBITS),
           .MDATAS(MDATAS),
           .NUIOIN(NUIOIN),
           .NUIOOU(NUIOOU),
+			 .NUGAIN(NUGAIN),
           .DIV   (DIV)   ,
           .OR    (OR )   ,
           .LOR   (LOR)   ,
@@ -89,7 +92,8 @@ core_fx #(.NUBITS(NUBITS),
           .SHR   (SHR)   ,
           .XOR   (XOR)   ,
           .SHL   (SHL)   ,
-          .SRS   (SRS)  ) core(clk, rst,
+          .SRS   (SRS)   ,
+			 .NRM   (NRM)  ) core(clk, rst,
                                instr, instr_addr,
                                mem_wr, mem_addr_w, mem_addr_r, mem_data_in, mem_data_out,
                                io_in, addr_in, addr_out, req_in, out_en);
@@ -111,6 +115,7 @@ core_fx #(.NUBITS(NUBITS),
           .MDATAS(MDATAS),
           .NUIOIN(NUIOIN),
           .NUIOOU(NUIOOU),
+			 .NUGAIN(NUGAIN),
           .DIV   (DIV)   ,
           .OR    (OR )   ,
           .LOR   (LOR)   ,
@@ -129,7 +134,8 @@ core_fx #(.NUBITS(NUBITS),
           .SHR   (SHR)   ,
           .XOR   (XOR)   ,
           .SHL   (SHL)   ,
-          .SRS   (SRS)  ) core(clk, rst,
+          .SRS   (SRS)   ,
+			 .NRM   (NRM)  ) core(clk, rst,
                                instr, instr_addr,
                                mem_wr, mem_addr_w, mem_addr_r, mem_data_in, mem_data_out,
                                io_in, addr_in, addr_out, req_in, out_en);
@@ -148,4 +154,4 @@ mem_data # (.NADDRE(MDATAS),
             .NBDATA(NUBITS),
             .FNAME (DFILE)) mdata(clk, mem_wr, mem_addr_w, mem_addr_r, mem_data_out, mem_data_in);
 
-endmodule 
+endmodule

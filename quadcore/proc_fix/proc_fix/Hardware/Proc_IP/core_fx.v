@@ -10,6 +10,7 @@ module core_fx
 	parameter MDATAS = 512,             // Numero de enderecos da memoria de dados
 	parameter NUIOIN = 8,               // Numero de enderecos de IO - entrada
 	parameter NUIOOU = 8,               // Numero de enderecos de IO - saida
+	parameter NUGAIN = 64,              // Valor de deslocamento dos bits (divisao)
 
 	parameter DIV   =  0,               // Cria circuito de divisao
 	parameter OR    =  0,
@@ -29,7 +30,8 @@ module core_fx
 	parameter SHR   =  0,
 	parameter XOR   =  0,
 	parameter SHL   =  0,
-	parameter SRS   =  0
+	parameter SRS   =  0,
+	parameter NRM   =  0
 )
 (
 	input                       clk, rst,
@@ -81,12 +83,13 @@ wire [NBOPER-1:0] id_operand = pf_operand;
 wire              id_dsp_push;
 wire              id_dsp_pop;
 
-wire [       3:0] id_ula_op;
+wire [       4:0] id_ula_op;
 wire [NUBITS-1:0] id_ula_data;
 
 wire [MDATAW-1:0] id_mem_addr;
 wire              id_srf;
 wire              id_neg;
+wire              id_nrm;
 
 instr_dec_fx #(NUBITS, NBOPCO, NBOPER, MDATAW) id(clk, rst,
                                                id_opcode, id_operand,
@@ -94,7 +97,7 @@ instr_dec_fx #(NUBITS, NBOPCO, NBOPER, MDATAW) id(clk, rst,
                                                id_ula_op, id_ula_data,
                                                mem_wr, id_mem_addr, mem_data_in,
                                                io_in, req_in, out_en,
-                                               id_srf, id_neg);
+                                               id_srf, id_neg, id_nrm);
 
 // Ponteiro pra pilha de dados ------------------------------------------------
 
@@ -111,6 +114,7 @@ wire signed [NUBITS-1:0] ula_out;
 wire signed [NUBITS-1:0] ula_acc;
 
 ula_fx #(.NUBITS(NUBITS),
+			.NUGAIN(NUGAIN),
          .DIV   (DIV   ),
          .OR    (OR    ),
          .LOR   (LOR   ),
@@ -127,14 +131,15 @@ ula_fx #(.NUBITS(NUBITS),
          .SHR   (SHR   ),
          .XOR   (XOR   ),
          .SHL   (SHL   ),
-         .SRS   (SRS   )) ula(id_ula_op, id_ula_data, ula_acc, ula_out);
+         .SRS   (SRS   ),
+			.NRM   (NRM   )) ula(id_ula_op, id_ula_data, ula_acc, ula_out);
 
 // Acumulador -----------------------------------------------------------------
 
 ///////////////////////////////
 wire  [NUBITS-1:0] out;
 
-positivo_fx #(NUBITS) positivo_fx(ula_out, id_neg, out);
+positivo_fx #(NUBITS, NUGAIN) positivo_fx(ula_out, id_neg, id_nrm, out);
 /////////////////////////////////
 
 reg signed [NUBITS-1:0] racc;
@@ -144,7 +149,7 @@ always @ (posedge clk or posedge rst) begin
 		racc <= 0;
 	else
 		racc <= out;  //racc <= ula_out;
-		
+
 end
 
 assign ula_acc = racc;
@@ -191,4 +196,4 @@ endgenerate
 assign addr_in    = mem_data_in[$clog2(NUIOIN)-1:0];
 assign addr_out   = mem_data_in[$clog2(NUIOOU)-1:0];
 
-endmodule 
+endmodule
