@@ -1,5 +1,5 @@
 Flow report for proc_fix
-Mon Jun 08 21:12:30 2020
+Thu Jun 11 23:08:02 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Jun 08 21:12:25 2020       ;
+; Flow Status                        ; Successful - Thu Jun 11 23:07:57 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; proc_fix                                    ;
 ; Top-level Entity Name              ; multicore                                   ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 120,869                                     ;
-;     Total combinational functions  ; 90,587                                      ;
-;     Dedicated logic registers      ; 43,797                                      ;
-; Total registers                    ; 43797                                       ;
-; Total pins                         ; 4,650                                       ;
+; Total logic elements               ; 93,159                                      ;
+;     Total combinational functions  ; 81,847                                      ;
+;     Dedicated logic registers      ; 21,777                                      ;
+; Total registers                    ; 21777                                       ;
+; Total pins                         ; 5,073                                       ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 16,542,271                                  ;
+; Total memory bits                  ; 13,719,156                                  ;
 ; Embedded Multiplier 9-bit elements ; 532                                         ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/08/2020 21:07:59 ;
+; Start date & time ; 06/11/2020 23:04:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; proc_fix            ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 84497307415166.159166127912140         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 84497307415166.159192744412744         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; multicore_tb   ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ;  proc_fix_tb   ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; multicore_tb                           ; --            ; --          ; eda_simulation ;
@@ -103,8 +103,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:04:06     ; 1.0                     ; 5793 MB             ; 00:04:08                           ;
-; Total                ; 00:04:06     ; --                      ; --                  ; 00:04:08                           ;
+; Analysis & Synthesis ; 00:03:34     ; 1.0                     ; 5679 MB             ; 00:03:48                           ;
+; Total                ; 00:03:34     ; --                      ; --                  ; 00:03:48                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

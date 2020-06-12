@@ -1,12 +1,12 @@
 module proc_fix (
 input clk, rst,
-input signed [28:0] io_in,
-output signed [28:0] io_out,
+input signed [31:0] io_in,
+output signed [31:0] io_out,
 output [1:0] req_in,
 output [1:0] out_en);
 
-wire signed [28:0] in_float;
-wire signed [28:0] out_float;
+wire signed [31:0] in_float;
+wire signed [31:0] out_float;
 
 assign in_float = io_in;
 
@@ -14,7 +14,7 @@ wire proc_req_in, proc_out_en;
 wire [0:0] addr_in;
 wire [0:0] addr_out;
 
-proc_fx #(.NUBITS(29),
+proc_fx #(.NUBITS(32),
 .MDATAS(407),
 .MINSTS(4477),
 .SDEPTH(16),

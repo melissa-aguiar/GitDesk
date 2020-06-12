@@ -1,7 +1,7 @@
 #PRNAME proc_fix
 #DIRNAM "C:\Users\melis\Desktop\GitDesk\multicore\proc_fix\proc_fix\Hardware\proc_fix_H"
 #DATYPE 0
-#NUBITS 29
+#NUBITS 32
 #NDSTAC 16
 #SDEPTH 16
 #NUIOIN 2

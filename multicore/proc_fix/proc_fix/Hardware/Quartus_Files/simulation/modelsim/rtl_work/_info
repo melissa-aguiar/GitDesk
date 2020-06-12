@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/simulation/modelsim
 vaddr_dec
-Z1 !s110 1591661635
+Z1 !s110 1591924188
 !i10b 1
 !s100 >b5Pnhij80YYY=zT8icSn0
 IN7O>e2:PE]:[P8SVV9S^Y1
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1591661635.000000
+Z5 !s108 1591924188.000000
 !s107 C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/addr_dec.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/addr_dec.v|
 !i113 1
@@ -37,7 +37,7 @@ R1
 IThPjZO73S<?G;e^O_8kog0
 R2
 R0
-Z9 w1591654965
+Z9 w1591919492
 8C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/core_fx.v
 FC:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/core_fx.v
 L0 1
@@ -97,7 +97,7 @@ R6
 R7
 R8
 vmem_instr
-Z10 !s110 1591661634
+Z10 !s110 1591924187
 !i10b 1
 !s100 7Z?Em;gcG:>?VFoN2QEUe2
 I9bz:2R]j;i>G_`<cR3G;L2
@@ -111,7 +111,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1591661634.000000
+Z11 !s108 1591924187.000000
 !s107 C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/mem_instr.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/mem_instr.v|
 !i113 1
@@ -119,13 +119,13 @@ R6
 R7
 R8
 vmulticore
-Z12 !s110 1591661636
+Z12 !s110 1591924189
 !i10b 1
-!s100 BRLAOLDf8RVl2DjZC;]Si3
-Igj0m?;5C@?;AnLBaoOH];2
+!s100 ;n^O_HQjaR7m?=jg8ZK;d1
+IJkFP8jR?K_dI62VbRoT7i3
 R2
 R0
-w1591661275
+Z13 w1591924064
 8C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/multicore.v
 FC:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/multicore.v
 L0 1
@@ -133,21 +133,21 @@ R4
 r1
 !s85 0
 31
-Z13 !s108 1591661636.000000
+Z14 !s108 1591924189.000000
 !s107 C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/multicore.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H|C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/multicore.v|
 !i113 1
 R6
-Z14 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H
+Z15 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H
 R8
 vmulticore_tb
 R12
 !i10b 1
-!s100 bNC`UOjDmPn51OWcI3dW=2
-I>ZWdzXU2`o5l[Gm>VYU?D2
+!s100 UB@?hbbjO`>7K7XQ?nzV:0
+I>hhfHInicDk<gRg]nRoT22
 R2
 R0
-w1591659967
+R13
 8C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H/multicore_tb.v
 FC:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H/multicore_tb.v
 L0 1
@@ -155,7 +155,7 @@ R4
 r1
 !s85 0
 31
-R13
+R14
 !s107 C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H/multicore_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H|C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Quartus_Files/../proc_fix_H/multicore_tb.v|
 !i113 1
@@ -185,7 +185,7 @@ R6
 R7
 R8
 vpositivo_fx
-!s110 1591661633
+R10
 !i10b 1
 !s100 O35g[mdmcCgaT`6E2VB?Z1
 Icl45INDZZbZWfB?4>MW:B2
@@ -199,7 +199,7 @@ R4
 r1
 !s85 0
 31
-!s108 1591661633.000000
+!s108 1591924186.000000
 !s107 C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/positivo_fx.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/Proc_IP/positivo_fx.v|
 !i113 1
@@ -231,11 +231,11 @@ R8
 vproc_fix
 R10
 !i10b 1
-!s100 iS=;I<595SGI[gU7QW`bF0
-I=e7`lNl_eP:@i=GPbdMK?2
+!s100 RUko9]DES[5=Q;i4h0ddd1
+Iz33A;?g;aS_<JX@5IDgj;1
 R2
 R0
-w1591661168
+w1591924083
 8C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix.v
 FC:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix.v
 L0 1
@@ -248,7 +248,7 @@ R11
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H|C:/Users/melis/Desktop/GitDesk/multicore/proc_fix/proc_fix/Hardware/proc_fix_H/proc_fix.v|
 !i113 1
 R6
-R14
+R15
 R8
 vproc_fx
 R10
