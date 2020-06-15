@@ -1,7 +1,7 @@
 module positivo_fx
 #(
 	parameter NUBITS = 32,
-	parameter NUGAIN = 128
+	parameter[NUBITS-1:0] NUGAIN = 128
 )
 
 (
