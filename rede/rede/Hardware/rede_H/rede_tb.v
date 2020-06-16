@@ -9,21 +9,20 @@ integer 				 data_file, scan_file, my_output;
 
 
 initial begin 
-	//data_file = $fopen("signalN_48b7e_30.txt", "r");
-	//data_file = $fopen("signalN.txt", "r");
+	data_file = $fopen("sinaladc.txt", "r");
 	my_output = $fopen("myoutput.txt", "w");
-	//scan_file = $fscanf(data_file, "%d\n", in);
+	scan_file = $fscanf(data_file, "%d\n", in);
 	clk = 0;
 	rst = 1;
-	#10 rst = 0;
+	#1 rst = 0;
 end
 
 always #1 clk = ~clk;
 
-//always @(posedge clk) begin
-//	if (req_in == 4'd1)
-		//scan_file = $fscanf(data_file, "%d\n", in);
-//end
+always @(posedge clk) begin
+	if (req_in == 4'd1)
+		scan_file = $fscanf(data_file, "%d\n", in);
+end
 
 always @ (posedge clk) begin
 	if (out_en == 4'd1)
