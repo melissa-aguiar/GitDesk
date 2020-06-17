@@ -1,0 +1,38 @@
+%\begin{epigrafe}
+%   \vspace*{\fill}
+%	\begin{flushright}
+%		``Na vida, não existe nada a temer, mas a entender''. \\
+%		Marie Sklodowska Curie.
+%	\end{flushright}
+%\end{epigrafe}
+
+%\begin{epigrafe}
+%   \vspace*{\fill}
+%	\begin{flushright}
+%		``Só se consegue a simplicidade através de muito trabalho''. \\
+%		Clarice Lispector.
+%	\end{flushright}
+%\end{epigrafe}
+
+%\begin{epigrafe}
+%   \vspace*{\fill}
+%	\begin{flushright}
+%		``A primavera chegará, mesmo que ninguém mais saiba seu nome,
+%		\\ nem acredite no calendário, nem possua jardim para recebê-la''. \\
+%		Cecília Meireles.
+%	\end{flushright}
+%\end{epigrafe}
+
+%\begin{epigrafe}
+%    \vspace*{\fill}
+%	\begin{flushright}
+%		``Don't let it burn
+%		\\ Don't let it fade''. \\
+%Linger,\\
+%Dolores O'Riordan.
+%	\end{flushright}
+%\end{epigrafe}
+
+% Gostaria que você soubesse que existe dentro de si uma força capaz de mudar sua vida, basta que lute e aguarde um novo amanhecer. Margaret Thatcher, A Dama de Ferro
+
+% Impossibility is a kiss away from reality. Amanita, Sense8
