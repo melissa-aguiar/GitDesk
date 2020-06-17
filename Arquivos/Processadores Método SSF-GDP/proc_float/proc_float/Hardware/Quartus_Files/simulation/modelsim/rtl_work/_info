@@ -1,0 +1,445 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\melis\Desktop\proc_float\proc_float\Hardware\Quartus_Files\simulation\modelsim
+vaddr_dec
+IY]eo0]l7g6[_o>_PbBaED3
+VhnN1km5=Vgo<>SZe`UAiZ1
+Z1 dC:\Users\melis\Desktop\proc_float\proc_float\Hardware\Quartus_Files\simulation\modelsim
+Z2 w1568385210
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/addr_dec.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/addr_dec.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-vlog01compat -work work -O0
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP -O0
+!i10b 1
+!s100 J>PFHD[E<oTd=zXmWg1o]0
+!s85 0
+!s108 1583627297.719000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/addr_dec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/addr_dec.v|
+!s101 -O0
+vcore_fl
+IAJ@nCP6ZmbLLcI6>Dad7d3
+VfGKh_l=KLP3WO]?@1>m`32
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/core_fl.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/core_fl.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 LWgNKg::Z3zUX1iTG[WnS2
+!s85 0
+!s108 1583627297.620000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/core_fl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/core_fl.v|
+!s101 -O0
+vdenorm
+I3IYN3NTS8STHY^g8X:2aO1
+Vm4^K7R8`gjl=lfYU4lh7m0
+R1
+R2
+Z6 8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/ula_fl.v
+Z7 FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/ula_fl.v
+L0 59
+R3
+r1
+31
+Z8 !s108 1583627296.009000
+Z9 !s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/ula_fl.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/ula_fl.v|
+R4
+R5
+!i10b 1
+!s100 [nz:6zf4K2fTAbD0J:l:M0
+!s85 0
+!s101 -O0
+vfloat2index
+I9U2]19Qj4IDW_ICWNL5E00
+V91DLaIcKeDYgebO`I36JU0
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2index.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2index.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 G;8oAS8I_cjfbTbm@e6KA2
+!s85 0
+!s108 1583627297.491000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2index.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2index.v|
+!s101 -O0
+vfloat2int
+IhXkaFIgj>_Kzm][__iDdR1
+Vza=_EC:NXOf9?FVg0B1UL3
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2int.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2int.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 LWKZK9F3z[]SFJGzlJUG]2
+!s85 0
+!s108 1583627297.375000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2int.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/float2int.v|
+!s101 -O0
+vinstr_dec_fl
+IbEX36eZ9:VEfNEmDV`H830
+V29LBPKX1UXjQ=7?aV1HDN0
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/instr_dec_fl.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/instr_dec_fl.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 72MO=5R7gD4`QPlAN03X=0
+!s85 0
+!s108 1583627297.259000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/instr_dec_fl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/instr_dec_fl.v|
+!s101 -O0
+vint2float
+I0]>Y=Vnbn=@<m[NOgIzB72
+VAS>0zA`5GPLB@SM>FeMe53
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/int2float.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/int2float.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 81Cb^Wf>Jc1WR7?4TJzf92
+!s85 0
+!s108 1583627297.144000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/int2float.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/int2float.v|
+!s101 -O0
+vmem_data
+IMHP1@_`fA_PzfG;cT41:L2
+Vc=XTUei1[j?4^jD]jCoSD3
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_data.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_data.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Y>^0:N09Z<1P;XEY?@6AB0
+!s85 0
+!s108 1583627297.012000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_data.v|
+!s101 -O0
+vmem_instr
+ILFmP>7_mX?cW=B11Rf<mf3
+VlT7SF^?LcOezh1Pdb;JLj0
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_instr.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_instr.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 NL5ohAI68Z3QE63l3UM?C0
+!s85 0
+!s108 1583627296.888000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_instr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/mem_instr.v|
+!s101 -O0
+vmydiv
+I?YNIDzEh>lZ8<KDaV7^mm2
+VM4Cho8bj;WVV=Hl6@D0Id3
+R1
+R2
+R6
+R7
+L0 172
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+!i10b 1
+!s100 4SdkHI<W`o1mU8aQRj7Sh0
+!s85 0
+!s101 -O0
+vmymult
+IIDK46Gb:?kG1Td_Ze1en61
+VTL]ZQAmKJP]_H[P1GZZIJ2
+R1
+R2
+R6
+R7
+L0 146
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+!i10b 1
+!s100 NLlYn2NXNL9zLUCNGiT7d1
+!s85 0
+!s101 -O0
+vmymux
+IE_b^OZ016>mLjglcMe<022
+VA2AMzmzRe2<L@zlZ1jf1<0
+R1
+R2
+R6
+R7
+L0 7
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+!i10b 1
+!s100 =HQHf7DzNbia<[n;:dOm53
+!s85 0
+!s101 -O0
+vmysoma
+IQ?HEgERX:LJ<Y52@>]gSK0
+VM8N8@=AXG5FDB=9WdhIDb0
+R1
+R2
+R6
+R7
+L0 122
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+!i10b 1
+!s100 RAz0oUYMm;>UlZYjCWzUn3
+!s85 0
+!s101 -O0
+vnorm
+I0kDV3J=[M?GLUzOlX[U9G3
+VfXL]Qib?PK40ggPhg5_0J3
+R1
+R2
+R6
+R7
+L0 24
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+!i10b 1
+!s100 nMZdEl@;0BzRZ;>dNdbGO0
+!s85 0
+!s101 -O0
+voutmux
+I41KnRH958KHMMgRPce43l1
+Vf:VB21cDm[kOMbTag3<iD3
+R1
+R2
+R6
+R7
+L0 89
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+!i10b 1
+!s100 aeQ;AzFRJ<5Q__Yb1BVP<0
+!s85 0
+!s101 -O0
+vpc
+I3D3DG>l]4OeZho_0OVjR03
+VBac9UNP8b^0HolBkI1Olb3
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/pc.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/pc.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 mH;>>PN0TYF7Kdn_A3V120
+!s85 0
+!s108 1583627296.735000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/pc.v|
+!s101 -O0
+vprefetch
+I_>hfCgDPRZi=bclln3W:k0
+VmE4aBNGM4<k>Q@ec0VQgC0
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/prefetch.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/prefetch.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 HeQ[_N239bi>]`F46PDMY3
+!s85 0
+!s108 1583627296.612000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/prefetch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/prefetch.v|
+!s101 -O0
+vproc_fl
+I37j:;VKR4<VQ:Y88fjmZQ0
+VHdJMmJTFdWmF>5?WdgG>n0
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/proc_fl.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/proc_fl.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 f[S7dM>PWQbYO><oV=h``1
+!s85 0
+!s108 1583627296.472000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/proc_fl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/proc_fl.v|
+!s101 -O0
+vproc_float
+IY1GVR;?UoA2U^czoDMB7i0
+VZco>?CFkWFLB4O=VF5_A52
+R1
+w1583627258
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/proc_float_H/proc_float.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/proc_float_H/proc_float.v
+L0 1
+R3
+r1
+31
+R4
+!i10b 1
+!s100 ac5cVXMgnc^@E@zl;hn^j0
+!s85 0
+!s108 1583627295.790000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/proc_float_H/proc_float.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/proc_float_H|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/proc_float_H/proc_float.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/proc_float_H -O0
+vproc_float_tb
+!i10b 1
+!s100 `^8zWU6o]_E;RT_Xn]l?Y3
+IS8[oN6^ZR4V4Q2T;1U[Z>3
+VgENii4im]Lgz27fBAI`MJ0
+R1
+w1580767509
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Quartus_Files/../proc_float_H/proc_float_tb.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Quartus_Files/../proc_float_H/proc_float_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1583627297.848000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Quartus_Files/../proc_float_H/proc_float_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Quartus_Files/../proc_float_H|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Quartus_Files/../proc_float_H/proc_float_tb.v|
+!s101 -O0
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Quartus_Files/../proc_float_H -O0
+vstack_pointer
+I2hAiZ`B9hO=BjncYP_1H72
+VfEan<A7i6M80>QR]`GYI^1
+R1
+R2
+8C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/stack_pointer.v
+FC:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/stack_pointer.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 ?KFK8::Lh[1hoSLzI44n=2
+!s85 0
+!s108 1583627296.372000
+!s107 C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/stack_pointer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP|C:/Users/melis/Desktop/proc_float/proc_float/Hardware/Proc_IP/stack_pointer.v|
+!s101 -O0
+vula_fl
+Ik98FemTS^X?5PL6mS75kP1
+VQK_kg93_JTGWgP^W7U^Eb3
+R1
+R2
+R6
+R7
+L0 199
+R3
+r1
+31
+R8
+R9
+R10
+R4
+R5
+!i10b 1
+!s100 cScT<>HT=[NiAI:1WNnD21
+!s85 0
+!s101 -O0

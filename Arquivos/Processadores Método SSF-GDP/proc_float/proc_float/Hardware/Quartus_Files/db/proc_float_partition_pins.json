@@ -1,0 +1,165 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "io_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[16]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[17]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[18]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[19]",
+					"strict" : false
+				},
+				{
+					"name" : "io_out[20]",
+					"strict" : false
+				},
+				{
+					"name" : "req_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "req_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_en[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_en[1]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[11]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[10]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[9]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[8]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[6]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[5]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
