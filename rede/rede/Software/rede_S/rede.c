@@ -1,5 +1,5 @@
 #PRNAME rede
-#DIRNAM "C:\Users\melis\Desktop\rede\rede\Hardware\rede_H"
+#DIRNAM "C:\Users\melis\Desktop\GitDesk\rede\rede\Hardware\rede_H"
 #DATYPE 0
 #NUBITS 31
 #NDSTAC 4
@@ -237,19 +237,6 @@ void main()
             lute_out_n_3 = 15795;
         }
     }
-
-    //int hide_w_0 = -11;
-    //int hide_w_1 = 20;
-    //int hide_w_2 = -15;
-    //int hide_w_3 =  2716;
-    //int bias_o   = -6200193;
-    // 
-    //int n_out_0    = lute_out_n_0*hide_w_0*256 ;
-    //int n_out_1    = lute_out_n_1*hide_w_1*256 ;     
-    //int n_out_2    = lute_out_n_2*hide_w_2*256 ;
-    //int n_out_3    = lute_out_n_3*hide_w_3 ;
-    //
-    //int saida_rede = n_out_0 + n_out_1 + n_out_2 + n_out_3 + bias_o;
     
     int n_out_0    = lute_out_n_0*2816;
     int n_out_1    = lute_out_n_1*5120;     

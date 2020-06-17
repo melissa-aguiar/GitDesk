@@ -1,5 +1,5 @@
 #PRNAME rede
-#DIRNAM "C:\Users\melis\Desktop\rede\rede\Hardware\rede_H"
+#DIRNAM "C:\Users\melis\Desktop\GitDesk\rede\rede\Hardware\rede_H"
 #DATYPE 0
 #NUBITS 31
 #NDSTAC 4

@@ -31,8 +31,8 @@ proc_fx #(.NUBITS(31),
 .LOR(1),
 .DIV(1),
 .SRF(1),
-.DFILE("C:/Users/melis/Desktop/rede/rede/Hardware/rede_H/rede_data.mif"),
-.IFILE("C:/Users/melis/Desktop/rede/rede/Hardware/rede_H/rede_inst.mif")
+.DFILE("C:/Users/melis/Desktop/GitDesk/rede/rede/Hardware/rede_H/rede_data.mif"),
+.IFILE("C:/Users/melis/Desktop/GitDesk/rede/rede/Hardware/rede_H/rede_inst.mif")
 ) p_rede (clk, rst, in_float, out_float, addr_in, addr_out, proc_req_in, proc_out_en);
 
 assign io_out = out_float;
