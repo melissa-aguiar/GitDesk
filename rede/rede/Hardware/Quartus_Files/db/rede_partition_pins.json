@@ -264,7 +264,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[28]",
+					"name" : "io_in[25]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[26]",
 					"strict" : false
 				},
 				{
@@ -272,15 +276,11 @@
 					"strict" : false
 				},
 				{
+					"name" : "io_in[28]",
+					"strict" : false
+				},
+				{
 					"name" : "io_in[29]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[25]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[26]",
 					"strict" : false
 				},
 				{

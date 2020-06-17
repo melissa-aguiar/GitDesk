@@ -15,13 +15,12 @@ wire [1:0] addr_in;
 wire [1:0] addr_out;
 
 proc_fx #(.NUBITS(31),
-.MDATAS(65655),
-.MINSTS(132014),
+.MDATAS(32926),
+.MINSTS(670),
 .SDEPTH(4),
 .NUIOIN(4),
 .NUIOOU(4),
 .NUGAIN(4),
-.SRF(1),
 .EQU(1),
 .MLT(1),
 .ADD(1),
@@ -31,6 +30,7 @@ proc_fx #(.NUBITS(31),
 .GRE(1),
 .LOR(1),
 .DIV(1),
+.SRF(1),
 .DFILE("C:/Users/melis/Desktop/rede/rede/Hardware/rede_H/rede_data.mif"),
 .IFILE("C:/Users/melis/Desktop/rede/rede/Hardware/rede_H/rede_inst.mif")
 ) p_rede (clk, rst, in_float, out_float, addr_in, addr_out, proc_req_in, proc_out_en);
