@@ -160,27 +160,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[30]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[0]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[1]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[2]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[3]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[4]",
+					"name" : "io_in[6]",
 					"strict" : false
 				},
 				{
@@ -188,7 +168,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[6]",
+					"name" : "io_in[4]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[3]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[2]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[1]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[0]",
 					"strict" : false
 				},
 				{
@@ -196,15 +192,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[8]",
-					"strict" : false
-				},
-				{
 					"name" : "io_in[9]",
 					"strict" : false
 				},
 				{
-					"name" : "io_in[10]",
+					"name" : "io_in[8]",
 					"strict" : false
 				},
 				{
@@ -212,7 +204,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[12]",
+					"name" : "io_in[10]",
 					"strict" : false
 				},
 				{
@@ -220,7 +212,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[14]",
+					"name" : "io_in[12]",
 					"strict" : false
 				},
 				{
@@ -228,11 +220,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[16]",
-					"strict" : false
-				},
-				{
-					"name" : "io_in[17]",
+					"name" : "io_in[14]",
 					"strict" : false
 				},
 				{
@@ -240,7 +228,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[19]",
+					"name" : "io_in[17]",
 					"strict" : false
 				},
 				{
@@ -248,7 +236,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[21]",
+					"name" : "io_in[19]",
 					"strict" : false
 				},
 				{
@@ -256,7 +244,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[23]",
+					"name" : "io_in[21]",
 					"strict" : false
 				},
 				{
@@ -264,7 +252,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[25]",
+					"name" : "io_in[23]",
 					"strict" : false
 				},
 				{
@@ -272,11 +260,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "io_in[27]",
+					"name" : "io_in[25]",
 					"strict" : false
 				},
 				{
 					"name" : "io_in[28]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[27]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[30]",
+					"strict" : false
+				},
+				{
+					"name" : "io_in[16]",
 					"strict" : false
 				},
 				{

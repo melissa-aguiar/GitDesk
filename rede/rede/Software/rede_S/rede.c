@@ -6,13 +6,13 @@
 #SDEPTH 4
 #NUIOIN 4
 #NUIOOU 4
-#NUGAIN 4
+#NUGAIN 64
 
 void main() 
 {   
     int tab[64]"LUT_tansig123.txt";
     int tab4[32768]"LUT_tansig4.txt";
-  
+
     //inicializando as entradas com zero
     int y0 = 0;
     int y1 = 0;
@@ -41,36 +41,34 @@ void main()
     y9 = in(0);
     
     //neuronios fazendo produto de inteiros e seus respectivos pesos e somando aos seus respectvios bias
-    int soma0 = -1018 + 6*y0 - 16*y1 + 34*y2 -78*y3 + 191*y4 - 321*y5 + 188*y6 - 100*y7 + 47*y8 - 15*y9;
-    int soma1 = -1086 - 8*y0 + 25*y1 - 64*y2 + 154*y3 - 255*y4 + 159*y5 - 89*y6 + 46*y7 - 22*y8 + 7*y9;
-    int soma2 = -1194 + 14*y0 - 53*y1 + 143*y2 - 255*y3 + 154*y4 - 81*y5 + 43*y6 - 22*y7 + 10*y8 - 3*y9;
-    int soma3 =  145617 +62*y0 - 194*y1 + 489*y2 - 1174*y3 + 1937*y4 - 1198*y5 + 667*y6 - 351*y7 + 164*y8 - 54*y9;
+    int soma0 = 6*y0 + 34*y2 + 191*y4 + 188*y6 + 47*y8 - (1018 + 16*y1 +78*y3 + 321*y5 + 100*y7 + 15*y9);
+    int soma1 = 25*y1 + 154*y3 + 159*y5 + 46*y7 + 7*y9 - (1086 + 8*y0 + 64*y2 + 255*y4 + 89*y6 + 22*y8 );
+    int soma2 = 14*y0 + 143*y2 + 154*y4 + 43*y6 + 10*y8 - (1194 + 53*y1 + 255*y3 + 81*y5 + 22*y7 + 3*y9);
+    int soma3 = 145617 +62*y0 + 489*y2 + 1937*y4 + 667*y6 + 164*y8 - (194*y1 + 1174*y3 + 1198*y5 + 351*y7 + 54*y9);
+
     
     //processo de truncamento
     int indice[4];
     int a[4];
+    
+    
     if ((soma0 < 3072 && soma0 >= 0)  || (soma0 > -3072 && soma0 <= 0)){
         
         if (soma0 < 0){
-            soma0 = -1*soma0;
-            soma0 = soma0/64;
-            indice[0] = soma0;
+            indice[0] =  /> -soma0;         
             a[0] = 1;
         }
         else{
-            soma0 = soma0/64;
-            indice[0] = soma0;
+            indice[0] = /> soma0;           
             a[0] = 0;
         }
-        
     }
     else{
-        if (soma0 < 0){
-            indice[0] = 64;
+        indice[0] = 64;
+        if (soma0 < 0){          
             a[0] = 1;
         }
-        else{
-            indice[0] = 64;
+        else{        
             a[0] = 0;
         }
     }
@@ -80,50 +78,42 @@ void main()
     if (soma1 < 3072 && soma1 >= 0  || soma1 > -3072 && soma1 <= 0){
         
         if (soma1 < 0){
-            soma1 = -1*soma1;
-            soma1 = soma1/64;
-            indice[1] = soma1;
+            indice[1] =  /> -soma1;         
             a[1] = 1;
         }
         else{
-            soma1 = soma1/64;
-            indice[1] = soma1;
+            indice[1] = /> soma1;          
             a[1] = 0;
         }
     }
     else{
-        if (soma1 < 0){
-            indice[1] = 64;
+        indice[1] = 64;
+        if (soma1 < 0){         
             a[1] = 1;
         }
-        else{
-            indice[1] = 64;
+        else{           
             a[1] = 0;
         }
-
     }
     
     
     if (soma2 < 3072 && soma2 >= 0  || soma2 > -3072 && soma2 <= 0){
+        
         if (soma2 < 0){
-            soma2 = -1*soma2;
-            soma2 = soma2/64;
-            indice[2] = soma2;
+            indice[2]  = /> -soma2;
             a[2] = 1;
         }
         else{
-            soma2 = soma2/64;
-            indice[2] = soma2;
+            indice[2] = /> soma2;
             a[2] = 0;
         }
     }
     else{
-        if (soma2 < 0){
-            indice[2] = 64;
+        indice[2] = 64;
+        if (soma2 < 0){        
             a[2] = 1;
         }
-        else{
-            indice[2] = 64;
+        else{          
             a[2] = 0;
         }
     }
@@ -132,24 +122,20 @@ void main()
     if (soma3 < 1048576 && soma3 >= 1  || soma3 > -1048576 && soma3 <= 1){
         
         if (soma3 < 0){
-            soma3 = -1*soma3;
-            soma3 = soma3/64;
-            indice[3] = soma3;
+            indice[3] = /> -soma3;    
             a[3] = 1;
         }
-        else{
-            soma3 = soma3/64;
-            indice[3] = soma3;
+        else{            
+            indice[3] = /> soma3; 
             a[3] = 0;
         }
     }
     else{
+        indice[3] = 32769;
         if (soma3 < 0){
-            indice[3] = 32769;
             a[3] = 1;
         }
-        else{
-            indice[3] = 32769;
+        else{       
             a[3] = 0;
         }
     }
@@ -159,10 +145,10 @@ void main()
     int lute_out_n_2;
     int lute_out_n_3;
     
-    if (indice  [0] < 64){
+    if (indice[0] < 64){
         if (a[0] == 1){
-            lute_out_n_0 = tab[indice[0]];
-            lute_out_n_0 = -1*lute_out_n_0;
+            lute_out_n_0 = -tab[indice[0]];
+            
         }
         else{
             lute_out_n_0 = tab[indice[0]];
@@ -177,13 +163,11 @@ void main()
         }
     }
     
-    
-    
 
     if (indice  [1] < 64){
         if (a[1] == 1){
-            lute_out_n_1 = tab[indice[1]];
-            lute_out_n_1 = -1*lute_out_n_1;
+            lute_out_n_1 = -tab[indice[1]];
+            
         }
         else{
             lute_out_n_1 = tab[indice[1]];
@@ -199,11 +183,9 @@ void main()
     }
     
     
-    
     if (indice  [2] < 64){
         if (a[2] == 1){
-            lute_out_n_2 = tab[indice[2]];
-            lute_out_n_2 = -1*lute_out_n_2;
+            lute_out_n_2 = -tab[indice[2]];        
         }
         else{
             lute_out_n_2 = tab[indice[2]];
@@ -219,11 +201,9 @@ void main()
     }
     
     
-    
     if (indice  [3] < 32768){
         if (a[3] == 1){
-            lute_out_n_3 = tab4[indice[3]];
-            lute_out_n_3 = -1*lute_out_n_3;
+            lute_out_n_3 = -tab4[indice[3]];          
         }
         else{
             lute_out_n_3 = tab4[indice[3]];
@@ -237,16 +217,9 @@ void main()
             lute_out_n_3 = 15795;
         }
     }
-    
-    int n_out_0    = lute_out_n_0*2816;
-    int n_out_1    = lute_out_n_1*5120;     
-    int n_out_2    = lute_out_n_2*3840;
-    int n_out_3    = lute_out_n_3*2716;
 
-    int saida_rede = n_out_1 + n_out_3 - (n_out_0 + n_out_2 + 6200193);
+    int saida_rede = lute_out_n_1*5120 + lute_out_n_3*2716 - (lute_out_n_0*2816 + lute_out_n_2*3840 + 6200193);
     
     out(0, saida_rede);
-    
-    
 }
 }
