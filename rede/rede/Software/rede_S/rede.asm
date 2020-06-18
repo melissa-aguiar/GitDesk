@@ -182,398 +182,228 @@ SADD
 MLT -1
 SADD
 SET mainsoma3
-#array mainindice 4
-#array maina 4
 LOAD 3072
 LES mainsoma0
-PLD 0
-LES mainsoma0
-LINV
-SLAND
 PLD -3072
 GRE mainsoma0
-PLD 0
-GRE mainsoma0
-LINV
 SLAND
-SLOR
 JZ L2else
 LOAD 0
 LES mainsoma0
 JZ L3else
-LOAD 0
-PLD mainsoma0
+LOAD mainsoma0
 MLT -1
-NORM
-SRF
-SET mainindice
-LOAD 0
-PLD 1
-SRF
-SET maina
+NORMS mainindice0
+LOAD 1
+SET maina0
 JMP L3end
-@L3else LOAD 0
-PLD mainsoma0
-NORM
-SRF
-SET mainindice
+@L3else LOAD mainsoma0
+NORMS mainindice0
 LOAD 0
-PLD 0
-SRF
-SET maina
+SET maina0
 @L3end JMP L2end
-@L2else LOAD 0
-PLD 64
-SRF
-SET mainindice
+@L2else LOAD 64
+SET mainindice0
 LOAD 0
 LES mainsoma0
 JZ L4else
-LOAD 0
-PLD 1
-SRF
-SET maina
+LOAD 1
+SET maina0
 JMP L4end
 @L4else LOAD 0
-PLD 0
-SRF
-SET maina
+SET maina0
 @L4end @L2end LOAD 3072
 LES mainsoma1
-PLD 0
-LES mainsoma1
-LINV
-SLAND
 PLD -3072
 GRE mainsoma1
-PLD 0
-GRE mainsoma1
-LINV
 SLAND
-SLOR
 JZ L5else
 LOAD 0
 LES mainsoma1
 JZ L6else
-LOAD 1
-PLD mainsoma1
+LOAD mainsoma1
 MLT -1
-NORM
-SRF
-SET mainindice
+NORMS mainindice1
 LOAD 1
-PLD 1
-SRF
-SET maina
+SET maina1
 JMP L6end
-@L6else LOAD 1
-PLD mainsoma1
-NORM
-SRF
-SET mainindice
-LOAD 1
-PLD 0
-SRF
-SET maina
+@L6else LOAD mainsoma1
+NORMS mainindice1
+LOAD 0
+SET maina1
 @L6end JMP L5end
-@L5else LOAD 1
-PLD 64
-SRF
-SET mainindice
+@L5else LOAD 64
+SET mainindice1
 LOAD 0
 LES mainsoma1
 JZ L7else
 LOAD 1
-PLD 1
-SRF
-SET maina
+SET maina1
 JMP L7end
-@L7else LOAD 1
-PLD 0
-SRF
-SET maina
+@L7else LOAD 0
+SET maina1
 @L7end @L5end LOAD 3072
 LES mainsoma2
-PLD 0
-LES mainsoma2
-LINV
-SLAND
 PLD -3072
 GRE mainsoma2
-PLD 0
-GRE mainsoma2
-LINV
 SLAND
-SLOR
 JZ L8else
 LOAD 0
 LES mainsoma2
 JZ L9else
-LOAD 2
-PLD mainsoma2
+LOAD mainsoma2
 MLT -1
-NORM
-SRF
-SET mainindice
-LOAD 2
-PLD 1
-SRF
-SET maina
+NORMS mainindice2
+LOAD 1
+SET maina2
 JMP L9end
-@L9else LOAD 2
-PLD mainsoma2
-NORM
-SRF
-SET mainindice
-LOAD 2
-PLD 0
-SRF
-SET maina
+@L9else LOAD mainsoma2
+NORMS mainindice2
+LOAD 0
+SET maina2
 @L9end JMP L8end
-@L8else LOAD 2
-PLD 64
-SRF
-SET mainindice
+@L8else LOAD 64
+SET mainindice2
 LOAD 0
 LES mainsoma2
 JZ L10else
-LOAD 2
-PLD 1
-SRF
-SET maina
+LOAD 1
+SET maina2
 JMP L10end
-@L10else LOAD 2
-PLD 0
-SRF
-SET maina
+@L10else LOAD 0
+SET maina2
 @L10end @L8end LOAD 1048576
 LES mainsoma3
-PLD 1
-LES mainsoma3
-LINV
-SLAND
 PLD -1048576
 GRE mainsoma3
-PLD 1
-GRE mainsoma3
-LINV
 SLAND
-SLOR
 JZ L11else
 LOAD 0
 LES mainsoma3
 JZ L12else
-LOAD 3
-PLD mainsoma3
+LOAD mainsoma3
 MLT -1
-NORM
-SRF
-SET mainindice
-LOAD 3
-PLD 1
-SRF
-SET maina
+NORMS mainindice3
+LOAD 1
+SET maina3
 JMP L12end
-@L12else LOAD 3
-PLD mainsoma3
-NORM
-SRF
-SET mainindice
-LOAD 3
-PLD 0
-SRF
-SET maina
+@L12else LOAD mainsoma3
+NORMS mainindice3
+LOAD 0
+SET maina3
 @L12end JMP L11end
-@L11else LOAD 3
-PLD 32769
-SRF
-SET mainindice
+@L11else LOAD 32769
+SET mainindice3
 LOAD 0
 LES mainsoma3
 JZ L13else
-LOAD 3
-PLD 1
-SRF
-SET maina
+LOAD 1
+SET maina3
 JMP L13end
-@L13else LOAD 3
-PLD 0
-SRF
-SET maina
-@L13end @L11end LOAD 0
-PUSH
-SRF
-LOAD mainindice
-PLD 64
-SLES
+@L13else LOAD 0
+SET maina3
+@L13end @L11end LOAD 64
+LES mainindice0
 JZ L14else
-LOAD 0
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+LOAD 1
+EQU maina0
 JZ L15else
-LOAD 0
-PUSH
-SRF
-LOAD mainindice
+LOAD mainindice0
 PUSH
 SRF
 LOAD maintab
 MLT -1
 SET mainlute_out_n_0
 JMP L15end
-@L15else LOAD 0
-PUSH
-SRF
-LOAD mainindice
+@L15else LOAD mainindice0
 PUSH
 SRF
 LOAD maintab
 SET mainlute_out_n_0
 @L15end JMP L14end
-@L14else LOAD 0
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+@L14else LOAD 1
+EQU maina0
 JZ L16else
 LOAD -64
 SET mainlute_out_n_0
 JMP L16end
 @L16else LOAD 64
 SET mainlute_out_n_0
-@L16end @L14end LOAD 1
-PUSH
-SRF
-LOAD mainindice
-PLD 64
-SLES
+@L16end @L14end LOAD 64
+LES mainindice1
 JZ L17else
 LOAD 1
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+EQU maina1
 JZ L18else
-LOAD 1
-PUSH
-SRF
-LOAD mainindice
+LOAD mainindice1
 PUSH
 SRF
 LOAD maintab
 MLT -1
 SET mainlute_out_n_1
 JMP L18end
-@L18else LOAD 1
-PUSH
-SRF
-LOAD mainindice
+@L18else LOAD mainindice1
 PUSH
 SRF
 LOAD maintab
 SET mainlute_out_n_1
 @L18end JMP L17end
 @L17else LOAD 1
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+EQU maina1
 JZ L19else
 LOAD -64
 SET mainlute_out_n_1
 JMP L19end
 @L19else LOAD 64
 SET mainlute_out_n_1
-@L19end @L17end LOAD 2
-PUSH
-SRF
-LOAD mainindice
-PLD 64
-SLES
+@L19end @L17end LOAD 64
+LES mainindice2
 JZ L20else
-LOAD 2
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+LOAD 1
+EQU maina2
 JZ L21else
-LOAD 2
-PUSH
-SRF
-LOAD mainindice
+LOAD mainindice2
 PUSH
 SRF
 LOAD maintab
 MLT -1
 SET mainlute_out_n_2
 JMP L21end
-@L21else LOAD 2
-PUSH
-SRF
-LOAD mainindice
+@L21else LOAD mainindice2
 PUSH
 SRF
 LOAD maintab
 SET mainlute_out_n_2
 @L21end JMP L20end
-@L20else LOAD 2
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+@L20else LOAD 1
+EQU maina2
 JZ L22else
 LOAD -64
 SET mainlute_out_n_2
 JMP L22end
 @L22else LOAD 64
 SET mainlute_out_n_2
-@L22end @L20end LOAD 3
-PUSH
-SRF
-LOAD mainindice
-PLD 32768
-SLES
+@L22end @L20end LOAD 32768
+LES mainindice3
 JZ L23else
-LOAD 3
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+LOAD 1
+EQU maina3
 JZ L24else
-LOAD 3
-PUSH
-SRF
-LOAD mainindice
+LOAD mainindice3
 PUSH
 SRF
 LOAD maintab4
 MLT -1
 SET mainlute_out_n_3
 JMP L24end
-@L24else LOAD 3
-PUSH
-SRF
-LOAD mainindice
+@L24else LOAD mainindice3
 PUSH
 SRF
 LOAD maintab4
 SET mainlute_out_n_3
 @L24end JMP L23end
-@L23else LOAD 3
-PUSH
-SRF
-LOAD maina
-PLD 1
-SEQU
+@L23else LOAD 1
+EQU maina3
 JZ L25else
 LOAD -15795
 SET mainlute_out_n_3

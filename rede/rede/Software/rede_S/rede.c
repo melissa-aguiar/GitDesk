@@ -12,7 +12,7 @@ void main()
 {   
     int tab[64]"LUT_tansig123.txt";
     int tab4[32768]"LUT_tansig4.txt";
-
+  
     //inicializando as entradas com zero
     int y0 = 0;
     int y1 = 0;
@@ -25,7 +25,7 @@ void main()
     int y8 = 0;
     int y9 = 0;
     
-    while (1==1)
+while (1==1)
 {
     
     //atualizando as entradas
@@ -48,95 +48,101 @@ void main()
 
     
     //processo de truncamento
-    int indice[4];
-    int a[4];
+    int indice0;
+    int indice1;
+    int indice2;
+    int indice3;
+
+    int a0;
+    int a1;
+    int a2;
+    int a3;
     
-    
-    if ((soma0 < 3072 && soma0 >= 0)  || (soma0 > -3072 && soma0 <= 0)){
+    if (soma0 < 3072 && soma0 > -3072){
         
         if (soma0 < 0){
-            indice[0] =  /> -soma0;         
-            a[0] = 1;
+            indice0 /> -soma0;         
+            a0 = 1;
         }
         else{
-            indice[0] = /> soma0;           
-            a[0] = 0;
+            indice0 /> soma0;           
+            a0 = 0;
         }
     }
     else{
-        indice[0] = 64;
+        indice0 = 64;
         if (soma0 < 0){          
-            a[0] = 1;
+            a0 = 1;
         }
         else{        
-            a[0] = 0;
+            a0 = 0;
         }
     }
     
     
     
-    if (soma1 < 3072 && soma1 >= 0  || soma1 > -3072 && soma1 <= 0){
+    if (soma1 < 3072 && soma1 > -3072){
         
         if (soma1 < 0){
-            indice[1] =  /> -soma1;         
-            a[1] = 1;
+            indice1 /> -soma1;         
+            a1 = 1;
         }
         else{
-            indice[1] = /> soma1;          
-            a[1] = 0;
+            indice1 /> soma1;          
+            a1 = 0;
         }
     }
     else{
-        indice[1] = 64;
+        indice1 = 64;
         if (soma1 < 0){         
-            a[1] = 1;
+            a1 = 1;
         }
         else{           
-            a[1] = 0;
+            a1 = 0;
         }
     }
     
     
-    if (soma2 < 3072 && soma2 >= 0  || soma2 > -3072 && soma2 <= 0){
+    if (soma2 < 3072 && soma2 > -3072 ){
         
         if (soma2 < 0){
-            indice[2]  = /> -soma2;
-            a[2] = 1;
+            indice2  /> -soma2;
+            a2 = 1;
         }
         else{
-            indice[2] = /> soma2;
-            a[2] = 0;
+            indice2 /> soma2;
+            a2 = 0;
         }
     }
     else{
-        indice[2] = 64;
+        indice2 = 64;
         if (soma2 < 0){        
-            a[2] = 1;
+            a2 = 1;
         }
         else{          
-            a[2] = 0;
+            a2 = 0;
         }
     }
     
     
-    if (soma3 < 1048576 && soma3 >= 1  || soma3 > -1048576 && soma3 <= 1){
+    if (soma3 < 1048576 && soma3 > -1048576){
         
         if (soma3 < 0){
-            indice[3] = /> -soma3;    
-            a[3] = 1;
+            indice3 /> -soma3;    
+            a3 = 1;
         }
         else{            
-            indice[3] = /> soma3; 
-            a[3] = 0;
+            indice3 /> soma3; 
+            a3 = 0;
         }
     }
     else{
-        indice[3] = 32769;
+        indice3 = 32769;
         if (soma3 < 0){
-            a[3] = 1;
+            a3 = 1;
         }
         else{       
-            a[3] = 0;
+            a3 = 0;
         }
     }
     
@@ -145,17 +151,19 @@ void main()
     int lute_out_n_2;
     int lute_out_n_3;
     
-    if (indice[0] < 64){
-        if (a[0] == 1){
-            lute_out_n_0 = -tab[indice[0]];
+    
+    
+    if (indice0 < 64){
+        if (a0 == 1){
+            lute_out_n_0 = -tab[indice0];
             
         }
         else{
-            lute_out_n_0 = tab[indice[0]];
+            lute_out_n_0 = tab[indice0];
         }
     }
     else{
-        if (a[0]==1){
+        if (a0==1){
             lute_out_n_0 = -64;
         }
         else{
@@ -164,17 +172,17 @@ void main()
     }
     
 
-    if (indice  [1] < 64){
-        if (a[1] == 1){
-            lute_out_n_1 = -tab[indice[1]];
+    if (indice1 < 64){
+        if (a1 == 1){
+            lute_out_n_1 = -tab[indice1];
             
         }
         else{
-            lute_out_n_1 = tab[indice[1]];
+            lute_out_n_1 = tab[indice1];
         }
     }
     else{
-        if (a[1]==1){
+        if (a1==1){
             lute_out_n_1 = -64;
         }
         else{
@@ -183,16 +191,16 @@ void main()
     }
     
     
-    if (indice  [2] < 64){
-        if (a[2] == 1){
-            lute_out_n_2 = -tab[indice[2]];        
+    if (indice2 < 64){
+        if (a2 == 1){
+            lute_out_n_2 = -tab[indice2];        
         }
         else{
-            lute_out_n_2 = tab[indice[2]];
+            lute_out_n_2 = tab[indice2];
         }
     }
     else{
-        if (a[2]==1){
+        if (a2==1){
             lute_out_n_2 = -64;
         }
         else{
@@ -201,16 +209,16 @@ void main()
     }
     
     
-    if (indice  [3] < 32768){
-        if (a[3] == 1){
-            lute_out_n_3 = -tab4[indice[3]];          
+    if (indice3 < 32768){
+        if (a3 == 1){
+            lute_out_n_3 = -tab4[indice3];          
         }
         else{
-            lute_out_n_3 = tab4[indice[3]];
+            lute_out_n_3 = tab4[indice3];
         }
     }
     else{
-        if (a[3]==1){
+        if (a3==1){
             lute_out_n_3 = -15795;
         }
         else{

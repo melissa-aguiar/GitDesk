@@ -15,8 +15,8 @@ wire [1:0] addr_in;
 wire [1:0] addr_out;
 
 proc_fx #(.NUBITS(31),
-.MDATAS(32922),
-.MINSTS(589),
+.MDATAS(32921),
+.MINSTS(421),
 .SDEPTH(4),
 .NUIOIN(4),
 .NUIOOU(4),
@@ -25,11 +25,8 @@ proc_fx #(.NUBITS(31),
 .MLT(1),
 .ADD(1),
 .LES(1),
-.LIN(1),
-.LAN(1),
 .GRE(1),
-.LOR(1),
-.NRM(1),
+.LAN(1),
 .SRF(1),
 .DFILE("C:/Users/melis/Desktop/GitDesk/rede/rede/Hardware/rede_H/rede_data.mif"),
 .IFILE("C:/Users/melis/Desktop/GitDesk/rede/rede/Hardware/rede_H/rede_inst.mif")
