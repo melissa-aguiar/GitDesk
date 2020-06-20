@@ -31,7 +31,11 @@ module core_fx
 	parameter XOR   =  0,
 	parameter SHL   =  0,
 	parameter SRS   =  0,
-	parameter NRM   =  0
+	parameter NRM   =  0, 
+	parameter ABS   =  0,
+	parameter NORMS =  0,
+	parameter PSET  =  0
+	
 )
 (
 	input                       clk, rst,
@@ -132,14 +136,15 @@ ula_fx #(.NUBITS(NUBITS),
          .XOR   (XOR   ),
          .SHL   (SHL   ),
          .SRS   (SRS   ),
-			.NRM   (NRM   )) ula(id_ula_op, id_ula_data, ula_acc, ula_out);
+			.NRM   (NRM   ),
+			.ABS   (ABS   )) ula(id_ula_op, id_ula_data, ula_acc, ula_out);
 
 // Acumulador -----------------------------------------------------------------
 
 ///////////////////////////////
 wire  [NUBITS-1:0] out;
 
-positivo_fx #(NUBITS, NUGAIN) positivo_fx(ula_out, id_neg, id_nrm, out);
+positivo_fx #(NUBITS, NUGAIN, NORMS, PSET) positivo_fx(ula_out, id_neg, id_nrm, out);
 /////////////////////////////////
 
 reg signed [NUBITS-1:0] racc;

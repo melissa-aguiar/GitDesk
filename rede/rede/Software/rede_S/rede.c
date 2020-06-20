@@ -14,30 +14,30 @@ void main()
     int tab4[32768]"LUT_tansig4.txt";
   
     //inicializando as entradas com zero
-    int y0 = 0;
-    int y1 = 0;
-    int y2 = 0;
-    int y3 = 0;
-    int y4 = 0;
-    int y5 = 0;
-    int y6 = 0;
-    int y7 = 0;
-    int y8 = 0;
-    int y9 = 0;
+    int y0;
+    int y1;
+    int y2;
+    int y3;
+    int y4;
+    int y5;
+    int y6;
+    int y7;
+    int y8;
+    int y9;
     
-while (1==1)
+while (1)
 {
     
     //atualizando as entradas
-    y0 = y1;
-    y1 = y2;
-    y2 = y3;
-    y3 = y4;
-    y4 = y5;
-    y5 = y6;
-    y6 = y7;
-    y7 = y8;
-    y8 = y9;
+    y0 = in(0);
+    y1 = in(0);
+    y2 = in(0);
+    y3 = in(0);
+    y4 = in(0);
+    y5 = in(0);
+    y6 = in(0);
+    y7 = in(0);
+    y8 = in(0);
     y9 = in(0);
     
     //neuronios fazendo produto de inteiros e seus respectivos pesos e somando aos seus respectvios bias
@@ -52,179 +52,131 @@ while (1==1)
     int indice1;
     int indice2;
     int indice3;
+    int m = 4096;
+    int n = 2097916;
 
-    int a0;
-    int a1;
-    int a2;
-    int a3;
+    // neuronio 1
+    if (soma0 < 3072 && -3072 < soma0)
+        indice0 /> abs(soma0);
+    else 
+        indice0 /> abs(m);
+
     
-    if (soma0 < 3072 && soma0 > -3072){
-        
-        if (soma0 < 0){
-            indice0 /> -soma0;         
-            a0 = 1;
-        }
-        else{
-            indice0 /> soma0;           
-            a0 = 0;
-        }
-    }
-    else{
-        indice0 = 64;
-        if (soma0 < 0){          
-            a0 = 1;
-        }
-        else{        
-            a0 = 0;
-        }
-    }
+    //neuronio 2
+    if (soma1 < 3072 && -3072 < soma1)     
+         indice1 /> abs(soma1);  
+    else  
+         indice1 /> abs(m);
     
+    // neuronio 3
+    if (soma2 < 3072 && -3072 < soma2 )
+         indice2 /> abs(soma2); 
+    else  
+         indice2 /> abs(m);
     
-    
-    if (soma1 < 3072 && soma1 > -3072){
-        
-        if (soma1 < 0){
-            indice1 /> -soma1;         
-            a1 = 1;
-        }
-        else{
-            indice1 /> soma1;          
-            a1 = 0;
-        }
-    }
-    else{
-        indice1 = 64;
-        if (soma1 < 0){         
-            a1 = 1;
-        }
-        else{           
-            a1 = 0;
-        }
-    }
-    
-    
-    if (soma2 < 3072 && soma2 > -3072 ){
-        
-        if (soma2 < 0){
-            indice2  /> -soma2;
-            a2 = 1;
-        }
-        else{
-            indice2 /> soma2;
-            a2 = 0;
-        }
-    }
-    else{
-        indice2 = 64;
-        if (soma2 < 0){        
-            a2 = 1;
-        }
-        else{          
-            a2 = 0;
-        }
-    }
-    
-    
-    if (soma3 < 1048576 && soma3 > -1048576){
-        
-        if (soma3 < 0){
-            indice3 /> -soma3;    
-            a3 = 1;
-        }
-        else{            
-            indice3 /> soma3; 
-            a3 = 0;
-        }
-    }
-    else{
-        indice3 = 32769;
-        if (soma3 < 0){
-            a3 = 1;
-        }
-        else{       
-            a3 = 0;
-        }
-    }
-    
+    // neuronio 4
+    if (soma3 < 1048576 && -1048576 < soma3)
+        indice3 /> abs(soma3);
+    else
+        indice3 /> abs(n);
+ 
     int lute_out_n_0;
     int lute_out_n_1;
     int lute_out_n_2;
     int lute_out_n_3;
     
-    
-    
+    // neuronio 1
     if (indice0 < 64){
-        if (a0 == 1){
+        if (soma0 < 0){
+            lute_out_n_0 = -64;
             lute_out_n_0 = -tab[indice0];
             
         }
-        else{
-            lute_out_n_0 = tab[indice0];
+       else{
+            lute_out_n_0 = 64;
+            lute_out_n_0 = 1*tab[indice0];
         }
     }
     else{
-        if (a0==1){
+        if (soma0 < 0){
+            lute_out_n_0 = -tab[indice0];
             lute_out_n_0 = -64;
         }
         else{
+            lute_out_n_0 = 1*tab[indice0];
             lute_out_n_0 = 64;
         }
     }
     
-
+    // neuronio 2
     if (indice1 < 64){
-        if (a1 == 1){
+        if (soma1 < 0){
+            lute_out_n_1 = -64;
             lute_out_n_1 = -tab[indice1];
             
         }
         else{
-            lute_out_n_1 = tab[indice1];
+            lute_out_n_1 = 64;
+            lute_out_n_1 = 1*tab[indice1];
         }
     }
     else{
-        if (a1==1){
+        if (soma1 < 0){
+            lute_out_n_1 = -tab[indice1];
             lute_out_n_1 = -64;
         }
         else{
+            lute_out_n_1 = 1*tab[indice1];
             lute_out_n_1 = 64;
         }
     }
     
-    
+    // neuronio 3
     if (indice2 < 64){
-        if (a2 == 1){
-            lute_out_n_2 = -tab[indice2];        
+        if (soma2 < 0){
+            lute_out_n_2 = -64;
+            lute_out_n_2 = -tab[indice2];
+            
         }
         else{
-            lute_out_n_2 = tab[indice2];
+            lute_out_n_2 = 64;
+            lute_out_n_2 = 1*tab[indice2];
         }
     }
     else{
-        if (a2==1){
+        if (soma2 < 0){
+            lute_out_n_2 = -tab[indice2];
             lute_out_n_2 = -64;
         }
         else{
+            lute_out_n_2 = 1*tab[indice2];
             lute_out_n_2 = 64;
         }
     }
     
-    
+    // neuronio 4
     if (indice3 < 32768){
-        if (a3 == 1){
-            lute_out_n_3 = -tab4[indice3];          
+        if (soma3 < 0){
+            lute_out_n_3 = -15795;
+            lute_out_n_3 = -tab4[indice3];
+            
         }
-        else{
-            lute_out_n_3 = tab4[indice3];
+         else{
+            lute_out_n_3 = 15795;
+            lute_out_n_3 = 1*tab4[indice3];
         }
     }
     else{
-        if (a3==1){
+        if (soma3 < 0){
+            lute_out_n_3 = -tab4[indice3];
             lute_out_n_3 = -15795;
         }
         else{
+            lute_out_n_3 = 1*tab4[indice3];
             lute_out_n_3 = 15795;
         }
     }
+    
 
     int saida_rede = lute_out_n_1*5120 + lute_out_n_3*2716 - (lute_out_n_0*2816 + lute_out_n_2*3840 + 6200193);
     

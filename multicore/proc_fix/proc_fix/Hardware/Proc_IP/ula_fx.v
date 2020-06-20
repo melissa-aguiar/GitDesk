@@ -19,7 +19,8 @@ module ula_fx
 	parameter XOR   =  0,
 	parameter SHL   =  0,
 	parameter SRS   =  0,
-	parameter NRM   =  0)
+	parameter NRM   =  0,
+	parameter ABS   =  0)
 (
 	input             [       4:0] op,
 	input      signed [NUBITS-1:0] in1, in2,
@@ -46,6 +47,8 @@ wire signed [NUBITS-1:0] cor;
 wire signed [NUBITS-1:0] shl;
 wire signed [NUBITS-1:0] srs;
 wire signed [NUBITS-1:0] nrm;
+reg signed  [NUBITS-1:0] abs;
+
 
 generate if (DIV == 1) assign div = in1  / in2; else assign div = {NUBITS{1'bx}}; endgenerate
 generate if (OR  == 1) assign orr = in1  | in2; else assign orr = {NUBITS{1'bx}}; endgenerate
@@ -59,6 +62,19 @@ generate if (XOR == 1) assign cor = in1  ^ in2; else assign cor = {NUBITS{1'bx}}
 generate if (SHL == 1) assign shl = in1  << us; else assign shl = {NUBITS{1'bx}}; endgenerate
 generate if (SRS == 1) assign srs = in1 >>> us; else assign srs = {NUBITS{1'bx}}; endgenerate
 generate if (NRM == 1) assign nrm = in2  / NUGAIN; else assign  nrm = {NUBITS{1'bx}}; endgenerate
+generate if (ABS == 1) 
+			begin
+				always @(*) 
+					if(in2[NUBITS-1]) 
+						abs = -in2 ;
+					else 
+						abs = in2; 
+			end
+			else 
+				always@(*) 
+					abs = {NUBITS{1'bx}};
+endgenerate
+			
 
 reg  signed [NUBITS-1:0] ari_out;
 
@@ -78,6 +94,7 @@ always @ (*) begin
 		5'd11  : ari_out <=  cor;    // XOR
 		5'd12  : ari_out <=  orr;    // OR
 		5'd16  : ari_out <=  nrm;    // NORM
+		5'd17  : ari_out <=  abs;    // ABS
 		default: ari_out <= {NUBITS{1'bx}};
 	endcase
 end
