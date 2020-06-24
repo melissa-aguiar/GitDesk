@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Jun 24 14:37:05 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : rede
+Top-level Entity Name : multicore
+Family : Cyclone 10 LP
+Total logic elements : 15,017
+    Total combinational functions : 15,017
+    Dedicated logic registers : 1,533
+Total registers : 1533
+Total pins : 851
+Total virtual pins : 0
+Total memory bits : 21,672,150
+Embedded Multiplier 9-bit elements : 112
+Total PLLs : 0

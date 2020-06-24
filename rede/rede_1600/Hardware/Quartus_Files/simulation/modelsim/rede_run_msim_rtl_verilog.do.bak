@@ -1,0 +1,21 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/rede_H {C:/Users/melis/Desktop/rede/rede/Hardware/rede_H/rede.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/ula_fx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/stack_pointer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/reg_file.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/proc_fx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/prefetch.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/pc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/positivo_fx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/mem_instr.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/mem_data.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/instr_dec_fx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/core_fx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP {C:/Users/melis/Desktop/rede/rede/Hardware/Proc_IP/addr_dec.v}
+
