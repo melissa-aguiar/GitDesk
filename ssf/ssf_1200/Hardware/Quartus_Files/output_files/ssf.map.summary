@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Sep 21 18:33:17 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : ssf
+Top-level Entity Name : ssfblackbox
+Family : Cyclone IV E
+Total logic elements : 18,917
+    Total combinational functions : 18,917
+    Dedicated logic registers : 2,555
+Total registers : 2555
+Total pins : 69
+Total virtual pins : 0
+Total memory bits : 5,365,698
+Embedded Multiplier 9-bit elements : 234
+Total PLLs : 0

@@ -1,0 +1,318 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Quartus_Files/simulation/modelsim
+vaddr_dec
+Z1 !s110 1600716663
+!i10b 1
+!s100 >b5Pnhij80YYY=zT8icSn0
+I<Ua1iXU5zPBB0UhJ;jFNe0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1587683475
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/addr_dec.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/addr_dec.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1600716663.000000
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/addr_dec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/addr_dec.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP
+Z8 tCvgOpt 0
+vcore_fx
+R1
+!i10b 1
+!s100 ?SHM?BJcNmFY^VCEQlVQ61
+IWX1gQAomo_K@Ho<VSE]NR3
+R2
+R0
+Z9 w1592665453
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/core_fx.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/core_fx.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/core_fx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/core_fx.v|
+!i113 1
+R6
+R7
+R8
+vinstr_dec_fx
+R1
+!i10b 1
+!s100 cXQ`gSXkbQWeST=]k>j5L1
+I;T[:QS9PR[fezHR7ccAYV0
+R2
+R0
+Z10 w1592661240
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/instr_dec_fx.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/instr_dec_fx.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/instr_dec_fx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/instr_dec_fx.v|
+!i113 1
+R6
+R7
+R8
+vmem_data
+R1
+!i10b 1
+!s100 JX=R5Vn@`3m_0M7d[e8Kh1
+IF]ndd3KCN=TmD;8S>SCRe0
+R2
+R0
+R3
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_data.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_data.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_data.v|
+!i113 1
+R6
+R7
+R8
+vmem_instr
+R1
+!i10b 1
+!s100 7Z?Em;gcG:>?VFoN2QEUe2
+Im@iY3V7nl5k8YLG[VQhaV0
+R2
+R0
+R3
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_instr.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_instr.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_instr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/mem_instr.v|
+!i113 1
+R6
+R7
+R8
+vpc
+Z11 !s110 1600716662
+!i10b 1
+!s100 G6H:f_UHa:kll:hlYc<z:0
+IJc25o0n`laVPT8iDWTZRQ1
+R2
+R0
+R3
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/pc.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/pc.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z12 !s108 1600716662.000000
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/pc.v|
+!i113 1
+R6
+R7
+R8
+vpositivo_fx
+R11
+!i10b 1
+!s100 Fm^4dUL?97j8aKboKM2R]0
+InR8`I>fHc6=0T;75i>mK41
+R2
+R0
+R9
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/positivo_fx.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/positivo_fx.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/positivo_fx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/positivo_fx.v|
+!i113 1
+R6
+R7
+R8
+vprefetch
+R11
+!i10b 1
+!s100 b6z01]U^5=cTO;Y2YkNb71
+Ih5N14TDmJodZJC6DGSAZf2
+R2
+R0
+R3
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/prefetch.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/prefetch.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/prefetch.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/prefetch.v|
+!i113 1
+R6
+R7
+R8
+vproc_fx
+R11
+!i10b 1
+!s100 C4R8G]d^U;Fm[S8?h4zom3
+Idm:H35[@O>Z5QoVD=ZWhO1
+R2
+R0
+R9
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/proc_fx.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/proc_fx.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/proc_fx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/proc_fx.v|
+!i113 1
+R6
+R7
+R8
+vssf
+Z13 !s110 1600716661
+!i10b 1
+!s100 oUB];H;XOZFFKj_5=YaDU3
+IONNGgBDmKQ:9loz6>@Qec0
+R2
+R0
+w1600716212
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssf.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssf.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z14 !s108 1600716661.000000
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssf.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssf.v|
+!i113 1
+R6
+Z15 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H
+R8
+vssfblackbox
+R13
+!i10b 1
+!s100 e:@^;A=RO_^@liKoNghJB3
+IiH5KZNXLlYo5LMIOWe:G:0
+R2
+R0
+Z16 w1600716190
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssfblackbox.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssfblackbox.v
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssfblackbox.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/ssf_H/ssfblackbox.v|
+!i113 1
+R6
+R15
+R8
+vssfblackbox_tb
+!s110 1600716664
+!i10b 1
+!s100 =2;KYI2ZmEH?PR0hboUbW3
+I2zj0h38`DCfl`N;Lj<;h=1
+R2
+R0
+R16
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Quartus_Files/../ssf_H/ssfblackbox_tb.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Quartus_Files/../ssf_H/ssfblackbox_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Quartus_Files/../ssf_H/ssfblackbox_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Quartus_Files/../ssf_H|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Quartus_Files/../ssf_H/ssfblackbox_tb.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Quartus_Files/../ssf_H
+R8
+vstack_pointer
+R11
+!i10b 1
+!s100 IQSO53bYeP3b>4@>do5TE3
+IE[C;;BU3We7`9?bRO`3CA1
+R2
+R0
+R3
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/stack_pointer.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/stack_pointer.v
+L0 1
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/stack_pointer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/stack_pointer.v|
+!i113 1
+R6
+R7
+R8
+vula_fx
+R13
+!i10b 1
+!s100 <9c72GmRe0IHN<<YaCTob2
+IHZL>e>PUn4@2hcbbX:@;<2
+R2
+R0
+R10
+8C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/ula_fx.v
+FC:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/ula_fx.v
+L0 1
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/ula_fx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/ssf/ssf_0640/Hardware/Proc_IP/ula_fx.v|
+!i113 1
+R6
+R7
+R8

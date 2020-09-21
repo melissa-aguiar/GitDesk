@@ -1,0 +1,6783 @@
+#PRNAME ssf
+#DIRNAM "C:\Users\melis\Desktop\GitDesk\ssf\ssf\Hardware\ssf_H"
+#DATYPE 0
+#NUBITS 32
+#NDSTAC 16
+#SDEPTH 16
+#NUIOIN 2
+#NUIOOU 2
+#NUGAIN 128
+@main @L1 LOAD 1
+EQU 1
+JZ L1end
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_0
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_1
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_2
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_3
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_4
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_5
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_6
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_7
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_8
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_9
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_10
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_11
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_12
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_13
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_14
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_15
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_16
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_17
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_18
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_19
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_20
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_21
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_22
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_23
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_24
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_25
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_26
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_27
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_28
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_29
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_30
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_31
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_32
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_33
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_34
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_35
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_36
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_37
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_38
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_39
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_40
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_41
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_42
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_43
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_44
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_45
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_46
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_47
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_48
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_49
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_50
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_51
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_52
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_53
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PUSH
+IN
+SET maind_54
+LOAD maind_53
+SET maind_53
+LOAD maind_54
+SET maind_54
+LOAD maind_3
+SET mainx_0
+LOAD maind_4
+SET mainx_1
+LOAD maind_5
+SET mainx_2
+LOAD maind_6
+SET mainx_3
+LOAD maind_7
+SET mainx_4
+LOAD maind_8
+SET mainx_5
+LOAD maind_9
+SET mainx_6
+LOAD maind_10
+SET mainx_7
+LOAD maind_11
+SET mainx_8
+LOAD maind_12
+SET mainx_9
+LOAD maind_13
+SET mainx_10
+LOAD maind_14
+SET mainx_11
+LOAD maind_15
+SET mainx_12
+LOAD maind_16
+SET mainx_13
+LOAD maind_17
+SET mainx_14
+LOAD maind_18
+SET mainx_15
+LOAD maind_19
+SET mainx_16
+LOAD maind_20
+SET mainx_17
+LOAD maind_21
+SET mainx_18
+LOAD maind_22
+SET mainx_19
+LOAD maind_23
+SET mainx_20
+LOAD maind_24
+SET mainx_21
+LOAD maind_25
+SET mainx_22
+LOAD maind_26
+SET mainx_23
+LOAD maind_27
+SET mainx_24
+LOAD maind_28
+SET mainx_25
+LOAD maind_29
+SET mainx_26
+LOAD maind_30
+SET mainx_27
+LOAD maind_31
+SET mainx_28
+LOAD maind_32
+SET mainx_29
+LOAD maind_33
+SET mainx_30
+LOAD maind_34
+SET mainx_31
+LOAD maind_35
+SET mainx_32
+LOAD maind_36
+SET mainx_33
+LOAD maind_37
+SET mainx_34
+LOAD maind_38
+SET mainx_35
+LOAD maind_39
+SET mainx_36
+LOAD maind_40
+SET mainx_37
+LOAD maind_41
+SET mainx_38
+LOAD maind_42
+SET mainx_39
+LOAD maind_43
+SET mainx_40
+LOAD maind_44
+SET mainx_41
+LOAD maind_45
+SET mainx_42
+LOAD maind_46
+SET mainx_43
+LOAD maind_47
+SET mainx_44
+LOAD maind_48
+SET mainx_45
+LOAD maind_49
+SET mainx_46
+LOAD maind_50
+SET mainx_47
+LOAD maind_2
+MLT 7412
+PLD maind_3
+MLT 16384
+SADD
+PLD maind_4
+MLT 9229
+SADD
+PLD maind_5
+MLT 2446
+SADD
+SET maind_0
+LOAD maind_3
+MLT 7412
+PLD maind_4
+MLT 16384
+SADD
+PLD maind_5
+MLT 9229
+SADD
+PLD maind_6
+MLT 2446
+SADD
+SET maind_1
+LOAD maind_4
+MLT 7412
+PLD maind_5
+MLT 16384
+SADD
+PLD maind_6
+MLT 9229
+SADD
+PLD maind_7
+MLT 2446
+SADD
+SET maind_2
+LOAD maind_5
+MLT 7412
+PLD maind_6
+MLT 16384
+SADD
+PLD maind_7
+MLT 9229
+SADD
+PLD maind_8
+MLT 2446
+SADD
+SET maind_3
+LOAD maind_6
+MLT 7412
+PLD maind_7
+MLT 16384
+SADD
+PLD maind_8
+MLT 9229
+SADD
+PLD maind_9
+MLT 2446
+SADD
+SET maind_4
+LOAD maind_7
+MLT 7412
+PLD maind_8
+MLT 16384
+SADD
+PLD maind_9
+MLT 9229
+SADD
+PLD maind_10
+MLT 2446
+SADD
+SET maind_5
+LOAD maind_8
+MLT 7412
+PLD maind_9
+MLT 16384
+SADD
+PLD maind_10
+MLT 9229
+SADD
+PLD maind_11
+MLT 2446
+SADD
+SET maind_6
+LOAD maind_9
+MLT 7412
+PLD maind_10
+MLT 16384
+SADD
+PLD maind_11
+MLT 9229
+SADD
+PLD maind_12
+MLT 2446
+SADD
+SET maind_7
+LOAD maind_10
+MLT 7412
+PLD maind_11
+MLT 16384
+SADD
+PLD maind_12
+MLT 9229
+SADD
+PLD maind_13
+MLT 2446
+SADD
+SET maind_8
+LOAD maind_11
+MLT 7412
+PLD maind_12
+MLT 16384
+SADD
+PLD maind_13
+MLT 9229
+SADD
+PLD maind_14
+MLT 2446
+SADD
+SET maind_9
+LOAD maind_12
+MLT 7412
+PLD maind_13
+MLT 16384
+SADD
+PLD maind_14
+MLT 9229
+SADD
+PLD maind_15
+MLT 2446
+SADD
+SET maind_10
+LOAD maind_13
+MLT 7412
+PLD maind_14
+MLT 16384
+SADD
+PLD maind_15
+MLT 9229
+SADD
+PLD maind_16
+MLT 2446
+SADD
+SET maind_11
+LOAD maind_14
+MLT 7412
+PLD maind_15
+MLT 16384
+SADD
+PLD maind_16
+MLT 9229
+SADD
+PLD maind_17
+MLT 2446
+SADD
+SET maind_12
+LOAD maind_15
+MLT 7412
+PLD maind_16
+MLT 16384
+SADD
+PLD maind_17
+MLT 9229
+SADD
+PLD maind_18
+MLT 2446
+SADD
+SET maind_13
+LOAD maind_16
+MLT 7412
+PLD maind_17
+MLT 16384
+SADD
+PLD maind_18
+MLT 9229
+SADD
+PLD maind_19
+MLT 2446
+SADD
+SET maind_14
+LOAD maind_17
+MLT 7412
+PLD maind_18
+MLT 16384
+SADD
+PLD maind_19
+MLT 9229
+SADD
+PLD maind_20
+MLT 2446
+SADD
+SET maind_15
+LOAD maind_18
+MLT 7412
+PLD maind_19
+MLT 16384
+SADD
+PLD maind_20
+MLT 9229
+SADD
+PLD maind_21
+MLT 2446
+SADD
+SET maind_16
+LOAD maind_19
+MLT 7412
+PLD maind_20
+MLT 16384
+SADD
+PLD maind_21
+MLT 9229
+SADD
+PLD maind_22
+MLT 2446
+SADD
+SET maind_17
+LOAD maind_20
+MLT 7412
+PLD maind_21
+MLT 16384
+SADD
+PLD maind_22
+MLT 9229
+SADD
+PLD maind_23
+MLT 2446
+SADD
+SET maind_18
+LOAD maind_21
+MLT 7412
+PLD maind_22
+MLT 16384
+SADD
+PLD maind_23
+MLT 9229
+SADD
+PLD maind_24
+MLT 2446
+SADD
+SET maind_19
+LOAD maind_22
+MLT 7412
+PLD maind_23
+MLT 16384
+SADD
+PLD maind_24
+MLT 9229
+SADD
+PLD maind_25
+MLT 2446
+SADD
+SET maind_20
+LOAD maind_23
+MLT 7412
+PLD maind_24
+MLT 16384
+SADD
+PLD maind_25
+MLT 9229
+SADD
+PLD maind_26
+MLT 2446
+SADD
+SET maind_21
+LOAD maind_24
+MLT 7412
+PLD maind_25
+MLT 16384
+SADD
+PLD maind_26
+MLT 9229
+SADD
+PLD maind_27
+MLT 2446
+SADD
+SET maind_22
+LOAD maind_25
+MLT 7412
+PLD maind_26
+MLT 16384
+SADD
+PLD maind_27
+MLT 9229
+SADD
+PLD maind_28
+MLT 2446
+SADD
+SET maind_23
+LOAD maind_26
+MLT 7412
+PLD maind_27
+MLT 16384
+SADD
+PLD maind_28
+MLT 9229
+SADD
+PLD maind_29
+MLT 2446
+SADD
+SET maind_24
+LOAD maind_27
+MLT 7412
+PLD maind_28
+MLT 16384
+SADD
+PLD maind_29
+MLT 9229
+SADD
+PLD maind_30
+MLT 2446
+SADD
+SET maind_25
+LOAD maind_28
+MLT 7412
+PLD maind_29
+MLT 16384
+SADD
+PLD maind_30
+MLT 9229
+SADD
+PLD maind_31
+MLT 2446
+SADD
+SET maind_26
+LOAD maind_29
+MLT 7412
+PLD maind_30
+MLT 16384
+SADD
+PLD maind_31
+MLT 9229
+SADD
+PLD maind_32
+MLT 2446
+SADD
+SET maind_27
+LOAD maind_30
+MLT 7412
+PLD maind_31
+MLT 16384
+SADD
+PLD maind_32
+MLT 9229
+SADD
+PLD maind_33
+MLT 2446
+SADD
+SET maind_28
+LOAD maind_31
+MLT 7412
+PLD maind_32
+MLT 16384
+SADD
+PLD maind_33
+MLT 9229
+SADD
+PLD maind_34
+MLT 2446
+SADD
+SET maind_29
+LOAD maind_32
+MLT 7412
+PLD maind_33
+MLT 16384
+SADD
+PLD maind_34
+MLT 9229
+SADD
+PLD maind_35
+MLT 2446
+SADD
+SET maind_30
+LOAD maind_33
+MLT 7412
+PLD maind_34
+MLT 16384
+SADD
+PLD maind_35
+MLT 9229
+SADD
+PLD maind_36
+MLT 2446
+SADD
+SET maind_31
+LOAD maind_34
+MLT 7412
+PLD maind_35
+MLT 16384
+SADD
+PLD maind_36
+MLT 9229
+SADD
+PLD maind_37
+MLT 2446
+SADD
+SET maind_32
+LOAD maind_35
+MLT 7412
+PLD maind_36
+MLT 16384
+SADD
+PLD maind_37
+MLT 9229
+SADD
+PLD maind_38
+MLT 2446
+SADD
+SET maind_33
+LOAD maind_36
+MLT 7412
+PLD maind_37
+MLT 16384
+SADD
+PLD maind_38
+MLT 9229
+SADD
+PLD maind_39
+MLT 2446
+SADD
+SET maind_34
+LOAD maind_37
+MLT 7412
+PLD maind_38
+MLT 16384
+SADD
+PLD maind_39
+MLT 9229
+SADD
+PLD maind_40
+MLT 2446
+SADD
+SET maind_35
+LOAD maind_38
+MLT 7412
+PLD maind_39
+MLT 16384
+SADD
+PLD maind_40
+MLT 9229
+SADD
+PLD maind_41
+MLT 2446
+SADD
+SET maind_36
+LOAD maind_39
+MLT 7412
+PLD maind_40
+MLT 16384
+SADD
+PLD maind_41
+MLT 9229
+SADD
+PLD maind_42
+MLT 2446
+SADD
+SET maind_37
+LOAD maind_40
+MLT 7412
+PLD maind_41
+MLT 16384
+SADD
+PLD maind_42
+MLT 9229
+SADD
+PLD maind_43
+MLT 2446
+SADD
+SET maind_38
+LOAD maind_41
+MLT 7412
+PLD maind_42
+MLT 16384
+SADD
+PLD maind_43
+MLT 9229
+SADD
+PLD maind_44
+MLT 2446
+SADD
+SET maind_39
+LOAD maind_42
+MLT 7412
+PLD maind_43
+MLT 16384
+SADD
+PLD maind_44
+MLT 9229
+SADD
+PLD maind_45
+MLT 2446
+SADD
+SET maind_40
+LOAD maind_43
+MLT 7412
+PLD maind_44
+MLT 16384
+SADD
+PLD maind_45
+MLT 9229
+SADD
+PLD maind_46
+MLT 2446
+SADD
+SET maind_41
+LOAD maind_44
+MLT 7412
+PLD maind_45
+MLT 16384
+SADD
+PLD maind_46
+MLT 9229
+SADD
+PLD maind_47
+MLT 2446
+SADD
+SET maind_42
+LOAD maind_45
+MLT 7412
+PLD maind_46
+MLT 16384
+SADD
+PLD maind_47
+MLT 9229
+SADD
+PLD maind_48
+MLT 2446
+SADD
+SET maind_43
+LOAD maind_46
+MLT 7412
+PLD maind_47
+MLT 16384
+SADD
+PLD maind_48
+MLT 9229
+SADD
+PLD maind_49
+MLT 2446
+SADD
+SET maind_44
+LOAD maind_47
+MLT 7412
+PLD maind_48
+MLT 16384
+SADD
+PLD maind_49
+MLT 9229
+SADD
+PLD maind_50
+MLT 2446
+SADD
+SET maind_45
+LOAD maind_48
+MLT 7412
+PLD maind_49
+MLT 16384
+SADD
+PLD maind_50
+MLT 9229
+SADD
+PLD maind_51
+MLT 2446
+SADD
+SET maind_46
+LOAD maind_49
+MLT 7412
+PLD maind_50
+MLT 16384
+SADD
+PLD maind_51
+MLT 9229
+SADD
+PLD maind_52
+MLT 2446
+SADD
+SET maind_47
+LOAD mainx_0
+MLT 14279
+PLD mainx_3
+MLT 4044
+SADD
+PLD mainx_5
+MLT 2533
+SADD
+PLD mainx_1
+MLT 4302
+PLD mainx_2
+MLT 2963
+SADD
+PLD mainx_4
+MLT 3299
+SADD
+PLD mainx_6
+MLT 1894
+SADD
+MLT -1
+SADD
+SET mainaux_0
+LOAD mainx_1
+MLT 27109
+PLD mainx_3
+MLT 5319
+SADD
+PLD mainx_0
+MLT 9531
+PLD mainx_2
+MLT 15328
+SADD
+PLD mainx_4
+MLT 1946
+SADD
+MLT -1
+SADD
+SET mainaux_1
+LOAD mainx_0
+MLT 5753
+PLD mainx_2
+MLT 33765
+SADD
+PLD mainx_4
+MLT 8936
+SADD
+PLD mainx_6
+MLT 2670
+SADD
+PLD mainx_1
+MLT 17275
+PLD mainx_3
+MLT 20328
+SADD
+PLD mainx_5
+MLT 4494
+SADD
+MLT -1
+SADD
+SET mainaux_2
+LOAD mainx_1
+MLT 10399
+PLD mainx_3
+MLT 36764
+SADD
+PLD mainx_5
+MLT 10464
+SADD
+PLD mainx_7
+MLT 3374
+SADD
+PLD mainx_0
+MLT 3451
+PLD mainx_2
+MLT 21268
+SADD
+PLD mainx_4
+MLT 22498
+SADD
+PLD mainx_6
+MLT 5543
+SADD
+PLD mainx_8
+MLT 2002
+SADD
+MLT -1
+SADD
+SET mainaux_3
+LOAD mainx_0
+MLT 2069
+PLD mainx_2
+MLT 12792
+SADD
+PLD mainx_4
+MLT 38065
+SADD
+PLD mainx_6
+MLT 11093
+SADD
+PLD mainx_8
+MLT 3654
+SADD
+PLD mainx_1
+MLT 6236
+PLD mainx_3
+MLT 23066
+SADD
+PLD mainx_5
+MLT 23414
+SADD
+PLD mainx_7
+MLT 5965
+SADD
+PLD mainx_9
+MLT 2185
+SADD
+MLT -1
+SADD
+SET mainaux_4
+LOAD mainx_1
+MLT 3739
+PLD mainx_3
+MLT 13871
+SADD
+PLD mainx_5
+MLT 38614
+SADD
+PLD mainx_7
+MLT 11346
+SADD
+PLD mainx_9
+MLT 3763
+SADD
+PLD mainx_2
+MLT 7671
+PLD mainx_4
+MLT 23846
+SADD
+PLD mainx_6
+MLT 23791
+SADD
+PLD mainx_8
+MLT 6133
+SADD
+PLD mainx_10
+MLT 2256
+SADD
+MLT -1
+SADD
+SET mainaux_5
+LOAD mainx_2
+MLT 4599
+PLD mainx_4
+MLT 14338
+SADD
+PLD mainx_6
+MLT 38840
+SADD
+PLD mainx_8
+MLT 11447
+SADD
+PLD mainx_10
+MLT 3806
+SADD
+PLD mainx_1
+MLT 2241
+PLD mainx_3
+MLT 8318
+SADD
+PLD mainx_5
+MLT 24175
+SADD
+PLD mainx_7
+MLT 23943
+SADD
+PLD mainx_9
+MLT 6198
+SADD
+PLD mainx_11
+MLT 2284
+SADD
+MLT -1
+SADD
+SET mainaux_6
+LOAD mainx_3
+MLT 4987
+PLD mainx_5
+MLT 14536
+SADD
+PLD mainx_7
+MLT 38931
+SADD
+PLD mainx_9
+MLT 11486
+SADD
+PLD mainx_11
+MLT 3822
+SADD
+PLD mainx_2
+MLT 2757
+PLD mainx_4
+MLT 8598
+SADD
+PLD mainx_6
+MLT 24311
+SADD
+PLD mainx_8
+MLT 24003
+SADD
+PLD mainx_10
+MLT 6224
+SADD
+PLD mainx_12
+MLT 2294
+SADD
+MLT -1
+SADD
+SET mainaux_7
+LOAD mainx_4
+MLT 5155
+PLD mainx_6
+MLT 14617
+SADD
+PLD mainx_8
+MLT 38967
+SADD
+PLD mainx_10
+MLT 11502
+SADD
+PLD mainx_12
+MLT 3829
+SADD
+PLD mainx_3
+MLT 2990
+PLD mainx_5
+MLT 8716
+SADD
+PLD mainx_7
+MLT 24365
+SADD
+PLD mainx_9
+MLT 24027
+SADD
+PLD mainx_11
+MLT 6234
+SADD
+PLD mainx_13
+MLT 2298
+SADD
+MLT -1
+SADD
+SET mainaux_8
+LOAD mainx_5
+MLT 5226
+PLD mainx_7
+MLT 14650
+SADD
+PLD mainx_9
+MLT 38981
+SADD
+PLD mainx_11
+MLT 11507
+SADD
+PLD mainx_13
+MLT 3831
+SADD
+PLD mainx_4
+MLT 3090
+PLD mainx_6
+MLT 8765
+SADD
+PLD mainx_8
+MLT 24387
+SADD
+PLD mainx_10
+MLT 24036
+SADD
+PLD mainx_12
+MLT 6238
+SADD
+PLD mainx_14
+MLT 2300
+SADD
+MLT -1
+SADD
+SET mainaux_9
+LOAD mainx_4
+MLT 1853
+PLD mainx_6
+MLT 5255
+SADD
+PLD mainx_8
+MLT 14663
+SADD
+PLD mainx_10
+MLT 38987
+SADD
+PLD mainx_12
+MLT 11510
+SADD
+PLD mainx_14
+MLT 3832
+SADD
+PLD mainx_5
+MLT 3133
+PLD mainx_7
+MLT 8785
+SADD
+PLD mainx_9
+MLT 24396
+SADD
+PLD mainx_11
+MLT 24040
+SADD
+PLD mainx_13
+MLT 6239
+SADD
+PLD mainx_15
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_10
+LOAD mainx_5
+MLT 1878
+PLD mainx_7
+MLT 5267
+SADD
+PLD mainx_9
+MLT 14668
+SADD
+PLD mainx_11
+MLT 38989
+SADD
+PLD mainx_13
+MLT 11511
+SADD
+PLD mainx_15
+MLT 3832
+SADD
+PLD mainx_6
+MLT 3151
+PLD mainx_8
+MLT 8793
+SADD
+PLD mainx_10
+MLT 24399
+SADD
+PLD mainx_12
+MLT 24041
+SADD
+PLD mainx_14
+MLT 6240
+SADD
+PLD mainx_16
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_11
+LOAD mainx_6
+MLT 1889
+PLD mainx_8
+MLT 5271
+SADD
+PLD mainx_10
+MLT 14670
+SADD
+PLD mainx_12
+MLT 38990
+SADD
+PLD mainx_14
+MLT 11511
+SADD
+PLD mainx_16
+MLT 3832
+SADD
+PLD mainx_7
+MLT 3158
+PLD mainx_9
+MLT 8796
+SADD
+PLD mainx_11
+MLT 24400
+SADD
+PLD mainx_13
+MLT 24041
+SADD
+PLD mainx_15
+MLT 6240
+SADD
+PLD mainx_17
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_12
+LOAD mainx_7
+MLT 1893
+PLD mainx_9
+MLT 5273
+SADD
+PLD mainx_11
+MLT 14670
+SADD
+PLD mainx_13
+MLT 38990
+SADD
+PLD mainx_15
+MLT 11511
+SADD
+PLD mainx_17
+MLT 3832
+SADD
+PLD mainx_8
+MLT 3160
+PLD mainx_10
+MLT 8797
+SADD
+PLD mainx_12
+MLT 24401
+SADD
+PLD mainx_14
+MLT 24042
+SADD
+PLD mainx_16
+MLT 6240
+SADD
+PLD mainx_18
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_13
+LOAD mainx_8
+MLT 1895
+PLD mainx_10
+MLT 5274
+SADD
+PLD mainx_12
+MLT 14671
+SADD
+PLD mainx_14
+MLT 38990
+SADD
+PLD mainx_16
+MLT 11511
+SADD
+PLD mainx_18
+MLT 3832
+SADD
+PLD mainx_9
+MLT 3161
+PLD mainx_11
+MLT 8797
+SADD
+PLD mainx_13
+MLT 24401
+SADD
+PLD mainx_15
+MLT 24042
+SADD
+PLD mainx_17
+MLT 6240
+SADD
+PLD mainx_19
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_14
+LOAD mainx_9
+MLT 1895
+PLD mainx_11
+MLT 5274
+SADD
+PLD mainx_13
+MLT 14671
+SADD
+PLD mainx_15
+MLT 38990
+SADD
+PLD mainx_17
+MLT 11511
+SADD
+PLD mainx_19
+MLT 3832
+SADD
+PLD mainx_10
+MLT 3162
+PLD mainx_12
+MLT 8797
+SADD
+PLD mainx_14
+MLT 24401
+SADD
+PLD mainx_16
+MLT 24042
+SADD
+PLD mainx_18
+MLT 6240
+SADD
+PLD mainx_20
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_15
+LOAD mainx_10
+MLT 1896
+PLD mainx_12
+MLT 5274
+SADD
+PLD mainx_14
+MLT 14671
+SADD
+PLD mainx_16
+MLT 38990
+SADD
+PLD mainx_18
+MLT 11511
+SADD
+PLD mainx_20
+MLT 3832
+SADD
+PLD mainx_11
+MLT 3162
+PLD mainx_13
+MLT 8797
+SADD
+PLD mainx_15
+MLT 24401
+SADD
+PLD mainx_17
+MLT 24042
+SADD
+PLD mainx_19
+MLT 6240
+SADD
+PLD mainx_21
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_16
+LOAD mainx_11
+MLT 1896
+PLD mainx_13
+MLT 5274
+SADD
+PLD mainx_15
+MLT 14671
+SADD
+PLD mainx_17
+MLT 38990
+SADD
+PLD mainx_19
+MLT 11511
+SADD
+PLD mainx_21
+MLT 3832
+SADD
+PLD mainx_12
+MLT 3162
+PLD mainx_14
+MLT 8797
+SADD
+PLD mainx_16
+MLT 24401
+SADD
+PLD mainx_18
+MLT 24042
+SADD
+PLD mainx_20
+MLT 6240
+SADD
+PLD mainx_22
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_17
+LOAD mainx_12
+MLT 1896
+PLD mainx_14
+MLT 5274
+SADD
+PLD mainx_16
+MLT 14671
+SADD
+PLD mainx_18
+MLT 38990
+SADD
+PLD mainx_20
+MLT 11511
+SADD
+PLD mainx_22
+MLT 3832
+SADD
+PLD mainx_13
+MLT 3162
+PLD mainx_15
+MLT 8797
+SADD
+PLD mainx_17
+MLT 24401
+SADD
+PLD mainx_19
+MLT 24042
+SADD
+PLD mainx_21
+MLT 6240
+SADD
+PLD mainx_23
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_18
+LOAD mainx_13
+MLT 1896
+PLD mainx_15
+MLT 5274
+SADD
+PLD mainx_17
+MLT 14671
+SADD
+PLD mainx_19
+MLT 38990
+SADD
+PLD mainx_21
+MLT 11511
+SADD
+PLD mainx_23
+MLT 3832
+SADD
+PLD mainx_14
+MLT 3162
+PLD mainx_16
+MLT 8797
+SADD
+PLD mainx_18
+MLT 24401
+SADD
+PLD mainx_20
+MLT 24042
+SADD
+PLD mainx_22
+MLT 6240
+SADD
+PLD mainx_24
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_19
+LOAD mainx_14
+MLT 1896
+PLD mainx_16
+MLT 5274
+SADD
+PLD mainx_18
+MLT 14671
+SADD
+PLD mainx_20
+MLT 38990
+SADD
+PLD mainx_22
+MLT 11511
+SADD
+PLD mainx_24
+MLT 3832
+SADD
+PLD mainx_15
+MLT 3162
+PLD mainx_17
+MLT 8797
+SADD
+PLD mainx_19
+MLT 24401
+SADD
+PLD mainx_21
+MLT 24042
+SADD
+PLD mainx_23
+MLT 6240
+SADD
+PLD mainx_25
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_20
+LOAD mainx_15
+MLT 1896
+PLD mainx_17
+MLT 5274
+SADD
+PLD mainx_19
+MLT 14671
+SADD
+PLD mainx_21
+MLT 38990
+SADD
+PLD mainx_23
+MLT 11511
+SADD
+PLD mainx_25
+MLT 3832
+SADD
+PLD mainx_16
+MLT 3162
+PLD mainx_18
+MLT 8797
+SADD
+PLD mainx_20
+MLT 24401
+SADD
+PLD mainx_22
+MLT 24042
+SADD
+PLD mainx_24
+MLT 6240
+SADD
+PLD mainx_26
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_21
+LOAD mainx_16
+MLT 1896
+PLD mainx_18
+MLT 5274
+SADD
+PLD mainx_20
+MLT 14671
+SADD
+PLD mainx_22
+MLT 38990
+SADD
+PLD mainx_24
+MLT 11511
+SADD
+PLD mainx_26
+MLT 3832
+SADD
+PLD mainx_17
+MLT 3162
+PLD mainx_19
+MLT 8797
+SADD
+PLD mainx_21
+MLT 24401
+SADD
+PLD mainx_23
+MLT 24042
+SADD
+PLD mainx_25
+MLT 6240
+SADD
+PLD mainx_27
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_22
+LOAD mainx_17
+MLT 1896
+PLD mainx_19
+MLT 5274
+SADD
+PLD mainx_21
+MLT 14671
+SADD
+PLD mainx_23
+MLT 38990
+SADD
+PLD mainx_25
+MLT 11511
+SADD
+PLD mainx_27
+MLT 3832
+SADD
+PLD mainx_18
+MLT 3162
+PLD mainx_20
+MLT 8797
+SADD
+PLD mainx_22
+MLT 24401
+SADD
+PLD mainx_24
+MLT 24042
+SADD
+PLD mainx_26
+MLT 6240
+SADD
+PLD mainx_28
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_23
+LOAD mainx_18
+MLT 1896
+PLD mainx_20
+MLT 5274
+SADD
+PLD mainx_22
+MLT 14671
+SADD
+PLD mainx_24
+MLT 38990
+SADD
+PLD mainx_26
+MLT 11511
+SADD
+PLD mainx_28
+MLT 3832
+SADD
+PLD mainx_19
+MLT 3162
+PLD mainx_21
+MLT 8797
+SADD
+PLD mainx_23
+MLT 24401
+SADD
+PLD mainx_25
+MLT 24042
+SADD
+PLD mainx_27
+MLT 6240
+SADD
+PLD mainx_29
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_24
+LOAD mainx_19
+MLT 1896
+PLD mainx_21
+MLT 5274
+SADD
+PLD mainx_23
+MLT 14671
+SADD
+PLD mainx_25
+MLT 38990
+SADD
+PLD mainx_27
+MLT 11511
+SADD
+PLD mainx_29
+MLT 3832
+SADD
+PLD mainx_20
+MLT 3162
+PLD mainx_22
+MLT 8797
+SADD
+PLD mainx_24
+MLT 24401
+SADD
+PLD mainx_26
+MLT 24042
+SADD
+PLD mainx_28
+MLT 6240
+SADD
+PLD mainx_30
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_25
+LOAD mainx_20
+MLT 1896
+PLD mainx_22
+MLT 5274
+SADD
+PLD mainx_24
+MLT 14671
+SADD
+PLD mainx_26
+MLT 38990
+SADD
+PLD mainx_28
+MLT 11511
+SADD
+PLD mainx_30
+MLT 3832
+SADD
+PLD mainx_21
+MLT 3162
+PLD mainx_23
+MLT 8797
+SADD
+PLD mainx_25
+MLT 24401
+SADD
+PLD mainx_27
+MLT 24042
+SADD
+PLD mainx_29
+MLT 6240
+SADD
+PLD mainx_31
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_26
+LOAD mainx_21
+MLT 1896
+PLD mainx_23
+MLT 5274
+SADD
+PLD mainx_25
+MLT 14671
+SADD
+PLD mainx_27
+MLT 38990
+SADD
+PLD mainx_29
+MLT 11511
+SADD
+PLD mainx_31
+MLT 3832
+SADD
+PLD mainx_22
+MLT 3162
+PLD mainx_24
+MLT 8797
+SADD
+PLD mainx_26
+MLT 24401
+SADD
+PLD mainx_28
+MLT 24042
+SADD
+PLD mainx_30
+MLT 6240
+SADD
+PLD mainx_32
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_27
+LOAD mainx_22
+MLT 1896
+PLD mainx_24
+MLT 5274
+SADD
+PLD mainx_26
+MLT 14671
+SADD
+PLD mainx_28
+MLT 38990
+SADD
+PLD mainx_30
+MLT 11511
+SADD
+PLD mainx_32
+MLT 3832
+SADD
+PLD mainx_23
+MLT 3162
+PLD mainx_25
+MLT 8797
+SADD
+PLD mainx_27
+MLT 24401
+SADD
+PLD mainx_29
+MLT 24042
+SADD
+PLD mainx_31
+MLT 6240
+SADD
+PLD mainx_33
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_28
+LOAD mainx_23
+MLT 1896
+PLD mainx_25
+MLT 5274
+SADD
+PLD mainx_27
+MLT 14671
+SADD
+PLD mainx_29
+MLT 38990
+SADD
+PLD mainx_31
+MLT 11511
+SADD
+PLD mainx_33
+MLT 3832
+SADD
+PLD mainx_24
+MLT 3162
+PLD mainx_26
+MLT 8797
+SADD
+PLD mainx_28
+MLT 24401
+SADD
+PLD mainx_30
+MLT 24042
+SADD
+PLD mainx_32
+MLT 6240
+SADD
+PLD mainx_34
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_29
+LOAD mainx_24
+MLT 1896
+PLD mainx_26
+MLT 5274
+SADD
+PLD mainx_28
+MLT 14671
+SADD
+PLD mainx_30
+MLT 38990
+SADD
+PLD mainx_32
+MLT 11511
+SADD
+PLD mainx_34
+MLT 3832
+SADD
+PLD mainx_25
+MLT 3162
+PLD mainx_27
+MLT 8797
+SADD
+PLD mainx_29
+MLT 24401
+SADD
+PLD mainx_31
+MLT 24042
+SADD
+PLD mainx_33
+MLT 6240
+SADD
+PLD mainx_35
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_30
+LOAD mainx_25
+MLT 1896
+PLD mainx_27
+MLT 5274
+SADD
+PLD mainx_29
+MLT 14671
+SADD
+PLD mainx_31
+MLT 38990
+SADD
+PLD mainx_33
+MLT 11511
+SADD
+PLD mainx_35
+MLT 3832
+SADD
+PLD mainx_26
+MLT 3162
+PLD mainx_28
+MLT 8797
+SADD
+PLD mainx_30
+MLT 24401
+SADD
+PLD mainx_32
+MLT 24042
+SADD
+PLD mainx_34
+MLT 6240
+SADD
+PLD mainx_36
+MLT 2301
+SADD
+MLT -1
+SADD
+SET mainaux_31
+LOAD mainx_26
+MLT 1896
+PLD mainx_28
+MLT 5274
+SADD
+PLD mainx_30
+MLT 14671
+SADD
+PLD mainx_32
+MLT 38990
+SADD
+PLD mainx_34
+MLT 11511
+SADD
+PLD mainx_36
+MLT 3832
+SADD
+PLD mainx_27
+MLT 3162
+PLD mainx_29
+MLT 8797
+SADD
+PLD mainx_31
+MLT 24401
+SADD
+PLD mainx_33
+MLT 24042
+SADD
+PLD mainx_35
+MLT 6240
+SADD
+PLD mainx_37
+MLT 2300
+SADD
+MLT -1
+SADD
+SET mainaux_32
+LOAD mainx_27
+MLT 1896
+PLD mainx_29
+MLT 5274
+SADD
+PLD mainx_31
+MLT 14671
+SADD
+PLD mainx_33
+MLT 38990
+SADD
+PLD mainx_35
+MLT 11511
+SADD
+PLD mainx_37
+MLT 3832
+SADD
+PLD mainx_28
+MLT 3162
+PLD mainx_30
+MLT 8797
+SADD
+PLD mainx_32
+MLT 24401
+SADD
+PLD mainx_34
+MLT 24042
+SADD
+PLD mainx_36
+MLT 6240
+SADD
+PLD mainx_38
+MLT 2300
+SADD
+MLT -1
+SADD
+SET mainaux_33
+LOAD mainx_28
+MLT 1896
+PLD mainx_30
+MLT 5274
+SADD
+PLD mainx_32
+MLT 14671
+SADD
+PLD mainx_34
+MLT 38990
+SADD
+PLD mainx_36
+MLT 11511
+SADD
+PLD mainx_38
+MLT 3832
+SADD
+PLD mainx_29
+MLT 3162
+PLD mainx_31
+MLT 8797
+SADD
+PLD mainx_33
+MLT 24401
+SADD
+PLD mainx_35
+MLT 24042
+SADD
+PLD mainx_37
+MLT 6240
+SADD
+PLD mainx_39
+MLT 2300
+SADD
+MLT -1
+SADD
+SET mainaux_34
+LOAD mainx_29
+MLT 1896
+PLD mainx_31
+MLT 5274
+SADD
+PLD mainx_33
+MLT 14671
+SADD
+PLD mainx_35
+MLT 38990
+SADD
+PLD mainx_37
+MLT 11510
+SADD
+PLD mainx_39
+MLT 3831
+SADD
+PLD mainx_30
+MLT 3162
+PLD mainx_32
+MLT 8797
+SADD
+PLD mainx_34
+MLT 24401
+SADD
+PLD mainx_36
+MLT 24041
+SADD
+PLD mainx_38
+MLT 6239
+SADD
+PLD mainx_40
+MLT 2298
+SADD
+MLT -1
+SADD
+SET mainaux_35
+LOAD mainx_30
+MLT 1896
+PLD mainx_32
+MLT 5274
+SADD
+PLD mainx_34
+MLT 14671
+SADD
+PLD mainx_36
+MLT 38990
+SADD
+PLD mainx_38
+MLT 11509
+SADD
+PLD mainx_40
+MLT 3828
+SADD
+PLD mainx_31
+MLT 3162
+PLD mainx_33
+MLT 8797
+SADD
+PLD mainx_35
+MLT 24400
+SADD
+PLD mainx_37
+MLT 24041
+SADD
+PLD mainx_39
+MLT 6237
+SADD
+PLD mainx_41
+MLT 2294
+SADD
+MLT -1
+SADD
+SET mainaux_36
+LOAD mainx_31
+MLT 1896
+PLD mainx_33
+MLT 5274
+SADD
+PLD mainx_35
+MLT 14670
+SADD
+PLD mainx_37
+MLT 38988
+SADD
+PLD mainx_39
+MLT 11506
+SADD
+PLD mainx_41
+MLT 3821
+SADD
+PLD mainx_32
+MLT 3162
+PLD mainx_34
+MLT 8797
+SADD
+PLD mainx_36
+MLT 24400
+SADD
+PLD mainx_38
+MLT 24039
+SADD
+PLD mainx_40
+MLT 6232
+SADD
+PLD mainx_42
+MLT 2283
+SADD
+MLT -1
+SADD
+SET mainaux_37
+LOAD mainx_32
+MLT 1895
+PLD mainx_34
+MLT 5274
+SADD
+PLD mainx_36
+MLT 14669
+SADD
+PLD mainx_38
+MLT 38985
+SADD
+PLD mainx_40
+MLT 11498
+SADD
+PLD mainx_42
+MLT 3802
+SADD
+PLD mainx_33
+MLT 3162
+PLD mainx_35
+MLT 8796
+SADD
+PLD mainx_37
+MLT 24397
+SADD
+PLD mainx_39
+MLT 24033
+SADD
+PLD mainx_41
+MLT 6220
+SADD
+PLD mainx_43
+MLT 2256
+SADD
+MLT -1
+SADD
+SET mainaux_38
+LOAD mainx_33
+MLT 1895
+PLD mainx_35
+MLT 5272
+SADD
+PLD mainx_37
+MLT 14665
+SADD
+PLD mainx_39
+MLT 38976
+SADD
+PLD mainx_41
+MLT 11477
+SADD
+PLD mainx_43
+MLT 3756
+SADD
+PLD mainx_34
+MLT 3161
+PLD mainx_36
+MLT 8794
+SADD
+PLD mainx_38
+MLT 24391
+SADD
+PLD mainx_40
+MLT 24019
+SADD
+PLD mainx_42
+MLT 6188
+SADD
+PLD mainx_44
+MLT 2190
+SADD
+MLT -1
+SADD
+SET mainaux_39
+LOAD mainx_34
+MLT 1893
+PLD mainx_36
+MLT 5268
+SADD
+PLD mainx_38
+MLT 14655
+SADD
+PLD mainx_40
+MLT 38951
+SADD
+PLD mainx_42
+MLT 11422
+SADD
+PLD mainx_44
+MLT 3644
+SADD
+PLD mainx_35
+MLT 3158
+PLD mainx_37
+MLT 8787
+SADD
+PLD mainx_39
+MLT 24376
+SADD
+PLD mainx_41
+MLT 23983
+SADD
+PLD mainx_43
+MLT 6109
+SADD
+PLD mainx_45
+MLT 2035
+SADD
+MLT -1
+SADD
+SET mainaux_40
+LOAD mainx_35
+MLT 1888
+PLD mainx_37
+MLT 5256
+SADD
+PLD mainx_39
+MLT 14627
+SADD
+PLD mainx_41
+MLT 38888
+SADD
+PLD mainx_43
+MLT 11285
+SADD
+PLD mainx_45
+MLT 3375
+SADD
+PLD mainx_36
+MLT 3151
+PLD mainx_38
+MLT 8769
+SADD
+PLD mainx_40
+MLT 24334
+SADD
+PLD mainx_42
+MLT 23889
+SADD
+PLD mainx_44
+MLT 5915
+SADD
+MLT -1
+SADD
+SET mainaux_41
+LOAD mainx_36
+MLT 1876
+PLD mainx_38
+MLT 5225
+SADD
+PLD mainx_40
+MLT 14553
+SADD
+PLD mainx_42
+MLT 38722
+SADD
+PLD mainx_44
+MLT 10942
+SADD
+PLD mainx_46
+MLT 2742
+SADD
+PLD mainx_37
+MLT 3130
+PLD mainx_39
+MLT 8721
+SADD
+PLD mainx_41
+MLT 24222
+SADD
+PLD mainx_43
+MLT 23646
+SADD
+PLD mainx_45
+MLT 5439
+SADD
+MLT -1
+SADD
+SET mainaux_42
+LOAD mainx_37
+MLT 1841
+PLD mainx_39
+MLT 5142
+SADD
+PLD mainx_41
+MLT 14361
+SADD
+PLD mainx_43
+MLT 38305
+SADD
+PLD mainx_45
+MLT 10123
+SADD
+PLD mainx_38
+MLT 3077
+PLD mainx_40
+MLT 8594
+SADD
+PLD mainx_42
+MLT 23936
+SADD
+PLD mainx_44
+MLT 23054
+SADD
+PLD mainx_46
+MLT 4350
+SADD
+MLT -1
+SADD
+SET mainaux_43
+LOAD mainx_40
+MLT 4943
+PLD mainx_42
+MLT 13913
+SADD
+PLD mainx_44
+MLT 37378
+SADD
+PLD mainx_46
+MLT 8417
+SADD
+PLD mainx_39
+MLT 2946
+PLD mainx_41
+MLT 8293
+SADD
+PLD mainx_43
+MLT 23283
+SADD
+PLD mainx_45
+MLT 21772
+SADD
+PLD mainx_47
+MLT 2364
+SADD
+MLT -1
+SADD
+SET mainaux_44
+LOAD mainx_41
+MLT 4460
+PLD mainx_43
+MLT 12866
+SADD
+PLD mainx_45
+MLT 35323
+SADD
+PLD mainx_47
+MLT 5234
+SADD
+PLD mainx_40
+MLT 2627
+PLD mainx_42
+MLT 7574
+SADD
+PLD mainx_44
+MLT 21796
+SADD
+PLD mainx_46
+MLT 19037
+SADD
+MLT -1
+SADD
+SET mainaux_45
+LOAD mainx_42
+MLT 2870
+PLD mainx_44
+MLT 9576
+SADD
+PLD mainx_46
+MLT 29268
+SADD
+PLD mainx_43
+MLT 5256
+PLD mainx_45
+MLT 17248
+SADD
+PLD mainx_47
+MLT 11992
+SADD
+MLT -1
+SADD
+SET mainaux_46
+LOAD mainx_42
+MLT 2084
+PLD mainx_44
+MLT 2281
+SADD
+PLD mainx_47
+MLT 13126
+SADD
+PLD mainx_43
+MLT 2441
+PLD mainx_46
+MLT 3374
+SADD
+MLT -1
+SADD
+SET mainaux_47
+LOAD mainaux_0
+PSET mainx_0
+LOAD mainaux_1
+PSET mainx_1
+LOAD mainaux_2
+PSET mainx_2
+LOAD mainaux_3
+PSET mainx_3
+LOAD mainaux_4
+PSET mainx_4
+LOAD mainaux_5
+PSET mainx_5
+LOAD mainaux_6
+PSET mainx_6
+LOAD mainaux_7
+PSET mainx_7
+LOAD mainaux_8
+PSET mainx_8
+LOAD mainaux_9
+PSET mainx_9
+LOAD mainaux_10
+PSET mainx_10
+LOAD mainaux_11
+PSET mainx_11
+LOAD mainaux_12
+PSET mainx_12
+LOAD mainaux_13
+PSET mainx_13
+LOAD mainaux_14
+PSET mainx_14
+LOAD mainaux_15
+PSET mainx_15
+LOAD mainaux_16
+PSET mainx_16
+LOAD mainaux_17
+PSET mainx_17
+LOAD mainaux_18
+PSET mainx_18
+LOAD mainaux_19
+PSET mainx_19
+LOAD mainaux_20
+PSET mainx_20
+LOAD mainaux_21
+PSET mainx_21
+LOAD mainaux_22
+PSET mainx_22
+LOAD mainaux_23
+PSET mainx_23
+LOAD mainaux_24
+PSET mainx_24
+LOAD mainaux_25
+PSET mainx_25
+LOAD mainaux_26
+PSET mainx_26
+LOAD mainaux_27
+PSET mainx_27
+LOAD mainaux_28
+PSET mainx_28
+LOAD mainaux_29
+PSET mainx_29
+LOAD mainaux_30
+PSET mainx_30
+LOAD mainaux_31
+PSET mainx_31
+LOAD mainaux_32
+PSET mainx_32
+LOAD mainaux_33
+PSET mainx_33
+LOAD mainaux_34
+PSET mainx_34
+LOAD mainaux_35
+PSET mainx_35
+LOAD mainaux_36
+PSET mainx_36
+LOAD mainaux_37
+PSET mainx_37
+LOAD mainaux_38
+PSET mainx_38
+LOAD mainaux_39
+PSET mainx_39
+LOAD mainaux_40
+PSET mainx_40
+LOAD mainaux_41
+PSET mainx_41
+LOAD mainaux_42
+PSET mainx_42
+LOAD mainaux_43
+PSET mainx_43
+LOAD mainaux_44
+PSET mainx_44
+LOAD mainaux_45
+PSET mainx_45
+LOAD mainaux_46
+PSET mainx_46
+LOAD mainaux_47
+PSET mainx_47
+LOAD 0
+SET mainj
+@L2 LOAD 18
+LES mainj
+JZ L2end
+LOAD 128
+MLT mainx_0
+PLD maind_0
+MLT 32
+SADD
+PLD mainx_0
+MLT 49
+PLD mainx_1
+MLT 35
+SADD
+PLD mainx_2
+MLT 14
+SADD
+PLD mainx_3
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_0
+LOAD 128
+MLT mainx_1
+PLD maind_1
+MLT 32
+SADD
+PLD mainx_0
+MLT 35
+PLD mainx_1
+MLT 49
+SADD
+PLD mainx_2
+MLT 35
+SADD
+PLD mainx_3
+MLT 14
+SADD
+PLD mainx_4
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_1
+LOAD 128
+MLT mainx_2
+PLD maind_2
+MLT 32
+SADD
+PLD mainx_0
+MLT 14
+PLD mainx_1
+MLT 35
+SADD
+PLD mainx_2
+MLT 49
+SADD
+PLD mainx_3
+MLT 35
+SADD
+PLD mainx_4
+MLT 14
+SADD
+PLD mainx_5
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_2
+LOAD 128
+MLT mainx_3
+PLD maind_3
+MLT 32
+SADD
+PLD mainx_0
+MLT 3
+PLD mainx_1
+MLT 14
+SADD
+PLD mainx_2
+MLT 35
+SADD
+PLD mainx_3
+MLT 49
+SADD
+PLD mainx_4
+MLT 35
+SADD
+PLD mainx_5
+MLT 14
+SADD
+PLD mainx_6
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_3
+LOAD 128
+MLT mainx_4
+PLD maind_4
+MLT 32
+SADD
+PLD mainx_1
+MLT 3
+PLD mainx_2
+MLT 14
+SADD
+PLD mainx_3
+MLT 35
+SADD
+PLD mainx_4
+MLT 49
+SADD
+PLD mainx_5
+MLT 35
+SADD
+PLD mainx_6
+MLT 14
+SADD
+PLD mainx_7
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_4
+LOAD 128
+MLT mainx_5
+PLD maind_5
+MLT 32
+SADD
+PLD mainx_2
+MLT 3
+PLD mainx_3
+MLT 14
+SADD
+PLD mainx_4
+MLT 35
+SADD
+PLD mainx_5
+MLT 49
+SADD
+PLD mainx_6
+MLT 35
+SADD
+PLD mainx_7
+MLT 14
+SADD
+PLD mainx_8
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_5
+LOAD 128
+MLT mainx_6
+PLD maind_6
+MLT 32
+SADD
+PLD mainx_3
+MLT 3
+PLD mainx_4
+MLT 14
+SADD
+PLD mainx_5
+MLT 35
+SADD
+PLD mainx_6
+MLT 49
+SADD
+PLD mainx_7
+MLT 35
+SADD
+PLD mainx_8
+MLT 14
+SADD
+PLD mainx_9
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_6
+LOAD 128
+MLT mainx_7
+PLD maind_7
+MLT 32
+SADD
+PLD mainx_4
+MLT 3
+PLD mainx_5
+MLT 14
+SADD
+PLD mainx_6
+MLT 35
+SADD
+PLD mainx_7
+MLT 49
+SADD
+PLD mainx_8
+MLT 35
+SADD
+PLD mainx_9
+MLT 14
+SADD
+PLD mainx_10
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_7
+LOAD 128
+MLT mainx_8
+PLD maind_8
+MLT 32
+SADD
+PLD mainx_5
+MLT 3
+PLD mainx_6
+MLT 14
+SADD
+PLD mainx_7
+MLT 35
+SADD
+PLD mainx_8
+MLT 49
+SADD
+PLD mainx_9
+MLT 35
+SADD
+PLD mainx_10
+MLT 14
+SADD
+PLD mainx_11
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_8
+LOAD 128
+MLT mainx_9
+PLD maind_9
+MLT 32
+SADD
+PLD mainx_6
+MLT 3
+PLD mainx_7
+MLT 14
+SADD
+PLD mainx_8
+MLT 35
+SADD
+PLD mainx_9
+MLT 49
+SADD
+PLD mainx_10
+MLT 35
+SADD
+PLD mainx_11
+MLT 14
+SADD
+PLD mainx_12
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_9
+LOAD 128
+MLT mainx_10
+PLD maind_10
+MLT 32
+SADD
+PLD mainx_7
+MLT 3
+PLD mainx_8
+MLT 14
+SADD
+PLD mainx_9
+MLT 35
+SADD
+PLD mainx_10
+MLT 49
+SADD
+PLD mainx_11
+MLT 35
+SADD
+PLD mainx_12
+MLT 14
+SADD
+PLD mainx_13
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_10
+LOAD 128
+MLT mainx_11
+PLD maind_11
+MLT 32
+SADD
+PLD mainx_8
+MLT 3
+PLD mainx_9
+MLT 14
+SADD
+PLD mainx_10
+MLT 35
+SADD
+PLD mainx_11
+MLT 49
+SADD
+PLD mainx_12
+MLT 35
+SADD
+PLD mainx_13
+MLT 14
+SADD
+PLD mainx_14
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_11
+LOAD 128
+MLT mainx_12
+PLD maind_12
+MLT 32
+SADD
+PLD mainx_9
+MLT 3
+PLD mainx_10
+MLT 14
+SADD
+PLD mainx_11
+MLT 35
+SADD
+PLD mainx_12
+MLT 49
+SADD
+PLD mainx_13
+MLT 35
+SADD
+PLD mainx_14
+MLT 14
+SADD
+PLD mainx_15
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_12
+LOAD 128
+MLT mainx_13
+PLD maind_13
+MLT 32
+SADD
+PLD mainx_10
+MLT 3
+PLD mainx_11
+MLT 14
+SADD
+PLD mainx_12
+MLT 35
+SADD
+PLD mainx_13
+MLT 49
+SADD
+PLD mainx_14
+MLT 35
+SADD
+PLD mainx_15
+MLT 14
+SADD
+PLD mainx_16
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_13
+LOAD 128
+MLT mainx_14
+PLD maind_14
+MLT 32
+SADD
+PLD mainx_11
+MLT 3
+PLD mainx_12
+MLT 14
+SADD
+PLD mainx_13
+MLT 35
+SADD
+PLD mainx_14
+MLT 49
+SADD
+PLD mainx_15
+MLT 35
+SADD
+PLD mainx_16
+MLT 14
+SADD
+PLD mainx_17
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_14
+LOAD 128
+MLT mainx_15
+PLD maind_15
+MLT 32
+SADD
+PLD mainx_12
+MLT 3
+PLD mainx_13
+MLT 14
+SADD
+PLD mainx_14
+MLT 35
+SADD
+PLD mainx_15
+MLT 49
+SADD
+PLD mainx_16
+MLT 35
+SADD
+PLD mainx_17
+MLT 14
+SADD
+PLD mainx_18
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_15
+LOAD 128
+MLT mainx_16
+PLD maind_16
+MLT 32
+SADD
+PLD mainx_13
+MLT 3
+PLD mainx_14
+MLT 14
+SADD
+PLD mainx_15
+MLT 35
+SADD
+PLD mainx_16
+MLT 49
+SADD
+PLD mainx_17
+MLT 35
+SADD
+PLD mainx_18
+MLT 14
+SADD
+PLD mainx_19
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_16
+LOAD 128
+MLT mainx_17
+PLD maind_17
+MLT 32
+SADD
+PLD mainx_14
+MLT 3
+PLD mainx_15
+MLT 14
+SADD
+PLD mainx_16
+MLT 35
+SADD
+PLD mainx_17
+MLT 49
+SADD
+PLD mainx_18
+MLT 35
+SADD
+PLD mainx_19
+MLT 14
+SADD
+PLD mainx_20
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_17
+LOAD 128
+MLT mainx_18
+PLD maind_18
+MLT 32
+SADD
+PLD mainx_15
+MLT 3
+PLD mainx_16
+MLT 14
+SADD
+PLD mainx_17
+MLT 35
+SADD
+PLD mainx_18
+MLT 49
+SADD
+PLD mainx_19
+MLT 35
+SADD
+PLD mainx_20
+MLT 14
+SADD
+PLD mainx_21
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_18
+LOAD 128
+MLT mainx_19
+PLD maind_19
+MLT 32
+SADD
+PLD mainx_16
+MLT 3
+PLD mainx_17
+MLT 14
+SADD
+PLD mainx_18
+MLT 35
+SADD
+PLD mainx_19
+MLT 49
+SADD
+PLD mainx_20
+MLT 35
+SADD
+PLD mainx_21
+MLT 14
+SADD
+PLD mainx_22
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_19
+LOAD 128
+MLT mainx_20
+PLD maind_20
+MLT 32
+SADD
+PLD mainx_17
+MLT 3
+PLD mainx_18
+MLT 14
+SADD
+PLD mainx_19
+MLT 35
+SADD
+PLD mainx_20
+MLT 49
+SADD
+PLD mainx_21
+MLT 35
+SADD
+PLD mainx_22
+MLT 14
+SADD
+PLD mainx_23
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_20
+LOAD 128
+MLT mainx_21
+PLD maind_21
+MLT 32
+SADD
+PLD mainx_18
+MLT 3
+PLD mainx_19
+MLT 14
+SADD
+PLD mainx_20
+MLT 35
+SADD
+PLD mainx_21
+MLT 49
+SADD
+PLD mainx_22
+MLT 35
+SADD
+PLD mainx_23
+MLT 14
+SADD
+PLD mainx_24
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_21
+LOAD 128
+MLT mainx_22
+PLD maind_22
+MLT 32
+SADD
+PLD mainx_19
+MLT 3
+PLD mainx_20
+MLT 14
+SADD
+PLD mainx_21
+MLT 35
+SADD
+PLD mainx_22
+MLT 49
+SADD
+PLD mainx_23
+MLT 35
+SADD
+PLD mainx_24
+MLT 14
+SADD
+PLD mainx_25
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_22
+LOAD 128
+MLT mainx_23
+PLD maind_23
+MLT 32
+SADD
+PLD mainx_20
+MLT 3
+PLD mainx_21
+MLT 14
+SADD
+PLD mainx_22
+MLT 35
+SADD
+PLD mainx_23
+MLT 49
+SADD
+PLD mainx_24
+MLT 35
+SADD
+PLD mainx_25
+MLT 14
+SADD
+PLD mainx_26
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_23
+LOAD 128
+MLT mainx_24
+PLD maind_24
+MLT 32
+SADD
+PLD mainx_21
+MLT 3
+PLD mainx_22
+MLT 14
+SADD
+PLD mainx_23
+MLT 35
+SADD
+PLD mainx_24
+MLT 49
+SADD
+PLD mainx_25
+MLT 35
+SADD
+PLD mainx_26
+MLT 14
+SADD
+PLD mainx_27
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_24
+LOAD 128
+MLT mainx_25
+PLD maind_25
+MLT 32
+SADD
+PLD mainx_22
+MLT 3
+PLD mainx_23
+MLT 14
+SADD
+PLD mainx_24
+MLT 35
+SADD
+PLD mainx_25
+MLT 49
+SADD
+PLD mainx_26
+MLT 35
+SADD
+PLD mainx_27
+MLT 14
+SADD
+PLD mainx_28
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_25
+LOAD 128
+MLT mainx_26
+PLD maind_26
+MLT 32
+SADD
+PLD mainx_23
+MLT 3
+PLD mainx_24
+MLT 14
+SADD
+PLD mainx_25
+MLT 35
+SADD
+PLD mainx_26
+MLT 49
+SADD
+PLD mainx_27
+MLT 35
+SADD
+PLD mainx_28
+MLT 14
+SADD
+PLD mainx_29
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_26
+LOAD 128
+MLT mainx_27
+PLD maind_27
+MLT 32
+SADD
+PLD mainx_24
+MLT 3
+PLD mainx_25
+MLT 14
+SADD
+PLD mainx_26
+MLT 35
+SADD
+PLD mainx_27
+MLT 49
+SADD
+PLD mainx_28
+MLT 35
+SADD
+PLD mainx_29
+MLT 14
+SADD
+PLD mainx_30
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_27
+LOAD 128
+MLT mainx_28
+PLD maind_28
+MLT 32
+SADD
+PLD mainx_25
+MLT 3
+PLD mainx_26
+MLT 14
+SADD
+PLD mainx_27
+MLT 35
+SADD
+PLD mainx_28
+MLT 49
+SADD
+PLD mainx_29
+MLT 35
+SADD
+PLD mainx_30
+MLT 14
+SADD
+PLD mainx_31
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_28
+LOAD 128
+MLT mainx_29
+PLD maind_29
+MLT 32
+SADD
+PLD mainx_26
+MLT 3
+PLD mainx_27
+MLT 14
+SADD
+PLD mainx_28
+MLT 35
+SADD
+PLD mainx_29
+MLT 49
+SADD
+PLD mainx_30
+MLT 35
+SADD
+PLD mainx_31
+MLT 14
+SADD
+PLD mainx_32
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_29
+LOAD 128
+MLT mainx_30
+PLD maind_30
+MLT 32
+SADD
+PLD mainx_27
+MLT 3
+PLD mainx_28
+MLT 14
+SADD
+PLD mainx_29
+MLT 35
+SADD
+PLD mainx_30
+MLT 49
+SADD
+PLD mainx_31
+MLT 35
+SADD
+PLD mainx_32
+MLT 14
+SADD
+PLD mainx_33
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_30
+LOAD 128
+MLT mainx_31
+PLD maind_31
+MLT 32
+SADD
+PLD mainx_28
+MLT 3
+PLD mainx_29
+MLT 14
+SADD
+PLD mainx_30
+MLT 35
+SADD
+PLD mainx_31
+MLT 49
+SADD
+PLD mainx_32
+MLT 35
+SADD
+PLD mainx_33
+MLT 14
+SADD
+PLD mainx_34
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_31
+LOAD 128
+MLT mainx_32
+PLD maind_32
+MLT 32
+SADD
+PLD mainx_29
+MLT 3
+PLD mainx_30
+MLT 14
+SADD
+PLD mainx_31
+MLT 35
+SADD
+PLD mainx_32
+MLT 49
+SADD
+PLD mainx_33
+MLT 35
+SADD
+PLD mainx_34
+MLT 14
+SADD
+PLD mainx_35
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_32
+LOAD 128
+MLT mainx_33
+PLD maind_33
+MLT 32
+SADD
+PLD mainx_30
+MLT 3
+PLD mainx_31
+MLT 14
+SADD
+PLD mainx_32
+MLT 35
+SADD
+PLD mainx_33
+MLT 49
+SADD
+PLD mainx_34
+MLT 35
+SADD
+PLD mainx_35
+MLT 14
+SADD
+PLD mainx_36
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_33
+LOAD 128
+MLT mainx_34
+PLD maind_34
+MLT 32
+SADD
+PLD mainx_31
+MLT 3
+PLD mainx_32
+MLT 14
+SADD
+PLD mainx_33
+MLT 35
+SADD
+PLD mainx_34
+MLT 49
+SADD
+PLD mainx_35
+MLT 35
+SADD
+PLD mainx_36
+MLT 14
+SADD
+PLD mainx_37
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_34
+LOAD 128
+MLT mainx_35
+PLD maind_35
+MLT 32
+SADD
+PLD mainx_32
+MLT 3
+PLD mainx_33
+MLT 14
+SADD
+PLD mainx_34
+MLT 35
+SADD
+PLD mainx_35
+MLT 49
+SADD
+PLD mainx_36
+MLT 35
+SADD
+PLD mainx_37
+MLT 14
+SADD
+PLD mainx_38
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_35
+LOAD 128
+MLT mainx_36
+PLD maind_36
+MLT 32
+SADD
+PLD mainx_33
+MLT 3
+PLD mainx_34
+MLT 14
+SADD
+PLD mainx_35
+MLT 35
+SADD
+PLD mainx_36
+MLT 49
+SADD
+PLD mainx_37
+MLT 35
+SADD
+PLD mainx_38
+MLT 14
+SADD
+PLD mainx_39
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_36
+LOAD 128
+MLT mainx_37
+PLD maind_37
+MLT 32
+SADD
+PLD mainx_34
+MLT 3
+PLD mainx_35
+MLT 14
+SADD
+PLD mainx_36
+MLT 35
+SADD
+PLD mainx_37
+MLT 49
+SADD
+PLD mainx_38
+MLT 35
+SADD
+PLD mainx_39
+MLT 14
+SADD
+PLD mainx_40
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_37
+LOAD 128
+MLT mainx_38
+PLD maind_38
+MLT 32
+SADD
+PLD mainx_35
+MLT 3
+PLD mainx_36
+MLT 14
+SADD
+PLD mainx_37
+MLT 35
+SADD
+PLD mainx_38
+MLT 49
+SADD
+PLD mainx_39
+MLT 35
+SADD
+PLD mainx_40
+MLT 14
+SADD
+PLD mainx_41
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_38
+LOAD 128
+MLT mainx_39
+PLD maind_39
+MLT 32
+SADD
+PLD mainx_36
+MLT 3
+PLD mainx_37
+MLT 14
+SADD
+PLD mainx_38
+MLT 35
+SADD
+PLD mainx_39
+MLT 49
+SADD
+PLD mainx_40
+MLT 35
+SADD
+PLD mainx_41
+MLT 14
+SADD
+PLD mainx_42
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_39
+LOAD 128
+MLT mainx_40
+PLD maind_40
+MLT 32
+SADD
+PLD mainx_37
+MLT 3
+PLD mainx_38
+MLT 14
+SADD
+PLD mainx_39
+MLT 35
+SADD
+PLD mainx_40
+MLT 49
+SADD
+PLD mainx_41
+MLT 35
+SADD
+PLD mainx_42
+MLT 14
+SADD
+PLD mainx_43
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_40
+LOAD 128
+MLT mainx_41
+PLD maind_41
+MLT 32
+SADD
+PLD mainx_38
+MLT 3
+PLD mainx_39
+MLT 14
+SADD
+PLD mainx_40
+MLT 35
+SADD
+PLD mainx_41
+MLT 49
+SADD
+PLD mainx_42
+MLT 35
+SADD
+PLD mainx_43
+MLT 14
+SADD
+PLD mainx_44
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_41
+LOAD 128
+MLT mainx_42
+PLD maind_42
+MLT 32
+SADD
+PLD mainx_39
+MLT 3
+PLD mainx_40
+MLT 14
+SADD
+PLD mainx_41
+MLT 35
+SADD
+PLD mainx_42
+MLT 49
+SADD
+PLD mainx_43
+MLT 35
+SADD
+PLD mainx_44
+MLT 14
+SADD
+PLD mainx_45
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_42
+LOAD 128
+MLT mainx_43
+PLD maind_43
+MLT 32
+SADD
+PLD mainx_40
+MLT 3
+PLD mainx_41
+MLT 14
+SADD
+PLD mainx_42
+MLT 35
+SADD
+PLD mainx_43
+MLT 49
+SADD
+PLD mainx_44
+MLT 35
+SADD
+PLD mainx_45
+MLT 14
+SADD
+PLD mainx_46
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_43
+LOAD 128
+MLT mainx_44
+PLD maind_44
+MLT 32
+SADD
+PLD mainx_41
+MLT 3
+PLD mainx_42
+MLT 14
+SADD
+PLD mainx_43
+MLT 35
+SADD
+PLD mainx_44
+MLT 49
+SADD
+PLD mainx_45
+MLT 35
+SADD
+PLD mainx_46
+MLT 14
+SADD
+PLD mainx_47
+MLT 3
+SADD
+MLT -1
+SADD
+SET mainaux_44
+LOAD 128
+MLT mainx_45
+PLD maind_45
+MLT 32
+SADD
+PLD mainx_42
+MLT 3
+PLD mainx_43
+MLT 14
+SADD
+PLD mainx_44
+MLT 35
+SADD
+PLD mainx_45
+MLT 49
+SADD
+PLD mainx_46
+MLT 35
+SADD
+PLD mainx_47
+MLT 14
+SADD
+MLT -1
+SADD
+SET mainaux_45
+LOAD 128
+MLT mainx_46
+PLD maind_46
+MLT 32
+SADD
+PLD mainx_43
+MLT 3
+PLD mainx_44
+MLT 14
+SADD
+PLD mainx_45
+MLT 35
+SADD
+PLD mainx_46
+MLT 49
+SADD
+PLD mainx_47
+MLT 35
+SADD
+MLT -1
+SADD
+SET mainaux_46
+LOAD 128
+MLT mainx_47
+PLD maind_47
+MLT 32
+SADD
+PLD mainx_44
+MLT 3
+PLD mainx_45
+MLT 14
+SADD
+PLD mainx_46
+MLT 35
+SADD
+PLD mainx_47
+MLT 49
+SADD
+MLT -1
+SADD
+SET mainaux_47
+LOAD mainaux_0
+PSET mainx_0
+LOAD mainaux_1
+PSET mainx_1
+LOAD mainaux_2
+PSET mainx_2
+LOAD mainaux_3
+PSET mainx_3
+LOAD mainaux_4
+PSET mainx_4
+LOAD mainaux_5
+PSET mainx_5
+LOAD mainaux_6
+PSET mainx_6
+LOAD mainaux_7
+PSET mainx_7
+LOAD mainaux_8
+PSET mainx_8
+LOAD mainaux_9
+PSET mainx_9
+LOAD mainaux_10
+PSET mainx_10
+LOAD mainaux_11
+PSET mainx_11
+LOAD mainaux_12
+PSET mainx_12
+LOAD mainaux_13
+PSET mainx_13
+LOAD mainaux_14
+PSET mainx_14
+LOAD mainaux_15
+PSET mainx_15
+LOAD mainaux_16
+PSET mainx_16
+LOAD mainaux_17
+PSET mainx_17
+LOAD mainaux_18
+PSET mainx_18
+LOAD mainaux_19
+PSET mainx_19
+LOAD mainaux_20
+PSET mainx_20
+LOAD mainaux_21
+PSET mainx_21
+LOAD mainaux_22
+PSET mainx_22
+LOAD mainaux_23
+PSET mainx_23
+LOAD mainaux_24
+PSET mainx_24
+LOAD mainaux_25
+PSET mainx_25
+LOAD mainaux_26
+PSET mainx_26
+LOAD mainaux_27
+PSET mainx_27
+LOAD mainaux_28
+PSET mainx_28
+LOAD mainaux_29
+PSET mainx_29
+LOAD mainaux_30
+PSET mainx_30
+LOAD mainaux_31
+PSET mainx_31
+LOAD mainaux_32
+PSET mainx_32
+LOAD mainaux_33
+PSET mainx_33
+LOAD mainaux_34
+PSET mainx_34
+LOAD mainaux_35
+PSET mainx_35
+LOAD mainaux_36
+PSET mainx_36
+LOAD mainaux_37
+PSET mainx_37
+LOAD mainaux_38
+PSET mainx_38
+LOAD mainaux_39
+PSET mainx_39
+LOAD mainaux_40
+PSET mainx_40
+LOAD mainaux_41
+PSET mainx_41
+LOAD mainaux_42
+PSET mainx_42
+LOAD mainaux_43
+PSET mainx_43
+LOAD mainaux_44
+PSET mainx_44
+LOAD mainaux_45
+PSET mainx_45
+LOAD mainaux_46
+PSET mainx_46
+LOAD mainaux_47
+PSET mainx_47
+LOAD mainx_0
+NORMS mainx_0
+LOAD mainx_1
+NORMS mainx_1
+LOAD mainx_2
+NORMS mainx_2
+LOAD mainx_3
+NORMS mainx_3
+LOAD mainx_4
+NORMS mainx_4
+LOAD mainx_5
+NORMS mainx_5
+LOAD mainx_6
+NORMS mainx_6
+LOAD mainx_7
+NORMS mainx_7
+LOAD mainx_8
+NORMS mainx_8
+LOAD mainx_9
+NORMS mainx_9
+LOAD mainx_10
+NORMS mainx_10
+LOAD mainx_11
+NORMS mainx_11
+LOAD mainx_12
+NORMS mainx_12
+LOAD mainx_13
+NORMS mainx_13
+LOAD mainx_14
+NORMS mainx_14
+LOAD mainx_15
+NORMS mainx_15
+LOAD mainx_16
+NORMS mainx_16
+LOAD mainx_17
+NORMS mainx_17
+LOAD mainx_18
+NORMS mainx_18
+LOAD mainx_19
+NORMS mainx_19
+LOAD mainx_20
+NORMS mainx_20
+LOAD mainx_21
+NORMS mainx_21
+LOAD mainx_22
+NORMS mainx_22
+LOAD mainx_23
+NORMS mainx_23
+LOAD mainx_24
+NORMS mainx_24
+LOAD mainx_25
+NORMS mainx_25
+LOAD mainx_26
+NORMS mainx_26
+LOAD mainx_27
+NORMS mainx_27
+LOAD mainx_28
+NORMS mainx_28
+LOAD mainx_29
+NORMS mainx_29
+LOAD mainx_30
+NORMS mainx_30
+LOAD mainx_31
+NORMS mainx_31
+LOAD mainx_32
+NORMS mainx_32
+LOAD mainx_33
+NORMS mainx_33
+LOAD mainx_34
+NORMS mainx_34
+LOAD mainx_35
+NORMS mainx_35
+LOAD mainx_36
+NORMS mainx_36
+LOAD mainx_37
+NORMS mainx_37
+LOAD mainx_38
+NORMS mainx_38
+LOAD mainx_39
+NORMS mainx_39
+LOAD mainx_40
+NORMS mainx_40
+LOAD mainx_41
+NORMS mainx_41
+LOAD mainx_42
+NORMS mainx_42
+LOAD mainx_43
+NORMS mainx_43
+LOAD mainx_44
+NORMS mainx_44
+LOAD mainx_45
+NORMS mainx_45
+LOAD mainx_46
+NORMS mainx_46
+LOAD mainx_47
+NORMS mainx_47
+LOAD 1
+ADD mainj
+SET mainj
+JMP L2
+@L2end LOAD mainx_0
+NORMS mainx_0
+LOAD mainx_1
+NORMS mainx_1
+LOAD mainx_2
+NORMS mainx_2
+LOAD mainx_3
+NORMS mainx_3
+LOAD mainx_4
+NORMS mainx_4
+LOAD mainx_5
+NORMS mainx_5
+LOAD mainx_6
+NORMS mainx_6
+LOAD mainx_7
+NORMS mainx_7
+LOAD mainx_8
+NORMS mainx_8
+LOAD mainx_9
+NORMS mainx_9
+LOAD mainx_10
+NORMS mainx_10
+LOAD mainx_11
+NORMS mainx_11
+LOAD mainx_12
+NORMS mainx_12
+LOAD mainx_13
+NORMS mainx_13
+LOAD mainx_14
+NORMS mainx_14
+LOAD mainx_15
+NORMS mainx_15
+LOAD mainx_16
+NORMS mainx_16
+LOAD mainx_17
+NORMS mainx_17
+LOAD mainx_18
+NORMS mainx_18
+LOAD mainx_19
+NORMS mainx_19
+LOAD mainx_20
+NORMS mainx_20
+LOAD mainx_21
+NORMS mainx_21
+LOAD mainx_22
+NORMS mainx_22
+LOAD mainx_23
+NORMS mainx_23
+LOAD mainx_24
+NORMS mainx_24
+LOAD mainx_25
+NORMS mainx_25
+LOAD mainx_26
+NORMS mainx_26
+LOAD mainx_27
+NORMS mainx_27
+LOAD mainx_28
+NORMS mainx_28
+LOAD mainx_29
+NORMS mainx_29
+LOAD mainx_30
+NORMS mainx_30
+LOAD mainx_31
+NORMS mainx_31
+LOAD mainx_32
+NORMS mainx_32
+LOAD mainx_33
+NORMS mainx_33
+LOAD mainx_34
+NORMS mainx_34
+LOAD mainx_35
+NORMS mainx_35
+LOAD mainx_36
+NORMS mainx_36
+LOAD mainx_37
+NORMS mainx_37
+LOAD mainx_38
+NORMS mainx_38
+LOAD mainx_39
+NORMS mainx_39
+LOAD mainx_40
+NORMS mainx_40
+LOAD mainx_41
+NORMS mainx_41
+LOAD mainx_42
+NORMS mainx_42
+LOAD mainx_43
+NORMS mainx_43
+LOAD mainx_44
+NORMS mainx_44
+LOAD mainx_45
+NORMS mainx_45
+LOAD mainx_46
+NORMS mainx_46
+LOAD mainx_47
+NORMS mainx_47
+LOAD mainx_0
+NORMS mainx_0
+LOAD mainx_1
+NORMS mainx_1
+LOAD mainx_2
+NORMS mainx_2
+LOAD mainx_3
+NORMS mainx_3
+LOAD mainx_4
+NORMS mainx_4
+LOAD mainx_5
+NORMS mainx_5
+LOAD mainx_6
+NORMS mainx_6
+LOAD mainx_7
+NORMS mainx_7
+LOAD mainx_8
+NORMS mainx_8
+LOAD mainx_9
+NORMS mainx_9
+LOAD mainx_10
+NORMS mainx_10
+LOAD mainx_11
+NORMS mainx_11
+LOAD mainx_12
+NORMS mainx_12
+LOAD mainx_13
+NORMS mainx_13
+LOAD mainx_14
+NORMS mainx_14
+LOAD mainx_15
+NORMS mainx_15
+LOAD mainx_16
+NORMS mainx_16
+LOAD mainx_17
+NORMS mainx_17
+LOAD mainx_18
+NORMS mainx_18
+LOAD mainx_19
+NORMS mainx_19
+LOAD mainx_20
+NORMS mainx_20
+LOAD mainx_21
+NORMS mainx_21
+LOAD mainx_22
+NORMS mainx_22
+LOAD mainx_23
+NORMS mainx_23
+LOAD mainx_24
+NORMS mainx_24
+LOAD mainx_25
+NORMS mainx_25
+LOAD mainx_26
+NORMS mainx_26
+LOAD mainx_27
+NORMS mainx_27
+LOAD mainx_28
+NORMS mainx_28
+LOAD mainx_29
+NORMS mainx_29
+LOAD mainx_30
+NORMS mainx_30
+LOAD mainx_31
+NORMS mainx_31
+LOAD mainx_32
+NORMS mainx_32
+LOAD mainx_33
+NORMS mainx_33
+LOAD mainx_34
+NORMS mainx_34
+LOAD mainx_35
+NORMS mainx_35
+LOAD mainx_36
+NORMS mainx_36
+LOAD mainx_37
+NORMS mainx_37
+LOAD mainx_38
+NORMS mainx_38
+LOAD mainx_39
+NORMS mainx_39
+LOAD mainx_40
+NORMS mainx_40
+LOAD mainx_41
+NORMS mainx_41
+LOAD mainx_42
+NORMS mainx_42
+LOAD mainx_43
+NORMS mainx_43
+LOAD mainx_44
+NORMS mainx_44
+LOAD mainx_45
+NORMS mainx_45
+LOAD mainx_46
+NORMS mainx_46
+LOAD mainx_47
+NORMS mainx_47
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD 0
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD 0
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD 0
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD 0
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_0
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_1
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_2
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_3
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_4
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_5
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_6
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_7
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_8
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_9
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_10
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_11
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_12
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_13
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_14
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_15
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_16
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_17
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_18
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_19
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_20
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_21
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_22
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_23
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_24
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_25
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_26
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_27
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_28
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_29
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_30
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_31
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_32
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_33
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_34
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_35
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_36
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_37
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_38
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_39
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_40
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_41
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_42
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_43
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_44
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_45
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_46
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD mainx_47
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD 0
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD 0
+OUT
+LOAD 0
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+MLT -1
+PLD 0
+OUT
+JMP L1
+@L1end @fim JMP fim
