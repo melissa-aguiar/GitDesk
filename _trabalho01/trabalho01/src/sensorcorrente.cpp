@@ -1,19 +1,18 @@
-#include "sensorvazao.h"
+#include "sensorcorrente.h"
 #include <fstream>
 #include <iostream>
 #include <string.h>
 
 using namespace std;
 
-SensorVazao::SensorVazao(const string &path, vector<string> &h) //caminho do arquivo e header
+SensorCorrente::SensorCorrente(const string &path, vector<string> &h) //caminho do arquivo e header
 {
     this->nome = "desconhecido";
     this->id = "desconhecido";
-    this->unidade = "desconhecida";
+    this->f = "desconhecida";
     this->horarioInicial = "desconhecido";
     this->numMed = 0;
     this->Ts = 0;
-    this->f = 60;
     this->N = 600 / 60;
     this->totAmostras = 0;
     this->volume = 0;
@@ -22,12 +21,12 @@ SensorVazao::SensorVazao(const string &path, vector<string> &h) //caminho do arq
     abrirArquivo(path);
 }
 
-SensorVazao::~SensorVazao()
+SensorCorrente::~SensorCorrente()
 {
     this->file.close(); //alocamos os recursos no construtor e no destrutor fechamos o arquivo
 }
 
-bool SensorVazao::abrirArquivo(const string &path)
+bool SensorCorrente::abrirArquivo(const string &path)
 { //usamos try e catch pois nao sabemos se o arquivo existe, entao podemos lidar com posiveis erros/exceções.
     try
     {
@@ -41,7 +40,7 @@ bool SensorVazao::abrirArquivo(const string &path)
     return false;
 }
 
-bool SensorVazao::lerDados()
+bool SensorCorrente::lerDados()
 {
     try
     {
@@ -70,7 +69,7 @@ bool SensorVazao::lerDados()
             //apos coletados os dados, preenchemos os atributos da classe
             this->nome = dadosHeader[0];
             this->id = dadosHeader[1];
-            this->unidade = dadosHeader[2];
+            this->f = dadosHeader[2];
             this->numMed = stod(dadosHeader[5]); //stod converte string em double
             this->horarioInicial = dadosHeader[4];
             this->Ts = (int)stod(dadosHeader[3]);
@@ -98,29 +97,28 @@ bool SensorVazao::lerDados()
     return true;
 }
 
-void SensorVazao::confirmaLeitura()
+void SensorCorrente::confirmaLeitura()
 {
     cout << "Sensor " << this->getNome() << " lido com sucesso!" << endl;
 }
 
-void SensorVazao::imprimeHeaders()
+void SensorCorrente::imprimeHeaders()
 {
-    cout << "###############################" << endl;
-    cout << "Sensor de vazao" << endl;
+    cout << "###############################"<< endl;
     cout << "Nome do Sensor: " << this->getNome() << endl;
     cout << "ID do sensor: " << this->getId() << endl;
-    cout << "Unidade das medicoes: " << this->getUnidade() << endl;
+    cout << "Frequencia da rede: " << this->getFreq() << endl;
     cout << "Total de amostras: " << this->getNumMed() << endl;
     cout << "Horario inicio da coleta: " << this->getHorarioInicial() << endl;
     cout << "Periodo de amostragem (s): " << this->getPeriodoAmostragem() << endl;
 }
 
-void SensorVazao::imprimeDados()
+void SensorCorrente::imprimeDados()
 {
-    cout << "Sensor de vazao" << endl;
+    cout << "Sensor de corrente" << endl;
     cout << "Nome do Sensor: " << this->getNome() << endl;
     cout << "ID do sensor: " << this->getId() << endl;
-    cout << "Unidade das medicoes: " << this->getUnidade() << endl;
+    cout << "Frequencia da rede: " << this->getFreq() << endl;
     cout << "Total de amostras: " << this->getNumMed() << endl;
     cout << "Horario inicio da coleta: " << this->getHorarioInicial() << endl;
     cout << "Periodo de amostragem (s): " << this->getPeriodoAmostragem() << endl;
@@ -130,56 +128,51 @@ void SensorVazao::imprimeDados()
         //podendo ser somado ou subtraido, neste caso ele vai ir do primeiro endereço de memoria ao ultimo
         //a vantagem é que podemos usar o it  como uma referencia para cada um dos dados
         //quando definimos uma variavel como o retorno de um metodo, o proprio operador "auto" vai definir o tipo da variavel
-        cout << " Valor: " << it->valor << " " << this->getUnidade() << endl;
+        cout << " Valor: " << it->valor << endl;
     }
 }
 
-string SensorVazao::getNome()
+string SensorCorrente::getNome()
 {
     return this->nome;
 }
 
-string SensorVazao::getId()
+string SensorCorrente::getId()
 {
     return this->id;
 }
 
-string SensorVazao::getUnidade()
-{
-    return this->unidade;
-}
-
-string SensorVazao::getHorarioInicial()
+string SensorCorrente::getHorarioInicial()
 {
     return this->horarioInicial;
 }
 
-int SensorVazao::getNumMed()
+int SensorCorrente::getNumMed()
 {
     return this->numMed;
 }
 
-int SensorVazao::getTotAmostras()
+int SensorCorrente::getTotAmostras()
 {
     return this->totAmostras;
 }
 
-int SensorVazao::getFreq()
+string SensorCorrente::getFreq()
 {
     return this->f;
 }
 
-int SensorVazao::getNumAmostrasCiclo()
+int SensorCorrente::getNumAmostrasCiclo()
 {
     return this->N;
 }
 
-int SensorVazao::getPeriodoAmostragem()
+int SensorCorrente::getPeriodoAmostragem()
 {
     return this->Ts;
 }
 
-double SensorVazao::getDado(const int &indice)
+double SensorCorrente::getDado(const int &indice)
 {
     for (int i = 0; i <= indice; i++)
     {
@@ -189,13 +182,4 @@ double SensorVazao::getDado(const int &indice)
         }
     }
     return false;
-}
-
-double SensorVazao::getVolume(const int &indice)
-{
-    for (int i = 0; i <= indice; i++)
-    {
-        this->volume = this->volume + dados[i].valor;
-    }
-    return this->volume;
 }
