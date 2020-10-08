@@ -43,7 +43,6 @@ public:
     virtual double getDado(const int&);
     virtual double getVolume(const int&);
     //virtual int salvarDados(const string&, const string&, const string&);
-    //sensor de tensao e corrente precisa salvar dados do zero ate o indice desejado
 };
 
 #endif

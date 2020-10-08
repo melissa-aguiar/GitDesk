@@ -4,8 +4,6 @@
 
 using namespace std;
 
-using namespace std;
-
 void fooVazao(SensorVazao &s)
 {
     s.confirmaLeitura();
@@ -33,7 +31,7 @@ int main()
     fooVazao(vazao1);
     fooVazao(vazao2);
 
-    //###################################### CORRENTE ##################################
+    //###################################### CORRENTE E TENSAO ##################################
     vector<string> headersSensores = {"Nome do Sensor", "ID do sensor", "Frequencia da rede", "Numero de amostras por segundo", "Horario inicio da coleta", "Total de Amostras"};
     
     SensorCorrente corrente1("C:\\Users\\melis\\Desktop\\GitDesk\\_trabalho01\\trabalho01\\dados\\SensorCorrente1.dat", headersSensores);
@@ -44,8 +42,6 @@ int main()
     
     fooCorrente(corrente1);
     fooCorrente(corrente2);
-
-    //###################################### TENSAO ##################################
     
     SensorCorrente tensao1("C:\\Users\\melis\\Desktop\\GitDesk\\_trabalho01\\trabalho01\\dados\\SensorTensao1.dat", headersSensores);
     tensao1.lerDados();

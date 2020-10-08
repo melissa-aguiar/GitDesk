@@ -40,6 +40,7 @@ public:
     virtual int getNumAmostrasCiclo();
     virtual double getDado(const int&);
     //virtual int salvarDados(const string&, const string&, const string&);
+    //sensor de tensao e corrente precisa salvar dados do zero ate o indice desejado pros calculos nas bombas
 };
 
 #endif
