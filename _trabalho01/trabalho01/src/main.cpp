@@ -62,6 +62,8 @@ int main()
 
     //################################ INTERFACE RESERVATORIO ###############################
 
+    //depois tem que tirar essa interface e adicionar ao plantaindustrial.cpp
+
     //int hora, min, seg, indice, op;
 
     //cout << "Opcao RESERVATORIO selecionada. Menu: " << endl;
