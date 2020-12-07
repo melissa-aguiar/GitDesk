@@ -9,12 +9,12 @@ integer 				 data_file, scan_file, my_output;
 
 
 initial begin 
-	data_file = $fopen("sinaladc.txt", "r");
+	data_file = $fopen("sinal_entrada.txt", "r");
 	my_output = $fopen("myoutput.txt", "w");
 	scan_file = $fscanf(data_file, "%d\n", in);
 	clk = 0;
 	rst = 1;
-	#10 rst = 0;
+	#1 rst = 0;
 end
 
 always #1 clk = ~clk;
@@ -26,9 +26,12 @@ end
 
 always @ (posedge clk) begin
 	if (out_en == 4'd1)
-		$fwrite(my_output, "%f\n", io_out);
+		$fwrite(my_output, "%d\n", io_out);
 end
 
 rede_float rede_float(clk, rst, in, io_out, req_in, out_en);
 
 endmodule
+
+
+
