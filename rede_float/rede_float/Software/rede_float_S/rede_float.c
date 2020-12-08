@@ -122,8 +122,8 @@ void main()
      
      float saidaflutuante = + lute_out_n_1*10.2534060751568 +  lute_out_n_3*1358.22773877427 -(lute_out_n_0*5.05703188427083 + lute_out_n_2*7.48328296625035 + 189.214868378811);
      
-     //if (saidaflutuante<0)
-     //   saidaflutuante = 0.0;
+     if (saidaflutuante<0)
+        saidaflutuante = 0.0;
      
      
      out(0,saidaflutuante);

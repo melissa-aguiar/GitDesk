@@ -510,9 +510,11 @@ NEG
 SADD
 SET mainsaidaflutuante
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
+LES mainsaidaflutuante
+JZ L10else
+LOAD 0.0
+SET mainsaidaflutuante
+@L10else LOAD 0
 MLT -1
 MLT -1
 MLT -1

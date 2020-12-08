@@ -16,8 +16,8 @@ wire [1:0] addr_out;
 
 proc_fl #(.NBMANT(19),
 .NBEXPO(8),
-.MDATAS(32919),
-.MINSTS(515),
+.MDATAS(32920),
+.MINSTS(517),
 .SDEPTH(4),
 .NUIOIN(4),
 .NUIOOU(4),
