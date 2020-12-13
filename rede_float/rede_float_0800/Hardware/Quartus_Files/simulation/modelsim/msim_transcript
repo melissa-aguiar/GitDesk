@@ -1,0 +1,297 @@
+# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do rede_float_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H/rede_float.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:43 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H/rede_float.v 
+# -- Compiling module rede_float
+# 
+# Top level modules:
+# 	rede_float
+# End time: 18:27:43 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/ula_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:43 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/ula_fl.v 
+# -- Compiling module mymux
+# -- Compiling module norm
+# -- Compiling module denorm
+# -- Compiling module outmux
+# -- Compiling module mysoma
+# -- Compiling module mymult
+# -- Compiling module mydiv
+# -- Compiling module ula_fl
+# 
+# Top level modules:
+# 	ula_fl
+# End time: 18:27:43 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/stack_pointer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:43 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/stack_pointer.v 
+# -- Compiling module stack_pointer
+# 
+# Top level modules:
+# 	stack_pointer
+# End time: 18:27:43 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/reg_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:43 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/reg_file.v 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 18:27:43 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/proc_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:43 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/proc_fl.v 
+# -- Compiling module proc_fl
+# 
+# Top level modules:
+# 	proc_fl
+# End time: 18:27:44 on Dec 13,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/prefetch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:44 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/prefetch.v 
+# -- Compiling module prefetch
+# 
+# Top level modules:
+# 	prefetch
+# End time: 18:27:44 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:44 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 18:27:44 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:44 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v 
+# -- Compiling module mem_instr
+# 
+# Top level modules:
+# 	mem_instr
+# End time: 18:27:44 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_data.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:44 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_data.v 
+# -- Compiling module mem_data
+# 
+# Top level modules:
+# 	mem_data
+# End time: 18:27:44 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/int2float.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:44 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/int2float.v 
+# -- Compiling module int2float
+# 
+# Top level modules:
+# 	int2float
+# End time: 18:27:45 on Dec 13,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/instr_dec_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:45 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/instr_dec_fl.v 
+# -- Compiling module instr_dec_fl
+# 
+# Top level modules:
+# 	instr_dec_fl
+# End time: 18:27:45 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/float2int.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:45 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/float2int.v 
+# -- Compiling module float2int
+# 
+# Top level modules:
+# 	float2int
+# End time: 18:27:45 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/float2index.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:45 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/float2index.v 
+# -- Compiling module float2index
+# 
+# Top level modules:
+# 	float2index
+# End time: 18:27:45 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/core_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:45 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/core_fl.v 
+# -- Compiling module core_fl
+# 
+# Top level modules:
+# 	core_fl
+# End time: 18:27:45 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/addr_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:46 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/addr_dec.v 
+# -- Compiling module addr_dec
+# 
+# Top level modules:
+# 	addr_dec
+# End time: 18:27:46 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H/multicore.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:46 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/rede_float_H/multicore.v 
+# -- Compiling module multicore
+# 
+# Top level modules:
+# 	multicore
+# End time: 18:27:46 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Quartus_Files/../rede_float_H {C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Quartus_Files/../rede_float_H/multicore_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:27:46 on Dec 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Quartus_Files/../rede_float_H" C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Quartus_Files/../rede_float_H/multicore_tb.v 
+# -- Compiling module multicore_tb
+# 
+# Top level modules:
+# 	multicore_tb
+# End time: 18:27:46 on Dec 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  multicore_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" multicore_tb 
+# Start time: 18:27:46 on Dec 13,2020
+# Loading work.multicore_tb
+# Loading work.multicore
+# Loading work.rede_float
+# Loading work.int2float
+# Loading work.proc_fl
+# Loading work.mem_data
+# Loading work.float2int
+# Loading work.addr_dec
+# Loading work.core_fl
+# Loading work.pc
+# Loading work.prefetch
+# Loading work.instr_dec_fl
+# Loading work.stack_pointer
+# Loading work.ula_fl
+# Loading work.denorm
+# Loading work.outmux
+# Loading work.norm
+# Loading work.mymux
+# Loading work.float2index
+# Loading work.mem_instr
+# Loading work.mysoma
+# Loading work.mymult
+# Loading work.reg_file
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 ps
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float0/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float1/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float2/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float3/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float4/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float5/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float6/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float7/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float8/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float9/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float10/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float11/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float12/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float13/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float14/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float15/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float16/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float17/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float18/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float19/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float20/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float21/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float22/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float23/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float24/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float25/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float26/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float27/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float28/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float29/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float30/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float31/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float32/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float33/p_rede_float/genblk1/minstr
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 368 of file "C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float_inst.mif". (Current address [367], address range [0:366])    : C:/Users/melis/Desktop/GitDesk/rede_float/rede_float_0800/Hardware/Proc_IP/mem_instr.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /multicore_tb/multicore/rede_float34/p_rede_float/genblk1/minstr
+run 1us
+# End time: 18:28:28 on Dec 13,2020, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 35

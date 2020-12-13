@@ -11,18 +11,10 @@ MLT -1
 MLT -1
 MLT -1
 MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy0
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 MLT -1
 MLT -1
 MLT -1
@@ -51,18 +43,10 @@ MLT -1
 MLT -1
 MLT -1
 MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy2
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 MLT -1
 MLT -1
 MLT -1
@@ -91,18 +75,10 @@ MLT -1
 MLT -1
 MLT -1
 MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy4
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 MLT -1
 MLT -1
 MLT -1
@@ -131,18 +107,10 @@ MLT -1
 MLT -1
 MLT -1
 MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy6
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 MLT -1
 MLT -1
 MLT -1
@@ -171,18 +139,10 @@ MLT -1
 MLT -1
 MLT -1
 MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy8
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 MLT -1
 MLT -1
 MLT -1
