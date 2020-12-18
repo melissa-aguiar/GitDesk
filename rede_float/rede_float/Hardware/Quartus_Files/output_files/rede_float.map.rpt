@@ -1,6 +1,6 @@
 Analysis & Synthesis report for rede_float
-Sun Dec 13 20:00:27 2020
-Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Fri Dec 18 12:39:56 2020
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
 ---------------------
@@ -1278,7 +1278,7 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2019  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -1298,8 +1298,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Dec 13 20:00:25 2020       ;
-; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Analysis & Synthesis Status        ; Successful - Fri Dec 18 12:39:54 2020       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; rede_float                                  ;
 ; Top-level Entity Name              ; multicore                                   ;
 ; Family                             ; Cyclone 10 LP                               ;
@@ -1440,41 +1440,41 @@ https://fpgasoftware.intel.com/eula.
 ; ../Proc_IP/core_fl.v                          ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/core_fl.v                                           ;         ;
 ; ../Proc_IP/addr_dec.v                         ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/addr_dec.v                                          ;         ;
 ; ../rede_float_H/multicore.v                   ; yes             ; User Verilog HDL File                                 ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/multicore.v                                    ;         ;
-; altsyncram.tdf                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf                                                     ;         ;
-; stratix_ram_block.inc                         ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                              ;         ;
-; lpm_mux.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mux.inc                                                        ;         ;
-; lpm_decode.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_decode.inc                                                     ;         ;
-; aglobal191.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/aglobal191.inc                                                     ;         ;
-; a_rdenreg.inc                                 ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                      ;         ;
-; altrom.inc                                    ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altrom.inc                                                         ;         ;
-; altram.inc                                    ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altram.inc                                                         ;         ;
-; altdpram.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altdpram.inc                                                       ;         ;
+; altsyncram.tdf                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf                                                     ;         ;
+; stratix_ram_block.inc                         ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                              ;         ;
+; lpm_mux.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mux.inc                                                        ;         ;
+; lpm_decode.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_decode.inc                                                     ;         ;
+; aglobal201.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                                     ;         ;
+; a_rdenreg.inc                                 ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                      ;         ;
+; altrom.inc                                    ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altrom.inc                                                         ;         ;
+; altram.inc                                    ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altram.inc                                                         ;         ;
+; altdpram.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altdpram.inc                                                       ;         ;
 ; db/altsyncram_v8m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/altsyncram_v8m1.tdf                        ;         ;
 ; db/rede_float.ram0_mem_data_b79be261.hdl.mif  ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/rede_float.ram0_mem_data_b79be261.hdl.mif  ;         ;
 ; db/decode_hsa.tdf                             ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/decode_hsa.tdf                             ;         ;
 ; db/mux_job.tdf                                ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mux_job.tdf                                ;         ;
 ; db/altsyncram_0j71.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/altsyncram_0j71.tdf                        ;         ;
 ; db/rede_float.ram0_mem_instr_cffc4d64.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/rede_float.ram0_mem_instr_cffc4d64.hdl.mif ;         ;
-; lpm_mult.tdf                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mult.tdf                                                       ;         ;
-; lpm_add_sub.inc                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                    ;         ;
-; multcore.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/multcore.inc                                                       ;         ;
-; bypassff.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/bypassff.inc                                                       ;         ;
-; altshift.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altshift.inc                                                       ;         ;
+; lpm_mult.tdf                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf                                                       ;         ;
+; lpm_add_sub.inc                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                    ;         ;
+; multcore.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/multcore.inc                                                       ;         ;
+; bypassff.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                                                       ;         ;
+; altshift.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                                                       ;         ;
 ; db/mult_bdt.tdf                               ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mult_bdt.tdf                               ;         ;
-; alt_mac_mult.tdf                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_mac_mult.tdf                                                   ;         ;
-; lpm_mult.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mult.inc                                                       ;         ;
-; multcore.tdf                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/multcore.tdf                                                       ;         ;
-; csa_add.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/csa_add.inc                                                        ;         ;
-; mpar_add.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/mpar_add.inc                                                       ;         ;
-; muleabz.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/muleabz.inc                                                        ;         ;
-; mul_lfrg.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/mul_lfrg.inc                                                       ;         ;
-; mul_boothc.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/mul_boothc.inc                                                     ;         ;
-; alt_ded_mult.inc                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_ded_mult.inc                                                   ;         ;
-; alt_ded_mult_y.inc                            ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_ded_mult_y.inc                                                 ;         ;
-; dffpipe.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/dffpipe.inc                                                        ;         ;
-; altshift.tdf                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altshift.tdf                                                       ;         ;
-; alt_mac_out.tdf                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_mac_out.tdf                                                    ;         ;
-; alt_zaccum.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_zaccum.inc                                                     ;         ;
+; alt_mac_mult.tdf                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_mac_mult.tdf                                                   ;         ;
+; lpm_mult.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.inc                                                       ;         ;
+; multcore.tdf                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/multcore.tdf                                                       ;         ;
+; csa_add.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/csa_add.inc                                                        ;         ;
+; mpar_add.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/mpar_add.inc                                                       ;         ;
+; muleabz.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/muleabz.inc                                                        ;         ;
+; mul_lfrg.inc                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/mul_lfrg.inc                                                       ;         ;
+; mul_boothc.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/mul_boothc.inc                                                     ;         ;
+; alt_ded_mult.inc                              ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_ded_mult.inc                                                   ;         ;
+; alt_ded_mult_y.inc                            ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_ded_mult_y.inc                                                 ;         ;
+; dffpipe.inc                                   ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/dffpipe.inc                                                        ;         ;
+; altshift.tdf                                  ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.tdf                                                       ;         ;
+; alt_mac_out.tdf                               ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_mac_out.tdf                                                    ;         ;
+; alt_zaccum.inc                                ; yes             ; Megafunction                                          ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_zaccum.inc                                                     ;         ;
 ; db/mac_out_do82.tdf                           ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mac_out_do82.tdf                           ;         ;
 ; db/mac_out_tr82.tdf                           ; yes             ; Auto-Generated Megafunction                           ; C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mac_out_tr82.tdf                           ;         ;
 +-----------------------------------------------+-----------------+-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------+
@@ -26981,7 +26981,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:03:40     ;
+; Top            ; 00:04:02     ;
 +----------------+--------------+
 
 
@@ -26990,8 +26990,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sun Dec 13 19:55:01 2020
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Fri Dec 18 12:33:53 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off rede_float -c rede_float
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -27928,9 +27928,9 @@ Info (12133): Instantiated megafunction "rede_float:rede_float0|proc_fl:p_rede_f
     Info (12134): Parameter "signa_clear" = "NONE"
     Info (12134): Parameter "signb_clear" = "NONE"
     Info (12134): Parameter "output_clear" = "NONE"
-Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7|lpm_mult:mult", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_mac_mult.tdf Line: 287
-Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7|lpm_mult:mult|multcore:mult_core", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 324
-Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7|lpm_mult:mult|altshift:external_latency_ffs", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 352
+Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7|lpm_mult:mult", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_mac_mult.tdf Line: 287
+Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7|lpm_mult:mult|multcore:mult_core", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 324
+Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7|lpm_mult:mult|altshift:external_latency_ffs", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult7" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 352
 Info (12130): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_out:mac_out8" File: C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mult_bdt.tdf Line: 91
 Info (12133): Instantiated megafunction "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_out:mac_out8" with the following parameter: File: C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mult_bdt.tdf Line: 91
     Info (12134): Parameter "OPERATION_MODE" = "OUTPUT_ONLY"
@@ -27989,9 +27989,9 @@ Info (12133): Instantiated megafunction "rede_float:rede_float0|proc_fl:p_rede_f
     Info (12134): Parameter "signa_clear" = "NONE"
     Info (12134): Parameter "signb_clear" = "NONE"
     Info (12134): Parameter "output_clear" = "NONE"
-Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3|lpm_mult:mult", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/alt_mac_mult.tdf Line: 287
-Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3|lpm_mult:mult|multcore:mult_core", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 324
-Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3|lpm_mult:mult|altshift:external_latency_ffs", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 352
+Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3|lpm_mult:mult", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_mac_mult.tdf Line: 287
+Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3|lpm_mult:mult|multcore:mult_core", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 324
+Info (12131): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3|lpm_mult:mult|altshift:external_latency_ffs", which is child of megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_mult:mac_mult3" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 352
 Info (12130): Elaborated megafunction instantiation "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_out:mac_out4" File: C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mult_bdt.tdf Line: 81
 Info (12133): Instantiated megafunction "rede_float:rede_float0|proc_fl:p_rede_float|core_fl:core|ula_fl:ula|mymult:mymult|lpm_mult:Mult0|mult_bdt:auto_generated|alt_mac_out:mac_out4" with the following parameter: File: C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/db/mult_bdt.tdf Line: 81
     Info (12134): Parameter "OPERATION_MODE" = "OUTPUT_ONLY"
@@ -28043,10 +28043,10 @@ Info (21057): Implemented 46201 device resources after synthesis - the final res
     Info (21064): Implemented 3992 RAM segments
     Info (21062): Implemented 132 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 5210 megabytes
-    Info: Processing ended: Sun Dec 13 20:00:28 2020
-    Info: Elapsed time: 00:05:27
-    Info: Total CPU time (on all processors): 00:05:59
+    Info: Peak virtual memory: 5144 megabytes
+    Info: Processing ended: Fri Dec 18 12:39:56 2020
+    Info: Elapsed time: 00:06:03
+    Info: Total CPU time (on all processors): 00:05:47
 
 
 +------------------------------------------+
