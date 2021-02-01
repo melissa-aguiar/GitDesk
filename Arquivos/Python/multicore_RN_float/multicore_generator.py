@@ -1,9 +1,9 @@
 def main():
 
     #  ########################################## PARAMETROS ###########################################################
-    procs = 26  # numero de processadores pra gerar o multicore.v e multicore_tb.v
-    freq = 782  # frequencia do clock no _tb
-    mlt = 12  # numero de multiplicadores pra colocar entre as entradas do .asm
+    procs = 20  # numero de processadores pra gerar o multicore.v e multicore_tb.v
+    freq = 500  # frequencia do clock no _tb
+    mlt = 21  # numero de multiplicadores pra colocar entre as entradas do .asm
     nbmant = 19  # numero de bits da mantissa
     nbexpo = 8  # numero de bits do expoente
     nubits = 1
@@ -27,7 +27,7 @@ def main():
 
     #  ################################################  MULTICORE #####################################################
 
-    f12 = open("C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/multicore.v", "w+")
+    f12 = open("C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/multicore.v", "w+")
     #  f12 = open("top_level.txt","w+")
     f12.write("module multicore (" + '\n')
     f12.write("\tinput clk," + '\n')
@@ -88,14 +88,14 @@ def main():
     f12.write('\n')
 
     for i in range(procs):
-        f12.write("rede_float rede_float" + str(i) + " (clk, rst" + str(i) + ", io_in, io_out" + str(i) + ", req_in" +
+        f12.write("rede_taylor rede_taylor" + str(i) + " (clk, rst" + str(i) + ", io_in, io_out" + str(i) + ", req_in" +
                   str(i) + ", out_en" + str(i) + ");" + '\n')
     f12.write("endmodule" + '\n')
     f12.write('\n')
     f12.close()
 
     #  ################################################ TESTBENCH MULTICORE ############################################
-    f13 = open("C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/multicore_tb.v", "w+")
+    f13 = open("C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/multicore_tb.v", "w+")
     #  f13 = open("testbench.txt","w+")
     f13.write("module multicore_tb();" + '\n')
     f13.write("\treg clk;" + '\n')
