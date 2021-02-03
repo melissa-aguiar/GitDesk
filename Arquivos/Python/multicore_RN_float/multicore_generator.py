@@ -7,7 +7,7 @@ def main():
     nbmant = 19  # numero de bits da mantissa
     nbexpo = 8  # numero de bits do expoente
     nubits = 1
-    extra = 12  # numero a mais de MLT pra colocar na saida pra atrasar ela e sincronizar as janelas de entrada
+    extra = 4  # numero a mais de MLT pra colocar na saida pra atrasar ela e sincronizar as janelas de entrada
 
     #  ########################################## GERAR O .ASM #########################################################
     f1 = open("assembler_in.txt", "w+")
