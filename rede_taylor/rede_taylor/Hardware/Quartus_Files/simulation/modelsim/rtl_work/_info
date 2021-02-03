@@ -10,14 +10,14 @@ z2
 cModel Technology
 Z0 dC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/simulation/modelsim
 vaddr_dec
-Z1 !s110 1612211437
+Z1 !s110 1612309070
 !i10b 1
 !s100 FN4?nl1gkY=mi9f^HF^jX2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I<AE5cKHJ_ILR57G6QSC=c2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1612204708
+Z4 w1612204707
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/addr_dec.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/addr_dec.v
 !i122 14
@@ -26,7 +26,7 @@ Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1612211437.000000
+Z7 !s108 1612309070.000000
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/addr_dec.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/addr_dec.v|
 !i113 1
@@ -41,7 +41,7 @@ R2
 IFFE5;e3DaSFEaQEH[CoZY2
 R3
 R0
-R4
+Z11 w1612216320
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/core_fl.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/core_fl.v
 !i122 13
@@ -50,7 +50,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z12 !s108 1612309069.000000
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/core_fl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/core_fl.v|
 !i113 1
@@ -58,31 +58,31 @@ R8
 R9
 R10
 vdenorm
-Z11 !s110 1612211435
+Z13 !s110 1612309068
 !i10b 1
 !s100 B_E:^AQ:KJ1M0h`Fa4bPO1
 R2
 ID@<O;T:QkoY_f17e><Q[l1
 R3
 R0
-R4
-Z12 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v
-Z13 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v
+R11
+Z14 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v
+Z15 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v
 !i122 1
 L0 59 27
 R6
 r1
 !s85 0
 31
-Z14 !s108 1612211435.000000
-Z15 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v|
-Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v|
+Z16 !s108 1612309067.000000
+Z17 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v|
 !i113 1
 R8
 R9
 R10
 vfloat2index
-R1
+Z19 !s110 1612309069
 !i10b 1
 !s100 ]j@Cm16TWWoC2=2RO<:Rk3
 R2
@@ -93,12 +93,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2index.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2index.v
 !i122 12
-Z17 L0 1 17
+Z20 L0 1 17
 R6
 r1
 !s85 0
 31
-R7
+R12
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2index.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2index.v|
 !i113 1
@@ -106,7 +106,7 @@ R8
 R9
 R10
 vfloat2int
-R1
+R19
 !i10b 1
 !s100 ZH>YPi3CMW12Xm2@7E;Yb0
 R2
@@ -122,7 +122,7 @@ R6
 r1
 !s85 0
 31
-Z18 !s108 1612211436.000000
+R12
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2int.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2int.v|
 !i113 1
@@ -130,14 +130,14 @@ R8
 R9
 R10
 vinstr_dec_fl
-Z19 !s110 1612211436
+R19
 !i10b 1
 !s100 IEkCTMZW7hka?TMz=ZgZS0
 R2
 Ick0H0B4On_f8^OHEczazK0
 R3
 R0
-R4
+R11
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/instr_dec_fl.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/instr_dec_fl.v
 !i122 10
@@ -146,7 +146,7 @@ R6
 r1
 !s85 0
 31
-R18
+R12
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/instr_dec_fl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/instr_dec_fl.v|
 !i113 1
@@ -165,12 +165,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/int2float.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/int2float.v
 !i122 9
-R17
+R20
 R6
 r1
 !s85 0
 31
-R18
+R12
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/int2float.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/int2float.v|
 !i113 1
@@ -194,7 +194,7 @@ R6
 r1
 !s85 0
 31
-R18
+Z21 !s108 1612309068.000000
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_data.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_data.v|
 !i113 1
@@ -202,7 +202,7 @@ R8
 R9
 R10
 vmem_instr
-R19
+R13
 !i10b 1
 !s100 no3k5F``?K]I1=ebS4SD90
 R2
@@ -213,12 +213,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_instr.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_instr.v
 !i122 7
-Z20 L0 1 24
+Z22 L0 1 24
 R6
 r1
 !s85 0
 31
-R18
+R21
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_instr.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_instr.v|
 !i113 1
@@ -233,7 +233,7 @@ R2
 I@EmY1A?KFDl:ho<zgk^_92
 R3
 R0
-Z21 w1612210669
+Z23 w1612308412
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/multicore.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/multicore.v
 !i122 15
@@ -247,17 +247,17 @@ R7
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/multicore.v|
 !i113 1
 R8
-Z22 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H
+Z24 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H
 R10
 vmulticore_tb
-!s110 1612211438
+R1
 !i10b 1
 !s100 46d6gh0ZfK8a1V2T>Rg6I0
 R2
 IHJEOL;PK<W^4HoCRiT;JX3
 R3
 R0
-R21
+R23
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H/multicore_tb.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H/multicore_tb.v
 !i122 16
@@ -266,7 +266,7 @@ R6
 r1
 !s85 0
 31
-!s108 1612211438.000000
+R7
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H/multicore_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H/multicore_tb.v|
 !i113 1
@@ -274,151 +274,151 @@ R8
 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H
 R10
 vmydiv
-R11
+R13
 !i10b 1
 !s100 XFmmUHN54clA9hdJXT@LM2
 R2
 I^3o[bAQ9h`AcA1MX_Wn8z2
 R3
 R0
-R4
-R12
-R13
+R11
+R14
+R15
 !i122 1
 L0 175 22
 R6
 r1
 !s85 0
 31
-R14
-R15
 R16
+R17
+R18
 !i113 1
 R8
 R9
 R10
 vmymult
-R11
+R13
 !i10b 1
 !s100 0DGDOzC?7@`ML;PdfzdYj2
 R2
 ITNN;:iKf3G;d]76kAGR0z0
 R3
 R0
-R4
-R12
-R13
+R11
+R14
+R15
 !i122 1
 L0 149 23
 R6
 r1
 !s85 0
 31
-R14
-R15
 R16
+R17
+R18
 !i113 1
 R8
 R9
 R10
 vmymux
-R11
+R13
 !i10b 1
 !s100 T9BWOYF[1;9dhC8M?Y]zg3
 R2
 IDgj@GPiM8_M0h>bd_QWX10
 R3
 R0
-R4
-R12
-R13
+R11
+R14
+R15
 !i122 1
 L0 7 14
 R6
 r1
 !s85 0
 31
-R14
-R15
 R16
+R17
+R18
 !i113 1
 R8
 R9
 R10
 vmysoma
-R11
+R13
 !i10b 1
 !s100 XPIK8_GQXg@NN^gPl?8oP3
 R2
 I<<z3FhB89ZlfRYn=ZB:5m0
 R3
 R0
-R4
-R12
-R13
+R11
+R14
+R15
 !i122 1
 L0 125 21
 R6
 r1
 !s85 0
 31
-R14
-R15
 R16
+R17
+R18
 !i113 1
 R8
 R9
 R10
 vnorm
-R11
+R13
 !i10b 1
 !s100 NVk?nEVBonA59Gz:bMFM43
 R2
 IVjYESUW:TB0WdKjaLC9[j3
 R3
 R0
-R4
-R12
-R13
+R11
+R14
+R15
 !i122 1
 L0 24 32
 R6
 r1
 !s85 0
 31
-R14
-R15
 R16
+R17
+R18
 !i113 1
 R8
 R9
 R10
 voutmux
-R11
+R13
 !i10b 1
 !s100 K?afIZJVh2T>FF]oMG_N71
 R2
 IlMGOHYAI7F0?@MndV=FUN1
 R3
 R0
-R4
-R12
-R13
+R11
+R14
+R15
 !i122 1
 L0 89 29
 R6
 r1
 !s85 0
 31
-R14
-R15
 R16
+R17
+R18
 !i113 1
 R8
 R9
 R10
 vpc
-R19
+R13
 !i10b 1
 !s100 R3f5cKFaWFX032ehIlP:Y3
 R2
@@ -429,12 +429,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/pc.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/pc.v
 !i122 6
-R20
+R22
 R6
 r1
 !s85 0
 31
-R18
+R21
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/pc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/pc.v|
 !i113 1
@@ -442,7 +442,7 @@ R8
 R9
 R10
 vprefetch
-R19
+R13
 !i10b 1
 !s100 A@kVOK9=jk22:WkSIWDnQ2
 R2
@@ -458,7 +458,7 @@ R6
 r1
 !s85 0
 31
-R14
+R21
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/prefetch.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/prefetch.v|
 !i113 1
@@ -466,14 +466,14 @@ R8
 R9
 R10
 vproc_fl
-R11
+R13
 !i10b 1
 !s100 ]M3YQ_IXLcBCZYb[ML>8U2
 R2
 ICh7joBDoiXmUm`gC_@MNV2
 R3
 R0
-R4
+R11
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/proc_fl.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/proc_fl.v
 !i122 4
@@ -482,7 +482,7 @@ R6
 r1
 !s85 0
 31
-R14
+R21
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/proc_fl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/proc_fl.v|
 !i113 1
@@ -490,14 +490,14 @@ R8
 R9
 R10
 vrede_taylor
-!s110 1612211434
+!s110 1612309067
 !i10b 1
-!s100 D0RZUklJUU8HKzR[YznmM1
+!s100 nVogg2eZ=UYaFhK^]^6e41
 R2
-Ide5;NP`HlZ__5M0Q8oA7=3
+I]1=_D8hH>:JD3YigVYe;62
 R3
 R0
-w1612210605
+w1612308941
 8C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/rede_taylor.v
 FC:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/rede_taylor.v
 !i122 0
@@ -506,15 +506,15 @@ R6
 r1
 !s85 0
 31
-!s108 1612211434.000000
+R16
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/rede_taylor.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/rede_taylor.v|
 !i113 1
 R8
-R22
+R24
 R10
 vreg_file
-R11
+R13
 !i10b 1
 !s100 egj:Gea5K6MND5@39;baZ2
 R2
@@ -530,7 +530,7 @@ R6
 r1
 !s85 0
 31
-R14
+R21
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/reg_file.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/reg_file.v|
 !i113 1
@@ -538,7 +538,7 @@ R8
 R9
 R10
 vstack_pointer
-R11
+R13
 !i10b 1
 !s100 b[Dd1UEHmCEzoz9iCj5n?3
 R2
@@ -554,7 +554,7 @@ R6
 r1
 !s85 0
 31
-R14
+R21
 !s107 C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/stack_pointer.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/stack_pointer.v|
 !i113 1
@@ -562,25 +562,25 @@ R8
 R9
 R10
 vula_fl
-R11
+R13
 !i10b 1
 !s100 jke2YaJPoI8h8ko4HRfOn3
 R2
 IPQgab;@:d1bSajE2<OD5O2
 R3
 R0
-R4
-R12
-R13
+R11
+R14
+R15
 !i122 1
 L0 202 195
 R6
 r1
 !s85 0
 31
-R14
-R15
 R16
+R17
+R18
 !i113 1
 R8
 R9

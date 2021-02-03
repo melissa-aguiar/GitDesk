@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/simulation/modelsim
 vaddr_dec
-Z1 !s110 1608306202
+Z1 !s110 1612309922
 !i10b 1
 !s100 FN4?nl1gkY=mi9f^HF^jX2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1608306202.000000
+Z7 !s108 1612309922.000000
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/addr_dec.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/addr_dec.v|
 !i113 1
@@ -34,7 +34,7 @@ Z8 o-vlog01compat -work work
 Z9 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP
 Z10 tCvgOpt 0
 vcore_fl
-Z11 !s110 1608306201
+R1
 !i10b 1
 !s100 A>57=TD7e6f>O_JGE^^N42
 R2
@@ -50,7 +50,7 @@ R6
 r1
 !s85 0
 31
-Z12 !s108 1608306201.000000
+R7
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/core_fl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/core_fl.v|
 !i113 1
@@ -58,7 +58,7 @@ R8
 R9
 R10
 vdenorm
-Z13 !s110 1608306195
+Z11 !s110 1612309920
 !i10b 1
 !s100 B_E:^AQ:KJ1M0h`Fa4bPO1
 R2
@@ -66,23 +66,23 @@ IoMdVjl4^M2W_eAY>U77OO1
 R3
 R0
 R4
-Z14 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v
-Z15 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v
+Z12 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v
+Z13 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v
 !i122 1
 L0 59 27
 R6
 r1
 !s85 0
 31
-Z16 !s108 1608306195.000000
-Z17 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v|
-Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v|
+Z14 !s108 1612309920.000000
+Z15 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/ula_fl.v|
 !i113 1
 R8
 R9
 R10
 vfloat2index
-R11
+R1
 !i10b 1
 !s100 ]j@Cm16TWWoC2=2RO<:Rk3
 R2
@@ -93,12 +93,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/float2index.v
 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/float2index.v
 !i122 12
-Z19 L0 1 17
+Z17 L0 1 17
 R6
 r1
 !s85 0
 31
-R12
+R7
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/float2index.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/float2index.v|
 !i113 1
@@ -106,7 +106,7 @@ R8
 R9
 R10
 vfloat2int
-Z20 !s110 1608306200
+R1
 !i10b 1
 !s100 ZH>YPi3CMW12Xm2@7E;Yb0
 R2
@@ -122,7 +122,7 @@ R6
 r1
 !s85 0
 31
-Z21 !s108 1608306200.000000
+R7
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/float2int.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/float2int.v|
 !i113 1
@@ -130,7 +130,7 @@ R8
 R9
 R10
 vinstr_dec_fl
-R20
+Z18 !s110 1612309921
 !i10b 1
 !s100 Uok=PUF2@e6hbn4<MocLI3
 R2
@@ -146,7 +146,7 @@ R6
 r1
 !s85 0
 31
-R21
+Z19 !s108 1612309921.000000
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/instr_dec_fl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/instr_dec_fl.v|
 !i113 1
@@ -154,7 +154,7 @@ R8
 R9
 R10
 vint2float
-!s110 1608306199
+R18
 !i10b 1
 !s100 76mm2N^08?j`Lfge_HRjn3
 R2
@@ -165,12 +165,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/int2float.v
 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/int2float.v
 !i122 9
-R19
+R17
 R6
 r1
 !s85 0
 31
-!s108 1608306199.000000
+R19
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/int2float.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/int2float.v|
 !i113 1
@@ -178,7 +178,7 @@ R8
 R9
 R10
 vmem_data
-!s110 1608306198
+R18
 !i10b 1
 !s100 75?g6k4S8HFR<=d3[TnQ21
 R2
@@ -194,7 +194,7 @@ R6
 r1
 !s85 0
 31
-!s108 1608306198.000000
+R19
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/mem_data.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/mem_data.v|
 !i113 1
@@ -202,7 +202,7 @@ R8
 R9
 R10
 vmem_instr
-!s110 1608306197
+R18
 !i10b 1
 !s100 no3k5F``?K]I1=ebS4SD90
 R2
@@ -213,12 +213,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/mem_instr.v
 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/mem_instr.v
 !i122 7
-Z22 L0 1 24
+Z20 L0 1 24
 R6
 r1
 !s85 0
 31
-!s108 1608306197.000000
+R19
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/mem_instr.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/mem_instr.v|
 !i113 1
@@ -233,7 +233,7 @@ R2
 I:fK^Gd5ACnbg938JYNn<]0
 R3
 R0
-Z23 w1608304212
+Z21 w1608308990
 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/multicore.v
 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/multicore.v
 !i122 15
@@ -247,17 +247,17 @@ R7
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/multicore.v|
 !i113 1
 R8
-Z24 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H
+Z22 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H
 R10
 vmulticore_tb
-R1
+!s110 1612309923
 !i10b 1
 !s100 AVm;;fQ1Njm0=6gEOYioH0
 R2
 I@LY8H6`fml4T`ehDMY3Fa1
 R3
 R0
-R23
+R21
 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/../rede_float_H/multicore_tb.v
 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/../rede_float_H/multicore_tb.v
 !i122 16
@@ -266,7 +266,7 @@ R6
 r1
 !s85 0
 31
-R7
+!s108 1612309923.000000
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/../rede_float_H/multicore_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/../rede_float_H|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/../rede_float_H/multicore_tb.v|
 !i113 1
@@ -274,7 +274,7 @@ R8
 !s92 -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Quartus_Files/../rede_float_H
 R10
 vmydiv
-R13
+R11
 !i10b 1
 !s100 a>Hi7:1U7Igk397:JA4LY2
 R2
@@ -282,23 +282,23 @@ I^1eQ0X;ob3C^86Z6Tn`Kz3
 R3
 R0
 R4
-R14
-R15
+R12
+R13
 !i122 1
 L0 173 22
 R6
 r1
 !s85 0
 31
+R14
+R15
 R16
-R17
-R18
 !i113 1
 R8
 R9
 R10
 vmymult
-R13
+R11
 !i10b 1
 !s100 23>oB=SPmkHM_>h07gXK01
 R2
@@ -306,23 +306,23 @@ I:mSkoH4g]bhM;X;VhKD>N0
 R3
 R0
 R4
-R14
-R15
+R12
+R13
 !i122 1
 L0 147 23
 R6
 r1
 !s85 0
 31
+R14
+R15
 R16
-R17
-R18
 !i113 1
 R8
 R9
 R10
 vmymux
-R13
+R11
 !i10b 1
 !s100 T9BWOYF[1;9dhC8M?Y]zg3
 R2
@@ -330,23 +330,23 @@ IFgg<A@C=GWBHbdzJa5cS]1
 R3
 R0
 R4
-R14
-R15
+R12
+R13
 !i122 1
 L0 7 14
 R6
 r1
 !s85 0
 31
+R14
+R15
 R16
-R17
-R18
 !i113 1
 R8
 R9
 R10
 vmysoma
-R13
+R11
 !i10b 1
 !s100 z`XJ3jZiBJnBGNjj=XU@R3
 R2
@@ -354,23 +354,23 @@ Io;Be:]jN:]=5IiK?bMZQj0
 R3
 R0
 R4
-R14
-R15
+R12
+R13
 !i122 1
 L0 123 21
 R6
 r1
 !s85 0
 31
+R14
+R15
 R16
-R17
-R18
 !i113 1
 R8
 R9
 R10
 vnorm
-R13
+R11
 !i10b 1
 !s100 NVk?nEVBonA59Gz:bMFM43
 R2
@@ -378,23 +378,23 @@ Im4hF5h;:oRaa6U84JmNJ^0
 R3
 R0
 R4
-R14
-R15
+R12
+R13
 !i122 1
 L0 24 32
 R6
 r1
 !s85 0
 31
+R14
+R15
 R16
-R17
-R18
 !i113 1
 R8
 R9
 R10
 voutmux
-R13
+R11
 !i10b 1
 !s100 j`EXLUOYX_0U@R7`N3S^b2
 R2
@@ -402,23 +402,23 @@ Ij6IFMR18ifFI5;<QFkTjg2
 R3
 R0
 R4
-R14
-R15
+R12
+R13
 !i122 1
 L0 89 27
 R6
 r1
 !s85 0
 31
+R14
+R15
 R16
-R17
-R18
 !i113 1
 R8
 R9
 R10
 vpc
-Z25 !s110 1608306196
+R18
 !i10b 1
 !s100 R3f5cKFaWFX032ehIlP:Y3
 R2
@@ -429,12 +429,12 @@ R4
 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/pc.v
 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/pc.v
 !i122 6
-R22
+R20
 R6
 r1
 !s85 0
 31
-Z26 !s108 1608306196.000000
+R19
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/pc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/pc.v|
 !i113 1
@@ -442,7 +442,7 @@ R8
 R9
 R10
 vprefetch
-R25
+R18
 !i10b 1
 !s100 A@kVOK9=jk22:WkSIWDnQ2
 R2
@@ -458,7 +458,7 @@ R6
 r1
 !s85 0
 31
-R26
+R14
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/prefetch.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/prefetch.v|
 !i113 1
@@ -466,7 +466,7 @@ R8
 R9
 R10
 vproc_fl
-R25
+R11
 !i10b 1
 !s100 FSaYIMlbDQnP4R8PX4Eb02
 R2
@@ -482,7 +482,7 @@ R6
 r1
 !s85 0
 31
-R26
+R14
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/proc_fl.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/proc_fl.v|
 !i113 1
@@ -490,14 +490,14 @@ R8
 R9
 R10
 vrede_float
-R13
+!s110 1612309919
 !i10b 1
 !s100 TAi<E0hjPV`ZHHBSU;G`m0
 R2
 I7Y^IUhMz9e5TSS]`KO2@S3
 R3
 R0
-R23
+w1608304212
 8C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float.v
 FC:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float.v
 !i122 0
@@ -506,15 +506,15 @@ R6
 r1
 !s85 0
 31
-R16
+!s108 1612309919.000000
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/rede_float_H/rede_float.v|
 !i113 1
 R8
-R24
+R22
 R10
 vreg_file
-R25
+R11
 !i10b 1
 !s100 egj:Gea5K6MND5@39;baZ2
 R2
@@ -530,7 +530,7 @@ R6
 r1
 !s85 0
 31
-R26
+R14
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/reg_file.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/reg_file.v|
 !i113 1
@@ -538,7 +538,7 @@ R8
 R9
 R10
 vstack_pointer
-R25
+R11
 !i10b 1
 !s100 b[Dd1UEHmCEzoz9iCj5n?3
 R2
@@ -554,7 +554,7 @@ R6
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/stack_pointer.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP|C:/Users/melis/Desktop/GitDesk/rede_float/rede_float/Hardware/Proc_IP/stack_pointer.v|
 !i113 1
@@ -562,7 +562,7 @@ R8
 R9
 R10
 vula_fl
-R13
+R11
 !i10b 1
 !s100 aOBeR;eOT=9`K8`JkJ_O53
 R2
@@ -570,17 +570,17 @@ IAK2:nMeEI1zI08WR9]Ko10
 R3
 R0
 R4
-R14
-R15
+R12
+R13
 !i122 1
 L0 200 167
 R6
 r1
 !s85 0
 31
+R14
+R15
 R16
-R17
-R18
 !i113 1
 R8
 R9

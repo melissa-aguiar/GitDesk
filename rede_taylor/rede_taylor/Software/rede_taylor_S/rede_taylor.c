@@ -53,6 +53,7 @@ void main()
         int indice0;
         int indice1;
         int indice2;
+        int m = 64;
       
         
             
@@ -60,36 +61,31 @@ void main()
             indice0 = (abs(soma0*16)) ;
            
          else      
-            indice0 = 64.0;
+         indice0 = (abs(m*1));
         
         
         
         if (soma1 < 3.0 && -3.0 < soma1)
             indice1 = (abs(soma1*16)) ; 
         else
-            indice1 = 64.0;
+        indice1 = (abs(m*1));
         
             
             
         if (soma2 < 3.0 && -3.0 < soma2)
             indice2 = (abs(soma2*16)); 
         else
-             indice2 = 64.0;
+        indice2 = (abs(m*1));
              
         
-             float taylor4;
+        float taylor4;
              
         
         
         if (abs(soma3) >=1.4)     
-            taylor4 = 1.0;
+        taylor4 = 0.0*k  - 0.0*k*k  - 0.0*k*k*k + 1.0;
         else
-        // taylor3 = 1.009801875198346*k - 0.098677921754532*k*k - 0.009338634459788;
-            
-             
-             //float taylor6 = 0.855638786081178*k - 0.325099068836864*k*k + 0.260079255069491*k - 0.161691874859020*k*k*k + 0.194030249830824*k*k-0.077612099932330*k+0.169801016336741*k*k*k*k-0.271681626138786*k*k*k+0.163008975683271*k*k-0.043469060182206*k + 0.008395766918894*k*k*k*k*k-0.016791533837788*k*k*k*k+0.013433227070230*k*k*k-0.005373290828092*k*k+0.001074658165618*k+0.0002868101648045296;
-          taylor4 = 1.000196263207123*k  -0.002621801842298*k*k  - 0.320187066374114*k*k*k  -0.000005226610959291507;
-//    
+        taylor4 = 1.000196263207123*k  -0.002621801842298*k*k  - 0.320187066374114*k*k*k  -0.000005226610959291507;
        
        
          float lute_out_n_0;
@@ -108,7 +104,10 @@ void main()
          //float saidaflutuante = + lute_out_n_1*10.2534060751568 +  taylor6*1358.22773877427 -(lute_out_n_0*5.05703188427083 + lute_out_n_2*7.48328296625035 + 189.214868378811);
          float saidaflutuante = + lute_out_n_1*10.2534060751568 +  taylor4*1358.22773877427 -(lute_out_n_0*5.05703188427083 + lute_out_n_2*7.48328296625035 + 189.214868378811);
          
-         //saidaflutuante @ saidaflutuante;
+         if (saidaflutuante<0)
+         saidaflutuante = 0;
+         else
+         m = 64;
          
          out(0,saidaflutuante);
         

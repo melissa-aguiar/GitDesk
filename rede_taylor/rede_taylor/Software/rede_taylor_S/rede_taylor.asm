@@ -12,252 +12,42 @@
 EQU 1
 JZ L1end
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy0
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy1
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy2
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy3
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy4
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy5
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy6
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy7
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy8
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
 PUSH
 IN
 SET mainy9
@@ -391,6 +181,8 @@ SADD
 SET mainsoma3
 LOAD mainsoma3
 SET maink
+LOAD 64
+SET mainm
 LOAD 3.0
 LES mainsoma0
 PLD 3.0
@@ -404,7 +196,9 @@ MLT mainsoma0
 ABS
 SET mainindice0
 JMP L2end
-@L2else LOAD 64.0
+@L2else LOAD 1
+MLT mainm
+ABS
 SET mainindice0
 @L2end LOAD 3.0
 LES mainsoma1
@@ -419,7 +213,9 @@ MLT mainsoma1
 ABS
 SET mainindice1
 JMP L3end
-@L3else LOAD 64.0
+@L3else LOAD 1
+MLT mainm
+ABS
 SET mainindice1
 @L3end LOAD 3.0
 LES mainsoma2
@@ -434,7 +230,9 @@ MLT mainsoma2
 ABS
 SET mainindice2
 JMP L4end
-@L4else LOAD 64.0
+@L4else LOAD 1
+MLT mainm
+ABS
 SET mainindice2
 @L4end LOAD mainsoma3
 ABS
@@ -442,7 +240,24 @@ PLD 1.4
 SLES
 LINV
 JZ L5else
-LOAD 1.0
+LOAD maink
+MLT 0.0
+PLD maink
+MLT 0.0
+PLD maink
+SMLT
+NEG
+SADD
+PLD maink
+MLT 0.0
+PLD maink
+SMLT
+PLD maink
+SMLT
+NEG
+SADD
+PLD 1.0
+SADD
 SET maintaylor4
 JMP L5end
 @L5else LOAD maink
@@ -502,21 +317,14 @@ NEG
 SADD
 SET mainsaidaflutuante
 LOAD 0
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
-MLT -1
+LES mainsaidaflutuante
+JZ L6else
+LOAD 0
+SET mainsaidaflutuante
+JMP L6end
+@L6else LOAD 64
+SET mainm
+@L6end LOAD 0
 PLD mainsaidaflutuante
 OUT
 JMP L1
