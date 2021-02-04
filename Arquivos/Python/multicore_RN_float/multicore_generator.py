@@ -1,13 +1,13 @@
 def main():
 
     #  ########################################## PARAMETROS ###########################################################
-    procs = 20  # numero de processadores pra gerar o multicore.v e multicore_tb.v
-    freq = 500  # frequencia do clock no _tb
-    mlt = 21  # numero de multiplicadores pra colocar entre as entradas do .asm
+    procs = 23  # numero de processadores pra gerar o multicore.v e multicore_tb.v
+    freq = 658  # frequencia do clock no _tb
+    mlt = 15  # numero de multiplicadores pra colocar entre as entradas do .asm
     nbmant = 19  # numero de bits da mantissa
     nbexpo = 8  # numero de bits do expoente
     nubits = 1
-    extra = 4  # numero a mais de MLT pra colocar na saida pra atrasar ela e sincronizar as janelas de entrada
+    extra = 14  # numero a mais de MLT pra colocar na saida pra atrasar ela e sincronizar as janelas de entrada
 
     #  ########################################## GERAR O .ASM #########################################################
     f1 = open("assembler_in.txt", "w+")
