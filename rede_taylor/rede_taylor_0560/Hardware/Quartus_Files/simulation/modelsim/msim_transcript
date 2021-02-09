@@ -1,0 +1,227 @@
+# Reading pref.tcl
+# do rede_taylor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/rede_taylor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:05 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/rede_taylor.v 
+# -- Compiling module rede_taylor
+# 
+# Top level modules:
+# 	rede_taylor
+# End time: 18:08:05 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:05 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/ula_fl.v 
+# -- Compiling module mymux
+# -- Compiling module norm
+# -- Compiling module denorm
+# -- Compiling module outmux
+# -- Compiling module mysoma
+# -- Compiling module mymult
+# -- Compiling module mydiv
+# -- Compiling module ula_fl
+# 
+# Top level modules:
+# 	ula_fl
+# End time: 18:08:06 on Feb 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/stack_pointer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:06 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/stack_pointer.v 
+# -- Compiling module stack_pointer
+# 
+# Top level modules:
+# 	stack_pointer
+# End time: 18:08:06 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/reg_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:06 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/reg_file.v 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 18:08:06 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/proc_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:06 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/proc_fl.v 
+# -- Compiling module proc_fl
+# 
+# Top level modules:
+# 	proc_fl
+# End time: 18:08:06 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/prefetch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:06 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/prefetch.v 
+# -- Compiling module prefetch
+# 
+# Top level modules:
+# 	prefetch
+# End time: 18:08:06 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:06 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 18:08:06 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_instr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:06 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_instr.v 
+# -- Compiling module mem_instr
+# 
+# Top level modules:
+# 	mem_instr
+# End time: 18:08:06 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_data.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:06 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/mem_data.v 
+# -- Compiling module mem_data
+# 
+# Top level modules:
+# 	mem_data
+# End time: 18:08:07 on Feb 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/int2float.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:07 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/int2float.v 
+# -- Compiling module int2float
+# 
+# Top level modules:
+# 	int2float
+# End time: 18:08:07 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/instr_dec_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:07 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/instr_dec_fl.v 
+# -- Compiling module instr_dec_fl
+# 
+# Top level modules:
+# 	instr_dec_fl
+# End time: 18:08:07 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2int.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:07 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2int.v 
+# -- Compiling module float2int
+# 
+# Top level modules:
+# 	float2int
+# End time: 18:08:07 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2index.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:07 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/float2index.v 
+# -- Compiling module float2index
+# 
+# Top level modules:
+# 	float2index
+# End time: 18:08:07 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/core_fl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:08 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/core_fl.v 
+# -- Compiling module core_fl
+# 
+# Top level modules:
+# 	core_fl
+# End time: 18:08:08 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/addr_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:08 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Proc_IP/addr_dec.v 
+# -- Compiling module addr_dec
+# 
+# Top level modules:
+# 	addr_dec
+# End time: 18:08:08 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/multicore.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:08 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/multicore.v 
+# -- Compiling module multicore
+# 
+# Top level modules:
+# 	multicore
+# End time: 18:08:08 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H {C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H/multicore_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:08:08 on Feb 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H" C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/Quartus_Files/../rede_taylor_H/multicore_tb.v 
+# -- Compiling module multicore_tb
+# 
+# Top level modules:
+# 	multicore_tb
+# End time: 18:08:08 on Feb 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  multicore_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" multicore_tb 
+# Start time: 18:08:08 on Feb 09,2021
+# Loading work.multicore_tb
+# Loading work.multicore
+# Loading work.rede_taylor
+# Loading work.int2float
+# Loading work.proc_fl
+# Loading work.mem_data
+# Loading work.float2int
+# Loading work.addr_dec
+# Loading work.core_fl
+# Loading work.pc
+# Loading work.prefetch
+# Loading work.instr_dec_fl
+# Loading work.stack_pointer
+# Loading work.ula_fl
+# Loading work.denorm
+# Loading work.outmux
+# Loading work.norm
+# Loading work.mymux
+# Loading work.float2index
+# Loading work.mem_instr
+# Loading work.mysoma
+# Loading work.mymult
+# Loading work.reg_file
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 ps
+run 2us
+# End time: 18:08:42 on Feb 09,2021, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
