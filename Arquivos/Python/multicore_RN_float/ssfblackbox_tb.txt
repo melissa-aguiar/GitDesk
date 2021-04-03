@@ -13,7 +13,7 @@ initial begin
 	clk = 0;
 end
 
-always #782 clk = ~clk;
+always #3125 clk = ~clk;
 
 always @(posedge clk) begin
 	if (req_in == 1'd1) scan_file = $fscanf(data_file, "%d\n", in);
