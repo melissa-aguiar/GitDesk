@@ -1,21 +1,21 @@
 module rede_taylor (
 input clk, rst,
-input signed [18:0] io_in,
-output signed [27:0] io_out,
+input signed [14:0] io_in,
+output signed [22:0] io_out,
 output [3:0] req_in,
 output [3:0] out_en);
 
-wire signed [27:0] in_float;
-wire signed [27:0] out_float;
+wire signed [22:0] in_float;
+wire signed [22:0] out_float;
 
-int2float #(.MAN(19),.EXP(8)) i2f (io_in, in_float);
+int2float #(.MAN(15),.EXP(7)) i2f (io_in, in_float);
 
 wire proc_req_in, proc_out_en;
 wire [1:0] addr_in;
 wire [1:0] addr_out;
 
-proc_fl #(.NBMANT(19),
-.NBEXPO(8),
+proc_fl #(.NBMANT(15),
+.NBEXPO(7),
 .MDATAS(155),
 .MINSTS(327),
 .SDEPTH(4),
@@ -35,7 +35,7 @@ proc_fl #(.NBMANT(19),
 .IFILE("C:/Users/melis/Desktop/GitDesk/rede_taylor/rede_taylor/Hardware/rede_taylor_H/rede_taylor_inst.mif")
 ) p_rede_taylor (clk, rst, in_float, out_float, addr_in, addr_out, proc_req_in, proc_out_en);
 
-float2int #(.EXP(8),.MAN(19)) f2i (out_float, io_out);
+float2int #(.EXP(7),.MAN(15)) f2i (out_float, io_out);
 
 addr_dec #(4) dec_in (proc_req_in, addr_in , req_in);
 addr_dec #(4) dec_out(proc_out_en, addr_out, out_en);

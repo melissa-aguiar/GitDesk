@@ -1,5 +1,5 @@
 Flow report for rede_taylor
-Tue Feb 09 19:06:25 2021
+Tue Apr 20 12:15:19 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,19 +41,19 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Feb 09 19:06:23 2021       ;
+; Flow Status                        ; Successful - Tue Apr 20 12:15:18 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; rede_taylor                                 ;
 ; Top-level Entity Name              ; multicore                                   ;
 ; Family                             ; Cyclone 10 LP                               ;
-; Total logic elements               ; 84,993                                      ;
-;     Total combinational functions  ; 84,993                                      ;
-;     Dedicated logic registers      ; 3,837                                       ;
-; Total registers                    ; 3837                                        ;
-; Total pins                         ; 2,612                                       ;
+; Total logic elements               ; 65,846                                      ;
+;     Total combinational functions  ; 65,846                                      ;
+;     Dedicated logic registers      ; 3,477                                       ;
+; Total registers                    ; 3477                                        ;
+; Total pins                         ; 2,248                                       ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 665,640                                     ;
-; Embedded Multiplier 9-bit elements ; 312                                         ;
+; Total memory bits                  ; 609,840                                     ;
+; Embedded Multiplier 9-bit elements ; 144                                         ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/09/2021 19:02:09 ;
+; Start date & time ; 04/20/2021 12:12:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; rede_taylor         ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 10995770589187.161290812909568         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 10995770589187.161893152704736         ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; multicore_tb                      ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -102,8 +102,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:04:06     ; 1.0                     ; 5493 MB             ; 00:04:27                           ;
-; Total                ; 00:04:06     ; --                      ; --                  ; 00:04:27                           ;
+; Analysis & Synthesis ; 00:03:06     ; 1.0                     ; 5325 MB             ; 00:03:23                           ;
+; Total                ; 00:03:06     ; --                      ; --                  ; 00:03:23                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

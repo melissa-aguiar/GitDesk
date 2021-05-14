@@ -1,8 +1,8 @@
 #PRNAME rede_taylor
 #DIRNAM "C:\Users\melis\Desktop\GitDesk\rede_taylor\rede_taylor\Hardware\rede_taylor_H"
 #DATYPE 1
-#NBMANT 19
-#NBEXPO 8
+#NBMANT 15
+#NBEXPO 7
 #NDSTAC 4
 #SDEPTH 4
 #NUIOIN 4
